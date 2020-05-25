@@ -1,0 +1,1727 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60672B83-A6E4-4F81-8AB3-EFB6C4BB429D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FSWEB_CS</RootNamespace>
+    <AssemblyName>FSWEB_CS</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="article1.aspx" />
+    <Content Include="article2.aspx" />
+    <Content Include="article3.aspx" />
+    <Content Include="articles.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="dbas.aspx" />
+    <Content Include="hmadde.aspx" />
+    <Content Include="ik.aspx" />
+    <Content Include="img\bku\download.jpg" />
+    <Content Include="img\bku\download1.jpg" />
+    <Content Include="img\bku\egeon.jpg" />
+    <Content Include="img\bku\ekici.jpg" />
+    <Content Include="img\bku\orfeus.jpg" />
+    <Content Include="img\bku\specialized-farming.jpg" />
+    <Content Include="img\carousel\banner1.jpg" />
+    <Content Include="img\carousel\depo.jpg" />
+    <Content Include="img\carousel\it-solutions.jpg" />
+    <Content Include="img\carousel\saa.jpg" />
+    <Content Include="img\carousel\warehouse.jpg" />
+    <Content Include="img\daikin.png" />
+    <Content Include="img\dominos.png" />
+    <Content Include="img\index\4.png" />
+    <Content Include="img\index\bku.jpg" />
+    <Content Include="img\index\ein.png" />
+    <Content Include="img\index\FSMobility_Depo_Otomasyon.jpg" />
+    <Content Include="img\index\ITS.jpg" />
+    <Content Include="img\index\ket.jpg" />
+    <Content Include="img\index\makale1.png" />
+    <Content Include="img\index\makale2.jpg" />
+    <Content Include="img\index\makale3.jpg" />
+    <Content Include="img\index\Peyman_01.jpeg" />
+    <Content Include="img\index\t0.jpg" />
+    <Content Include="img\index\t1.jpg" />
+    <Content Include="img\index\t2.jpg" />
+    <Content Include="img\index\Untitled.png" />
+    <Content Include="img\index\uts.jpg" />
+    <Content Include="img\location.jpg" />
+    <Content Include="img\logo.svg" />
+    <Content Include="img\mobile.png" />
+    <Content Include="img\monitor.png" />
+    <Content Include="img\ravago.jpg" />
+    <Content Include="img\referanslar\DemirCelik\celik.png" />
+    <Content Include="img\referanslar\DemirCelik\emtel.png" />
+    <Content Include="img\referanslar\DemirCelik\fisek.png" />
+    <Content Include="img\referanslar\DemirCelik\logoblack.png" />
+    <Content Include="img\referanslar\Endustri\philip-morris.png" />
+    <Content Include="img\referanslar\Endustri\schneider_log.png" />
+    <Content Include="img\referanslar\Film\fono_film.jpg" />
+    <Content Include="img\referanslar\Film\fujifilm_logo.jpg" />
+    <Content Include="img\referanslar\Film\imaj.png" />
+    <Content Include="img\referanslar\GIDA\mango_gıda.png" />
+    <Content Include="img\referanslar\GIDA\reka.png" />
+    <Content Include="img\referanslar\GIDA\seyidoğlu.png" />
+    <Content Include="img\referanslar\GIDA\tarım_kredi.png" />
+    <Content Include="img\referanslar\GIDA\tat_logo.jpg" />
+    <Content Include="img\referanslar\GIDA\yurt-konserve.png" />
+    <Content Include="img\referanslar\inşaat\aktosunlarr.png" />
+    <Content Include="img\referanslar\inşaat\eskim.png" />
+    <Content Include="img\referanslar\inşaat\gökiin.png" />
+    <Content Include="img\referanslar\inşaat\karbeton.png" />
+    <Content Include="img\referanslar\inşaat\kyk_.png" />
+    <Content Include="img\referanslar\inşaat\seranit.png" />
+    <Content Include="img\referanslar\inşaat\teknosera.png" />
+    <Content Include="img\referanslar\inşaat\özgür yapı.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\altunkaya.jpg" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\etap_kağıt.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\gel-bul.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\KAAN-PLASTİK-LOGO1.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\sertur.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\viking.png" />
+    <Content Include="img\referanslar\Kimya\enplast.jpg" />
+    <Content Include="img\referanslar\Kimya\tekpol.jpg" />
+    <Content Include="img\referanslar\Kırmızı Et\amasya-et-logo-mobile.png" />
+    <Content Include="img\referanslar\Kırmızı Et\bonfilet.jpg" />
+    <Content Include="img\referanslar\Kırmızı Et\coşkun.jpg" />
+    <Content Include="img\referanslar\Kırmızı Et\cumhuriyet_sucukları.png" />
+    <Content Include="img\referanslar\Kırmızı Et\dominos.png" />
+    <Content Include="img\referanslar\Kırmızı Et\ekur.jpg" />
+    <Content Include="img\referanslar\Kırmızı Et\kofteci_ramiz_logo.png" />
+    <Content Include="img\referanslar\Kırmızı Et\köfteci_yusuf_logo.png" />
+    <Content Include="img\referanslar\Kırmızı Et\pehlivanoğlu.png" />
+    <Content Include="img\referanslar\Kırmızı Et\polonez.png" />
+    <Content Include="img\referanslar\Lojistik\bestbuy.png" />
+    <Content Include="img\referanslar\Lojistik\daikin_logo.png" />
+    <Content Include="img\referanslar\Lojistik\dominos.png" />
+    <Content Include="img\referanslar\Lojistik\gökşin.png" />
+    <Content Include="img\referanslar\Lojistik\gültekinler.png" />
+    <Content Include="img\referanslar\Lojistik\merko_gıda.png" />
+    <Content Include="img\referanslar\Lojistik\westmarine.png" />
+    <Content Include="img\referanslar\Madencilik\kaltun.png" />
+    <Content Include="img\referanslar\Madencilik\karbeton.png" />
+    <Content Include="img\referanslar\Mobilya\array.png" />
+    <Content Include="img\referanslar\Mobilya\görhanmobilya.png" />
+    <Content Include="img\referanslar\Mobilya\mobiljet.png" />
+    <Content Include="img\referanslar\Mobilya\sonorous1866.png" />
+    <Content Include="img\referanslar\Mobilya\özgür yapı.png" />
+    <Content Include="img\referanslar\Otomativ\bvs.png" />
+    <Content Include="img\referanslar\Otomativ\Donmez-Debriyaj-27-02-2017-donmez-debriyaj.jpg" />
+    <Content Include="img\referanslar\Perakende\aktosunlarr.png" />
+    <Content Include="img\referanslar\Perakende\btx.png" />
+    <Content Include="img\referanslar\Perakende\dominos.png" />
+    <Content Include="img\referanslar\Perakende\dore.png" />
+    <Content Include="img\referanslar\Perakende\köfteci_yusuf_logo.png" />
+    <Content Include="img\referanslar\Perakende\sonorous1866.png" />
+    <Content Include="img\referanslar\Perakende\westmarine.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\AKTOSUNLAR_260_60.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ANADOLU_ETAP_185_125.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\BESTBUY_2050_1420.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\BTX_185_100.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\BVS_255_205.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\COSKUN_430_280.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\COTTON_CLUB_360_100.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\CUMHURIYET_210_140.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DAIKIN_300_90.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DEKIM_420_250.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DEVA_80_135.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DOMINOS_280_300.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DONMEZ_3820_1020.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\DOREMUSIC_950_320.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\EASTCHEM_250_200.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\EKUR_305_225.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\EMTEL_150_45.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ENPLAST_210_125.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ESKIM_350_130.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ETAP_160_125.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\FONOFILM_285_95.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\FOÖZMER_255_115.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\FRESENIUS_225_95.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\FUJIFILM_2000_340.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\FİSEK_200_200.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\GELBUL_270_125.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\GOKSIN_430_125.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\GORHAN_275_185.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\GÜLTEKİNLER_800_600.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\IMAJ_305_180.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\IMTAS_340_85.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\KAAN_350_150.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\KALTUN_220_120.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\KARBETON_260_90.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\KERRY_1000_390.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\KRİSTAL_187_145.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\köftecıyusuf_360_110.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\LAFAR_155_135.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\MERKO_450_130.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\MUNIRSAHIN_250_90.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\NOBEL_430_386.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\OBA_300_185.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\PANDA_660_250.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\PEHLIVANOGLU_390_90.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\PMI_305_190.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\POLONEZ_1875_850.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\RECORDATI_700_180.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\REKA_185_65.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SCHNEİDER_2000_605.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SERANIT_230_80.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SERTUR_175_130.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SEYIDOGLU_210_140.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SIEGWERK_455_160.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SONOROUS_700_160.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\SOYAK_140_100.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\TAHSİLDAROĞLU_180_110.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\TEKNOSERA_300_70.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\tekpol_311_206.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\TERMODİNAMİK_250_106.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\UĞUR_300_115.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\VIKING_210_300.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\VOLT_450_180.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\WESTMARİNE_4800_940.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\YURT_520_190.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ÖMÜR_ÇELİK_250_50.png" />
+    <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ÖZGÜRYAPI_250_80.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\DEMİR_ÇELİK\EMTEL_155_155.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\DEMİR_ÇELİK\FİSEK_200_200.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÖMÜRÇELİK_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\DAIKIN_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\ENKO_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\KARMAK_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\PMI_310_310.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\SCHNEİDER_2000_2000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\TERMODİNAMİL_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\UGUR_310_310.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\VOLT_480_480.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\ENDÜSTRİ\İMS_995_995.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\FİLM\FONOFILM_290_290.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\FİLM\FUJIFILM_2005_2005.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\FİLM\IMAJ_305_305.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\ALTUNKAYA_730_730.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\ANADOLU_ETAP_190_190.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\BAHCIVAN_280_280.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\BİRLİK_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\DOMINOS_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\FO_OZMER_255_255.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\GOKSIN_430_430.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\KERRY_1000_1000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\KRISTAL_190_190.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\OBA_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\PANDA_660_660.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\REKA_180_180.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\SEYIDOGLU_210_210.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\TAHSİLDAROĞLU_185_185.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\TARIM_KREDİ_KOOP_310_310.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\GIDA\YURT_500_500.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ALTUNKAYA_730_730.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\COTTON_350_350.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ETAP_150_150.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\GEL_BUL_270_270.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\KAAN_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\SER_TUR_170_170.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\VIKING_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\AMASYA_400_400.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\BONET_210_210.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\CUMHURİYET_200_200.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\DOMINOS_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\EKUR_305_305.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\PEHLİVANOGLU_390_390.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\POLENEZ_1875_1875.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\RAMİZ_330_330.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KIRMIZI ET\ÇOŞKUN_425_425.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\COTTON_350_350.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\EASTCHEM_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\ENPLAST_205_205.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\ESKIM_350_350.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\FUJIFILM_2005_2005.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\KYK_200_200.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\RAVAGO_105_105.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\SIEGWERK_580_580.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\TEKPOL_311_311.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\TELATEKS_145_145.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\KİMYA\VIKING_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\BESTBUY_2000_2000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\DAIKIN_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\DOMINOS_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\GOKSIN_430_430.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\MERKO_400_400.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\LOJİSTİK\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MADENCİLİK\KALTUN_200_200.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MADENCİLİK\KARBETON_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\DEKIM_400_400.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\DEVA_130_130.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\FRESENIUS_220_220.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\FUJIFILM_2005_2005.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\LAFAR_155_155.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\MÜNİR_240_240.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\NOBEL_430_430.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\POLİFARMA_640_640.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\RECORDATI_665_665.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\SOYAK_125_125.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\UCB_224_224.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MEDİKAL\İMTAS_336_336.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MOBİLYA\ARRAY_195_195.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MOBİLYA\GÖRHAN_275_275.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MOBİLYA\MOBİLJET_125_125.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MOBİLYA\SONOROUS_700_700.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\MOBİLYA\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\OTOMOTİV\BVS_251_251.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\OTOMOTİV\DONMEZ_3815_3815.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\BTX_180_180.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\DOMINOS_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\DOREMUSİC_915_915.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\SONOROUS_700_700.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\PERAKENDE\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\ESKIM_350_350.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\GOKSIN_430_430.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\KARBETON_260_260.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\KYK_200_200.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\SERANİT_210_210.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\TEKNOSERA_300_300.png" />
+    <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\rt.png" />
+    <Content Include="img\sevk.jpg" />
+    <Content Include="img\solution_partners\gbm.png" />
+    <Content Include="img\solution_partners\HONEYWELL.png" />
+    <Content Include="img\solution_partners\IBM.png" />
+    <Content Include="img\solution_partners\logo.png" />
+    <Content Include="img\solution_partners\Netsis.png" />
+    <Content Include="img\solution_partners\ZEBRA.png" />
+    <Content Include="img\solution_partners\ZENITH.png" />
+    <Content Include="img\sstories\buyuk_1polonez.jpg" />
+    <Content Include="img\sstories\ekur.jpg" />
+    <Content Include="img\sstories\oba.jpg" />
+    <Content Include="img\sstories\peyman.jpg" />
+    <Content Include="img\sstories\volt.jpg" />
+    <Content Include="img\transfer.png" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\erp_01.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\FSMobility_ITS.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\FSMobility_UTS.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\fssoftwa_proje_yonetimi.png" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\IoT Nedir siteönizleme.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\IoT_YapayZeka.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\photo-1454165804606-c3d57bc86b40.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\photo-1531403009284-440f080d1e12.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\photo-1553413077-190dd305871c.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\Picture2.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\ProjeYönetimi-768x243.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\Proje_Yönetimi_Hazırlık_Aşamaları.png" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\Roll-Up-FSMobility_Ust.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\teknoloji-transfer-ofisi-yazilimi.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\tüketiciler_için_IoT - Copy.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\tüketiciler_için_IoT.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\warehouse_01.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\warehouse_02.jpg" />
+    <Content Include="img\unedited\Blog_Fotoğrafları\Ürün Takip Sistemi Ne Yapar_.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\1.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\2.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\3.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\4.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\5.png" />
+    <Content Include="img\unedited\Bulut_Çözüm\etiketleme\6.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\INTERMEC CK70.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Intermec IP30.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\INTERMEK CN70E.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN200.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN400.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN440.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN480.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN610.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN620.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN710.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola AN720.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola MC3190-Z.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola MC9190-Z.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola Omnii XT15.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola RFD 5500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola RFD 8500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\anten\Motorola Work about PRO 4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\99EX.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\BARTEC MC92N0EX.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\DATALOGİC FALCON X3+.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\DATALOGİC SKORPIO X3.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\MC9500-k.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\ZEBRA MC3200.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\ZEBRA MC9100.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\ZEBRA MC9200.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\60s.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\6100.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\70E-BLACK.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\70E-Wearable.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\75E-BLACK.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\99EX.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\99EXni.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\99GX.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\CT50.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\EDA50.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\honeywell-5100.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\honeywell-6110.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\honeywell-6500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\honeywell-7800.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\Marathon.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\MX7.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\MX9.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\THOR-CV31.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\THOR-VM2.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\THOR-VX9.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\honeywell\THOR-WM3.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\CK3R.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\CK3X-NEW.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\CK71.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\CN51.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\CN70.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\intermec\MEMORX3.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\Intermec IF2.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP 6521.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP 7161.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP 8163.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP650.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP7522.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\AP7562.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\Motorola-FX-7500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\NX5500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\NX6500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\NX7500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\RFS4000.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\RFS6000.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KABLOSUZ AĞ\TS-524.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KİOSK\CC5000.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KİOSK\MK3100.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KİOSK\MK4000.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\KİOSK\MK500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\Motorola FX 9500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\CN70.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\INTERMEC-CK70.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Intermec-IF2.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-FX-9500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-MC3190-Z.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-MC9190-Z.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-Omnii-XT15.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-RFD-5500.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-RFD-8500.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\Motorola-Work-about-PRO-4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX G 6000.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX X-1000VL.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX X-3200.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\OS 2140 D.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\OS 2140.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\OS-214-Plus.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\OS203.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\R-400 plus.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\R-600s.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ARGOX\X-2000-V.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\Argox_OS-214Plus_1-1.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\E Class Mark III.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\H-8308-p.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\I-4212.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\M-4206.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\RL 3.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\DATAMAX\RL 4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\HONEYWELL PM43C.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\honeywell\PC42t.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PB22.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PB32.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PB50.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PD42-barkod.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PM23.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PM43.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\intermec\PR3-barkod-yazici.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA 110Xİ4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA 220Xİ4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA GC420T.png" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA GT-800.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA ZE500-4.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA ZE500-6.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA ZT220.jpg" />
+    <Content Include="img\unedited\Donanımlar_Resim\yazıcı\ZEBRA ZT420.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\beaconn.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\bkuts.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\Demirbaş.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\Dochuman2.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\FSMobility_its.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\FSMobility_lpg.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\FSMobility_üts.png" />
+    <Content Include="img\unedited\Ek_Modül_Resim\FSPROLEAN.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\HKS_MeyveSebze.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\kırmızı et.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\MobilSatış2.jpg" />
+    <Content Include="img\unedited\Ek_Modül_Resim\RFID.jpg" />
+    <Content Include="img\unedited\FSMobility_Depo_Otomasyon.jpeg" />
+    <Content Include="img\unedited\FSMobility_Depo_Yonetimi.jpeg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\emtel.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\fişek.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\logoblack.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\çelik%25çelik.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\daikin_logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\karmak.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\philip-morris.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\png.enko.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\schneider_log.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\termodinamik.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\uğur.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\volt.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\westmarine.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Endüstri\İMS.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Film\fono_film.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Film\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Film\imaj.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\altunkaya.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\anadolu_etap.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\bahçivan.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\birlik.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\dominos.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\fo_özmer.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\gökşin.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\kerry.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\kristal_yağ.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\mango_gıda.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\oba-makarna-1.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\panda.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\reka.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\seyidoğlu.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\tahsildaroğlu.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\tarım_kredi.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\tat_logo.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\GIDA\yurt-konserve.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\aktosunlarr.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\eskim.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\gökşin.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\karbeton.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\kyk_.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\seranit.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\teknosera.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\inşaat\özgür yapı.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\altunkaya.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\cotton_club.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\etap_kağıt.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\gel-bul.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\KAAN-PLASTİK-LOGO1.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\sertur.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\viking.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\cotton_club.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\eastchem.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\enplast.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\eskim.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\kyk_.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\ravago_.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\Siegwerk_c6b31_450x450.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\tekpol.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\telateks.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kimya\viking.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\amasya-et-logo-mobile.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\bonfilet.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\coşkun.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\cumhuriyet_sucukları.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\dominos.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\ekur.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\kofteci_ramiz_logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\köfteci_yusuf_logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\pehlivanoğlu.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\polonez.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\bestbuy.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\daikin_logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\dominos.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\gökşin.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\gültekinler.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\merko_gıda.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Lojistik\westmarine.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Madencilik\kaltun.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Madencilik\karbeton.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\aroma-polifarma.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\dekimm.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\deva-holding.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\fresenius.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\gültekinler.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\imtas-logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\lafar_ilaç.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\munirşahin.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\nobel_ilac.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\recordati_ilaç.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\soyak.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\UCB.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Mobilya\array.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Mobilya\görhanmobilya.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Mobilya\mobiljet.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Mobilya\sonorous1866.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Mobilya\özgür yapı.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Otomativ\bvs.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Otomativ\Donmez-Debriyaj-27-02-2017-donmez-debriyaj.jpg" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\aktosunlarr.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\btx.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\dominos.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\dore.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\köfteci_yusuf_logo.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\sonorous1866.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Perakende\westmarine.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\AKTOSUNLAR_260_60.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ANADOLU_ETAP_185_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BESTBUY_2050_1420.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BTX_185_100.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BVS_255_205.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\COSKUN_430_280.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\COTTON_CLUB_360_100.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\CUMHURIYET_210_140.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DAIKIN_300_90.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DEKIM_420_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DEVA_80_135.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DOMINOS_280_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DONMEZ_3820_1020.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DOREMUSIC_950_320.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EASTCHEM_250_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EKUR_305_225.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EMTEL_150_45.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ENPLAST_210_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ESKIM_350_130.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ETAP_160_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FONOFILM_285_95.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FOÖZMER_255_115.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FRESENIUS_225_95.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FUJIFILM_2000_340.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FİSEK_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GELBUL_270_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GOKSIN_430_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GORHAN_275_185.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GÜLTEKİNLER_800_600.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\IMAJ_305_180.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\IMTAS_340_85.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KAAN_350_150.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KALTUN_220_120.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KARBETON_260_90.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KERRY_1000_390.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KRİSTAL_187_145.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\köftecıyusuf_360_110.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\LAFAR_155_135.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\MERKO_450_130.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\MUNIRSAHIN_250_90.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\NOBEL_430_386.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\OBA_300_185.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PANDA_660_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PEHLIVANOGLU_390_90.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PMI_305_190.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\POLONEZ_1875_850.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\RECORDATI_700_180.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\REKA_185_65.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SCHNEİDER_2000_605.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SERANIT_230_80.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SERTUR_175_130.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SEYIDOGLU_210_140.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SIEGWERK_455_160.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SONOROUS_700_160.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SOYAK_140_100.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TAHSİLDAROĞLU_180_110.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TEKNOSERA_300_70.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\tekpol_311_206.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TERMODİNAMİK_250_106.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\UĞUR_300_115.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\VIKING_210_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\VOLT_450_180.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\WESTMARİNE_4800_940.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\YURT_520_190.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÖMÜR_ÇELİK_250_50.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÖZGÜRYAPI_250_80.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\EMTEL_155_155.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\FİSEK_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÖMÜRÇELİK_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\DAIKIN_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\ENKO_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\KARMAK_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\PMI_310_310.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\SCHNEİDER_2000_2000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\TERMODİNAMİL_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\UGUR_310_310.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\VOLT_480_480.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\İMS_995_995.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\FONOFILM_290_290.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\IMAJ_305_305.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\ALTUNKAYA_730_730.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\ANADOLU_ETAP_190_190.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\BAHCIVAN_280_280.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\BİRLİK_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\FO_OZMER_255_255.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\KERRY_1000_1000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\KRISTAL_190_190.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\OBA_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\PANDA_660_660.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\REKA_180_180.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\SEYIDOGLU_210_210.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\TAHSİLDAROĞLU_185_185.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\TARIM_KREDİ_KOOP_310_310.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\YURT_500_500.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ALTUNKAYA_730_730.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\COTTON_350_350.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ETAP_150_150.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\GEL_BUL_270_270.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\KAAN_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\SER_TUR_170_170.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\VIKING_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\AMASYA_400_400.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\BONET_210_210.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\CUMHURİYET_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\EKUR_305_305.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\PEHLİVANOGLU_390_390.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\POLENEZ_1875_1875.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\RAMİZ_330_330.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\ÇOŞKUN_425_425.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\COTTON_350_350.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\EASTCHEM_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\ENPLAST_205_205.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\ESKIM_350_350.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\KYK_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\RAVAGO_105_105.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\SIEGWERK_580_580.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\TEKPOL_311_311.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\TELATEKS_145_145.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\VIKING_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\BESTBUY_2000_2000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\DAIKIN_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\MERKO_400_400.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MADENCİLİK\KALTUN_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MADENCİLİK\KARBETON_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\DEKIM_400_400.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\DEVA_130_130.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\FRESENIUS_220_220.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\LAFAR_155_155.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\MÜNİR_240_240.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\NOBEL_430_430.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\POLİFARMA_640_640.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\RECORDATI_665_665.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\SOYAK_125_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\UCB_224_224.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\İMTAS_336_336.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\ARRAY_195_195.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\GÖRHAN_275_275.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\MOBİLJET_125_125.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\SONOROUS_700_700.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\OTOMOTİV\BVS_251_251.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\OTOMOTİV\DONMEZ_3815_3815.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\BTX_180_180.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\DOREMUSİC_915_915.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\SONOROUS_700_700.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\ESKIM_350_350.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\KARBETON_260_260.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\KYK_200_200.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\SERANİT_210_210.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\TEKNOSERA_300_300.png" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\unedited\fssoftware_peyman__sirket_fotografi_04_1.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\dağıtım.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\Dağıtım_Sistemi_Analiz-min.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\depo_verimlilik_analiz-min.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\ProjeYönetimi.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\tedarik zinciri.png" />
+    <Content Include="img\unedited\Hizmetler_Resim\tedarik_zincir_analiz-min.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\Teledestek_.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\UzaktanDestek.jpg" />
+    <Content Include="img\unedited\Hizmetler_Resim\yazılım güncelleme.jpg" />
+    <Content Include="img\unedited\Peyman_01.jpeg" />
+    <Content Include="img\unedited\Peyman_02.jpeg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\0.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %281%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2810%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2811%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2812%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2813%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2814%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2815%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2816%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2817%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2818%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2819%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %282%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2820%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2822%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2823%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2824%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2825%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2826%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2827%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2828%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2829%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %283%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2830%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2831%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2832%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2833%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2834%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2835%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2836%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2837%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2838%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2839%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %284%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %2840%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %285%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %286%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %287%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %288%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Adsız tasarım %289%29.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\ALTUNKAYA_730_730-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\AMASYA_400_400.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\anadolu bank.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\BAHCIVAN_280_280.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\beformet.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\BONET_210_210.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\bonfilet-logo.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\canik.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\castimo.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\cemer kent.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\cinnagen-ilac.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\cinnagen-logo.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\COTTON_350_350.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\CUMHURİYET_200_200.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\ekur-et-entegre.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\ekuret-logo.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\FUJIFILM_2005_2005-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\grupfarma-logo-1.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\GÜLTEKİNLER_800_800-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\indir.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\iz-baski-sanayi-ve-ticaret-a.s.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\KALTUN_200_200.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\kofteci-yusuf-logo.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\kristal-oil-logo.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\KRISTAL_190_190.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\KYK_200_200.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\logo.svg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\noog.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\OBA_300_300.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\peyman.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\PMI_310_310.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\POLENEZ_1875_1875-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\RAMİZ_330_330.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\ravago.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\RAVAGO_105_105.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\SCHNEİDER_2000_2000-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\SERANİT_210_210.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\silgan-logo.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\silgan.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\sony music.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\Tahsildaroglu.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\tat.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\TEKPOL_311_311.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\TELATEKS_145_145.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\TERMODİNAMİL_250_250.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\ucb.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\UCB_224_224.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\UGUR_310_310.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\viking.jpg" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\VOLT_480_480-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\WEST_MARİN_5000_5000-460x460.png" />
+    <Content Include="img\unedited\Referanslar Logo\referanslar_logo\world-courier.jpg" />
+    <Content Include="img\unedited\Slider\1a3d2dec-10a9-4e73-ab27-d7b6527ace95.jpg" />
+    <Content Include="img\unedited\Slider\bf41620d-7091-45e2-9413-4436282384ab.jpg" />
+    <Content Include="img\unedited\Slider\c37ec405-6fcb-4014-9859-cc83d7e759d8.jpg" />
+    <Content Include="img\unedited\Slider\f79ee1be-af84-49f1-923c-577d148b5714.jpg" />
+    <Content Include="img\unedited\Slider\fsmobility.jpg" />
+    <Content Include="img\unedited\Slider\fsmobility_1900x600.jpg" />
+    <Content Include="img\unedited\Slider\fssoftware.jpg" />
+    <Content Include="img\unedited\Slider\fssoftware11.jpg" />
+    <Content Include="img\unedited\Slider\fssoftware_1900x600.jpg" />
+    <Content Include="img\unedited\t2.jpeg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0000.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0001.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0003.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0004.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0005.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0006.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0007.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0008.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0009.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0010.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0011.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0012.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0013.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0014.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0015.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0016.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\IMG-20151028-WA0017.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\Tahsildaroglu_01.jpg" />
+    <Content Include="img\unedited\Tahsildaroğlu_Fotoğraflar\Tahsildaroğlu_02.jpg" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\1.jpg" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\2.jpg" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00807.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00810.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00815.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00818.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00819.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00822.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00826.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00827.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00828.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00829.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00831.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00838.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00839.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00848.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00851.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00852.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00853.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00854.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00855.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\DSC00857.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Palet.jpg" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Tam_Koli.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Ucb_FSMobility.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Ucb_FSMobility_02.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Ucb_FSMobility_03.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Ucb_FSMobility_04.JPG" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Yarım_Koli.jpg" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\1.png" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\2.png" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\3.png" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\4.png" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\5.png" />
+    <Content Include="img\unedited\website\Bulut_Çözüm\etiketleme\6.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\INTERMEC CK70.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Intermec IP30.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\INTERMEK CN70E.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN200.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN400.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN440.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN480.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN610.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN620.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN710.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola AN720.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola MC3190-Z.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola MC9190-Z.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola Omnii XT15.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola RFD 5500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola RFD 8500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\anten\Motorola Work about PRO 4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\99EX.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\BARTEC MC92N0EX.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\DATALOGİC FALCON X3+.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\DATALOGİC SKORPIO X3.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\MC9500-k.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\ZEBRA MC3200.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\ZEBRA MC9100.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\ZEBRA MC9200.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\60s.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\6100.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\70E-BLACK.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\70E-Wearable.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\75E-BLACK.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\99EX.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\99EXni.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\99GX.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\CT50.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\EDA50.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\honeywell-5100.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\honeywell-6110.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\honeywell-6500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\honeywell-7800.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\Marathon.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\MX7.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\MX9.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\THOR-CV31.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\THOR-VM2.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\THOR-VX9.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\honeywell\THOR-WM3.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\CK3R.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\CK3X-NEW.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\CK71.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\CN51.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\CN70.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\intermec\MEMORX3.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\Intermec IF2.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP 6521.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP 7161.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP 8163.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP650.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP7522.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\AP7562.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\Motorola-FX-7500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\NX5500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\NX6500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\NX7500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\RFS4000.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\RFS6000.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KABLOSUZ AĞ\TS-524.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KİOSK\CC5000.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KİOSK\MK3100.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KİOSK\MK4000.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\KİOSK\MK500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\Motorola FX 9500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\CN70.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\INTERMEC-CK70.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Intermec-IF2.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-FX-9500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-MC3190-Z.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-MC9190-Z.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-Omnii-XT15.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-RFD-5500.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-RFD-8500.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\Motorola-Work-about-PRO-4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX G 6000.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX X-1000VL.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX X-3200.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\OS 2140 D.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\OS 2140.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\OS-214-Plus.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\OS203.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\R-400 plus.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\R-600s.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ARGOX\X-2000-V.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\Argox_OS-214Plus_1-1.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\E Class Mark III.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\H-8308-p.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\I-4212.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\M-4206.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\RL 3.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\DATAMAX\RL 4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\HONEYWELL PM43C.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\honeywell\PC42t.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PB22.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PB32.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PB50.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PD42-barkod.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PM23.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PM43.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\intermec\PR3-barkod-yazici.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA 110Xİ4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA 220Xİ4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA GC420T.png" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA GT-800.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA ZE500-4.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA ZE500-6.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA ZT220.jpg" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\yazıcı\ZEBRA ZT420.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\beaconn.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\bkuts.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\Demirbaş.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\Dochuman2.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\FSMobility_its.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\FSMobility_lpg.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\FSMobility_üts.png" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\FSPROLEAN.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\HKS_MeyveSebze.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\kırmızı et.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\MobilSatış2.jpg" />
+    <Content Include="img\unedited\website\Ek_Modül_Resim\RFID.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\celik.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\emtel.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\fisek.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Demir Çelik\logoblack.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\daikin_logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\ims.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\karmak.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\philip-morris.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\png.enko.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\schneider_log.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\termodinamik.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\ugur.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\volt.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Endüstri\westmarine.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Film\fono_film.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Film\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Film\imaj.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\altunkaya.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\anadolu_etap.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\bahcivan.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\birlik.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\dominos.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\fo_özmer.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\göksin.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\kerry.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\kristal_yağ.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\mango_gıda.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\oba-makarna-1.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\panda.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\reka.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\seyidoğlu.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\tahsildaroğlu.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\tarım_kredi.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\tat_logo.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\GIDA\yurt-konserve.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\aktosunlarr.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\eskim.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\gökiin.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\karbeton.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\kyk_.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\seranit.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\teknosera.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\inşaat\özgür yapı.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\altunkaya.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\cotton_club.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\etap_kağıt.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\gel-bul.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\KAAN-PLASTİK-LOGO1.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\sertur.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kağıt Ambalaj\viking.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\cotton_club.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\eastchem.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\enplast.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\eskim.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\kyk_.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\ravago_.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\Siegwerk_c6b31_450x450.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\tekpol.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\telateks.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kimya\viking.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\amasya-et-logo-mobile.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\bonfilet.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\coşkun.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\cumhuriyet_sucukları.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\dominos.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\ekur.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\kofteci_ramiz_logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\köfteci_yusuf_logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\pehlivanoğlu.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Kırmızı Et\polonez.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\bestbuy.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\daikin_logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\dominos.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\gökşin.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\gültekinler.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\merko_gıda.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Lojistik\westmarine.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Madencilik\kaltun.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Madencilik\karbeton.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\aroma-polifarma.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\dekimm.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\deva-holding.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\fresenius.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\fujifilm_logo.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\gültekinler.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\imtas-logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\lafar_ilaç.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\munirşahin.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\nobel_ilac.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\recordati_ilaç.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\soyak.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Medikal İlaç\UCB.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Mobilya\array.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Mobilya\görhanmobilya.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Mobilya\mobiljet.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Mobilya\sonorous1866.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Mobilya\özgür yapı.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Otomativ\bvs.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Otomativ\Donmez-Debriyaj-27-02-2017-donmez-debriyaj.jpg" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\aktosunlarr.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\btx.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\dominos.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\dore.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\köfteci_yusuf_logo.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\sonorous1866.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Perakende\westmarine.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\AKTOSUNLAR_260_60.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ANADOLU_ETAP_185_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BESTBUY_2050_1420.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BTX_185_100.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\BVS_255_205.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\COSKUN_430_280.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\COTTON_CLUB_360_100.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\CUMHURIYET_210_140.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DAIKIN_300_90.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DEKIM_420_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DEVA_80_135.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DOMINOS_280_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DONMEZ_3820_1020.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\DOREMUSIC_950_320.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EASTCHEM_250_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EKUR_305_225.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\EMTEL_150_45.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ENPLAST_210_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ESKIM_350_130.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ETAP_160_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FONOFILM_285_95.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FOÖZMER_255_115.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FRESENIUS_225_95.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FUJIFILM_2000_340.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\FİSEK_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GELBUL_270_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GOKSIN_430_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GORHAN_275_185.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\GÜLTEKİNLER_800_600.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\IMAJ_305_180.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\IMTAS_340_85.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KAAN_350_150.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KALTUN_220_120.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KARBETON_260_90.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KERRY_1000_390.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\KRİSTAL_187_145.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\köftecıyusuf_360_110.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\LAFAR_155_135.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\MERKO_450_130.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\MUNIRSAHIN_250_90.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\NOBEL_430_386.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\OBA_300_185.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PANDA_660_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PEHLIVANOGLU_390_90.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\PMI_305_190.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\POLONEZ_1875_850.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\RECORDATI_700_180.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\REKA_185_65.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SCHNEİDER_2000_605.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SERANIT_230_80.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SERTUR_175_130.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SEYIDOGLU_210_140.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SIEGWERK_455_160.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SONOROUS_700_160.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\SOYAK_140_100.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TAHSİLDAROĞLU_180_110.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TEKNOSERA_300_70.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\tekpol_311_206.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\TERMODİNAMİK_250_106.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\UĞUR_300_115.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\VIKING_210_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\VOLT_450_180.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\WESTMARİNE_4800_940.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\YURT_520_190.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÖMÜR_ÇELİK_250_50.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm Logolar_Kendi_Boyutları\ÖZGÜRYAPI_250_80.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\EMTEL_155_155.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\FİSEK_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÇELİK_ÇELİK_245_245.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\DEMİR_ÇELİK\ÖMÜRÇELİK_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\DAIKIN_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\ENKO_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\KARMAK_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\PMI_310_310.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\SCHNEİDER_2000_2000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\TERMODİNAMİL_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\UGUR_310_310.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\VOLT_480_480.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\ENDÜSTRİ\İMS_995_995.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\FONOFILM_290_290.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\FİLM\IMAJ_305_305.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\ALTUNKAYA_730_730.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\ANADOLU_ETAP_190_190.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\BAHCIVAN_280_280.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\BİRLİK_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\FO_OZMER_255_255.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\KERRY_1000_1000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\KRISTAL_190_190.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\OBA_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\PANDA_660_660.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\REKA_180_180.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\SEYIDOGLU_210_210.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\TAHSİLDAROĞLU_185_185.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\TARIM_KREDİ_KOOP_310_310.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\GIDA\YURT_500_500.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ALTUNKAYA_730_730.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\COTTON_350_350.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\ETAP_150_150.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\GEL_BUL_270_270.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\KAAN_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\SER_TUR_170_170.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KAĞIT_AMBALAJ\VIKING_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\AMASYA_400_400.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\BONET_210_210.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\CUMHURİYET_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\EKUR_305_305.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\PEHLİVANOGLU_390_390.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\POLENEZ_1875_1875.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\RAMİZ_330_330.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KIRMIZI ET\ÇOŞKUN_425_425.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\COTTON_350_350.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\EASTCHEM_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\ENPLAST_205_205.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\ESKIM_350_350.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\KYK_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\RAVAGO_105_105.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\SIEGWERK_580_580.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\TEKPOL_311_311.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\TELATEKS_145_145.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\KİMYA\VIKING_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\BESTBUY_2000_2000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\DAIKIN_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\MERKO_400_400.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\LOJİSTİK\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MADENCİLİK\KALTUN_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MADENCİLİK\KARBETON_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\DEKIM_400_400.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\DEVA_130_130.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\FRESENIUS_220_220.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\FUJIFILM_2005_2005.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\GÜLTEKİNLER_800_800.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\LAFAR_155_155.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\MÜNİR_240_240.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\NOBEL_430_430.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\POLİFARMA_640_640.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\RECORDATI_665_665.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\SOYAK_125_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\UCB_224_224.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MEDİKAL\İMTAS_336_336.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\ARRAY_195_195.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\GÖRHAN_275_275.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\MOBİLJET_125_125.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\SONOROUS_700_700.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\MOBİLYA\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\OTOMOTİV\BVS_251_251.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\OTOMOTİV\DONMEZ_3815_3815.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\BTX_180_180.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\DOMINOS_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\DOREMUSİC_915_915.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\KÖFTECİ_YUSUF_360_360.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\SONOROUS_700_700.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\PERAKENDE\WEST_MARİN_5000_5000.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\AKTOSUNLAR_250_250.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\ESKIM_350_350.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\GOKSIN_430_430.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\KARBETON_260_260.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\KYK_200_200.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\SERANİT_210_210.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\TEKNOSERA_300_300.png" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\Tüm_Logolar_Kare\İNŞAAT\ÖZGÜRYAPI_250_250.png" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\dağıtım.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\Dağıtım_Sistemi_Analiz-min.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\depo_verimlilik_analiz-min.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\ProjeYönetimi.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\tedarik zinciri.png" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\tedarik_zincir_analiz-min.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\Teledestek_.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\UzaktanDestek.jpg" />
+    <Content Include="img\unedited\website\Hizmetler_Resim\yazılım güncelleme.jpg" />
+    <Content Include="img\unedited\website\Slider\1a3d2dec-10a9-4e73-ab27-d7b6527ace95.jpg" />
+    <Content Include="img\unedited\website\Slider\bf41620d-7091-45e2-9413-4436282384ab.jpg" />
+    <Content Include="img\unedited\website\Slider\c37ec405-6fcb-4014-9859-cc83d7e759d8.jpg" />
+    <Content Include="img\unedited\website\Slider\f79ee1be-af84-49f1-923c-577d148b5714.jpg" />
+    <Content Include="img\unedited\website\Slider\fsmobility.jpg" />
+    <Content Include="img\unedited\website\Slider\fsmobility_1900x600.jpg" />
+    <Content Include="img\unedited\website\Slider\fssoftware.jpg" />
+    <Content Include="img\unedited\website\Slider\fssoftware11.jpg" />
+    <Content Include="img\unedited\website\Slider\fssoftware_1900x600.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\06-min.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\1-Proente-Verimlilik-analizi-nasıl-yapılır1.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\1.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\2.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\2018_04.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\20292606_1518473314882139_3907129057226591875_n.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\353ed97c-f6bc-4833-a8c3-966d16043b91.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\3c3d53e2-be15-494d-8692-87d2e9c7e612.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\4673d6c1-77a3-4310-9d61-b49145c6dc7b.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\468de9ce-cd39-4457-87a4-8011f1d8bbf4.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\561b940f2b4385648d2cfc1f4335ffe9.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\65835_1148733241826330_825384073038809673_n.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\878cf02e-2a6b-4cec-9743-0e2a6f6ebae4.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\banner1.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\banner4.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\celik.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\commenting2.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\d3d39dcb-4f64-4cd7-a4c3-aa83df1ece8d.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\depo.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\dis1.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\el_terminali.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\fa0ae882-ce3e-4487-8b3c-a9e2581adb4c.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\film.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\gida_izlenebilirligi.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\gs1_mobilya_izlenebilirligi.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\ilac.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\image.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\indir.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\insidepost_coding.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\it-solutions.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\kimya.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\kirmizi_et.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\me_296_sdc_banner.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\pizza.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\rfid_takip.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\saa.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\warehouse.jpg" />
+    <Content Include="img\unedited\website\Yeni klasör\WRLD-EU-01-0002.png" />
+    <Content Include="img\unedited\website\Yeni klasör\yag.jpg" />
+    <Content Include="img\unedited\website\İş_Ortakları\GBM_180_180.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\HONEYWELL_2050_2050-600x600.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\IBM_890_890-600x600.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\LOGO_250_250.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\NETSİS_330_330.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\UCB_224_224.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\UMA_160_160.jpg" />
+    <Content Include="img\unedited\website\İş_Ortakları\ZEBRA_320_320.png" />
+    <Content Include="img\unedited\website\İş_Ortakları\ZENITH_300_300.png" />
+    <Content Include="img\unedited\Yeni klasör\06-min.jpg" />
+    <Content Include="img\unedited\Yeni klasör\1-Proente-Verimlilik-analizi-nasıl-yapılır1.jpg" />
+    <Content Include="img\unedited\Yeni klasör\1.jpg" />
+    <Content Include="img\unedited\Yeni klasör\2.jpg" />
+    <Content Include="img\unedited\Yeni klasör\2018_04.jpg" />
+    <Content Include="img\unedited\Yeni klasör\20292606_1518473314882139_3907129057226591875_n.jpg" />
+    <Content Include="img\unedited\Yeni klasör\353ed97c-f6bc-4833-a8c3-966d16043b91.jpg" />
+    <Content Include="img\unedited\Yeni klasör\3c3d53e2-be15-494d-8692-87d2e9c7e612.jpg" />
+    <Content Include="img\unedited\Yeni klasör\4673d6c1-77a3-4310-9d61-b49145c6dc7b.jpg" />
+    <Content Include="img\unedited\Yeni klasör\468de9ce-cd39-4457-87a4-8011f1d8bbf4.jpg" />
+    <Content Include="img\unedited\Yeni klasör\561b940f2b4385648d2cfc1f4335ffe9.jpg" />
+    <Content Include="img\unedited\Yeni klasör\65835_1148733241826330_825384073038809673_n.jpg" />
+    <Content Include="img\unedited\Yeni klasör\878cf02e-2a6b-4cec-9743-0e2a6f6ebae4.jpg" />
+    <Content Include="img\unedited\Yeni klasör\banner1.jpg" />
+    <Content Include="img\unedited\Yeni klasör\banner4.jpg" />
+    <Content Include="img\unedited\Yeni klasör\celik.jpg" />
+    <Content Include="img\unedited\Yeni klasör\commenting2.jpg" />
+    <Content Include="img\unedited\Yeni klasör\d3d39dcb-4f64-4cd7-a4c3-aa83df1ece8d.jpg" />
+    <Content Include="img\unedited\Yeni klasör\deativasyon.jpg" />
+    <Content Include="img\unedited\Yeni klasör\depo.jpg" />
+    <Content Include="img\unedited\Yeni klasör\değerlietüretim.jpg" />
+    <Content Include="img\unedited\Yeni klasör\dis1.jpg" />
+    <Content Include="img\unedited\Yeni klasör\ekur-logo.jpg" />
+    <Content Include="img\unedited\Yeni klasör\el_terminali.jpg" />
+    <Content Include="img\unedited\Yeni klasör\fa0ae882-ce3e-4487-8b3c-a9e2581adb4c.jpg" />
+    <Content Include="img\unedited\Yeni klasör\film.jpg" />
+    <Content Include="img\unedited\Yeni klasör\gida_izlenebilirligi.jpg" />
+    <Content Include="img\unedited\Yeni klasör\grupfarma.jpg" />
+    <Content Include="img\unedited\Yeni klasör\gs1_mobilya_izlenebilirligi.jpg" />
+    <Content Include="img\unedited\Yeni klasör\hammaddeyönetimmodulü.jpg" />
+    <Content Include="img\unedited\Yeni klasör\ilac.jpg" />
+    <Content Include="img\unedited\Yeni klasör\image.jpg" />
+    <Content Include="img\unedited\Yeni klasör\indir.jpg" />
+    <Content Include="img\unedited\Yeni klasör\insidepost_coding.jpg" />
+    <Content Include="img\unedited\Yeni klasör\it-solutions.jpg" />
+    <Content Include="img\unedited\Yeni klasör\its_bildirimler.jpg" />
+    <Content Include="img\unedited\Yeni klasör\kalitekontrolstatu.jpg" />
+    <Content Include="img\unedited\Yeni klasör\karekod-etiketleme.jpg" />
+    <Content Include="img\unedited\Yeni klasör\kasapetperformans.jpg" />
+    <Content Include="img\unedited\Yeni klasör\kesimhane-tartım.jpg" />
+    <Content Include="img\unedited\Yeni klasör\kimya.jpg" />
+    <Content Include="img\unedited\Yeni klasör\kirmizi_et.jpg" />
+    <Content Include="img\unedited\Yeni klasör\malalımonayı.jpg" />
+    <Content Include="img\unedited\Yeni klasör\mamulsatıs.jpg" />
+    <Content Include="img\unedited\Yeni klasör\me_296_sdc_banner.jpg" />
+    <Content Include="img\unedited\Yeni klasör\paketislemleri.jpg" />
+    <Content Include="img\unedited\Yeni klasör\peyman-logo.jpg" />
+    <Content Include="img\unedited\Yeni klasör\pizza.jpg" />
+    <Content Include="img\unedited\Yeni klasör\rfid-etiketleme.jpg" />
+    <Content Include="img\unedited\Yeni klasör\rfid_takip.jpg" />
+    <Content Include="img\unedited\Yeni klasör\saa.jpg" />
+    <Content Include="img\unedited\Yeni klasör\sakatat-takibi.jpg" />
+    <Content Include="img\unedited\Yeni klasör\set-medikal.jpg" />
+    <Content Include="img\unedited\Yeni klasör\veteriner-kalitekontrol.jpg" />
+    <Content Include="img\unedited\Yeni klasör\warehouse.jpg" />
+    <Content Include="img\unedited\Yeni klasör\WRLD-EU-01-0002.png" />
+    <Content Include="img\unedited\Yeni klasör\yag.jpg" />
+    <Content Include="img\unedited\Yeni klasör\üretim-modülü.jpg" />
+    <Content Include="img\unedited\Yeni klasör\ürüngeriçekmeişlemleri.jpg" />
+    <Content Include="img\unedited\Yeni klasör\ürünhareketleribildirme.jpg" />
+    <Content Include="img\unedited\İş_Ortakları\GBM_180_180.png" />
+    <Content Include="img\unedited\İş_Ortakları\HONEYWELL_2050_2050-600x600.png" />
+    <Content Include="img\unedited\İş_Ortakları\IBM_890_890-600x600.png" />
+    <Content Include="img\unedited\İş_Ortakları\LOGO_250_250.png" />
+    <Content Include="img\unedited\İş_Ortakları\NETSİS_330_330.png" />
+    <Content Include="img\unedited\İş_Ortakları\UCB_224_224.png" />
+    <Content Include="img\unedited\İş_Ortakları\UMA_160_160.jpg" />
+    <Content Include="img\unedited\İş_Ortakları\ZEBRA_320_320.png" />
+    <Content Include="img\unedited\İş_Ortakları\ZENITH_300_300.png" />
+    <Content Include="img\zebra.png" />
+    <Content Include="index.aspx" />
+    <Content Include="its.aspx" />
+    <Content Include="ket.aspx" />
+    <Content Include="labeling.aspx" />
+    <Content Include="privacy.aspx" />
+    <Content Include="profil.aspx" />
+    <Content Include="references.aspx" />
+    <Content Include="team.aspx" />
+    <Content Include="uts.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="wms.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="article1.aspx.cs">
+      <DependentUpon>article1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article1.aspx.designer.cs">
+      <DependentUpon>article1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article2.aspx.cs">
+      <DependentUpon>article2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article2.aspx.designer.cs">
+      <DependentUpon>article2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article3.aspx.cs">
+      <DependentUpon>article3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article3.aspx.designer.cs">
+      <DependentUpon>article3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="articles.aspx.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="articles.aspx.designer.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dbas.aspx.cs">
+      <DependentUpon>dbas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dbas.aspx.designer.cs">
+      <DependentUpon>dbas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hmadde.aspx.cs">
+      <DependentUpon>hmadde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hmadde.aspx.designer.cs">
+      <DependentUpon>hmadde.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ik.aspx.cs">
+      <DependentUpon>ik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ik.aspx.designer.cs">
+      <DependentUpon>ik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="its.aspx.cs">
+      <DependentUpon>its.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="its.aspx.designer.cs">
+      <DependentUpon>its.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ket.aspx.cs">
+      <DependentUpon>ket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ket.aspx.designer.cs">
+      <DependentUpon>ket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labeling.aspx.cs">
+      <DependentUpon>labeling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labeling.aspx.designer.cs">
+      <DependentUpon>labeling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privacy.aspx.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy.aspx.designer.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profil.aspx.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profil.aspx.designer.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="references.aspx.cs">
+      <DependentUpon>references.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="references.aspx.designer.cs">
+      <DependentUpon>references.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="team.aspx.cs">
+      <DependentUpon>team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="team.aspx.designer.cs">
+      <DependentUpon>team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uts.aspx.cs">
+      <DependentUpon>uts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uts.aspx.designer.cs">
+      <DependentUpon>uts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wms.aspx.cs">
+      <DependentUpon>wms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wms.aspx.designer.cs">
+      <DependentUpon>wms.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\referanslar\REFERANSLAR_KARE_01.pptx" />
+    <Content Include="img\referanslar\REFERANSLAR_KENDİ_BOYUTLARINDA_01.pptx" />
+    <Content Include="img\unedited\Donanımlar_Resim\el\el terminali\1111111111.docx" />
+    <Content Include="img\unedited\Donanımlar_Resim\RFID\YEDEK %28D%29 - Kısayol.lnk" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KARE_01.pptx" />
+    <Content Include="img\unedited\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KENDİ_BOYUTLARINDA_01.pptx" />
+    <Content Include="img\unedited\Ucb_Fotoğraflar\Ucb_Fotoğraflar\Thumbs.db" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\el\el terminali\1111111111.docx" />
+    <Content Include="img\unedited\website\Donanımlar_Resim\RFID\YEDEK %28D%29 - Kısayol.lnk" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KARE_01.pptx" />
+    <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KENDİ_BOYUTLARINDA_01.pptx" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\dbas\" />
+    <Folder Include="img\hmmadde\" />
+    <Folder Include="img\its\" />
+    <Folder Include="img\ket\" />
+    <Folder Include="img\labeling\" />
+    <Folder Include="img\logo\" />
+    <Folder Include="img\referanslar\Demir Çelik\" />
+    <Folder Include="img\referanslar\Endüstri\" />
+    <Folder Include="img\referanslar\Medikal\" />
+    <Folder Include="img\team\" />
+    <Folder Include="img\unedited\Donanımlar_Resim\el\datalogic\" />
+    <Folder Include="img\unedited\website\Donanımlar_Resim\el\datalogic\" />
+    <Folder Include="img\uts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>46944</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:46944/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

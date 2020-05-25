@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="FSWEB_CS.Site1" %>
+<!DOCTYPE html>
+<html>
+  <head runat="server">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <%-- BOOTSTRAP --%>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/f03d2ce2ac.js" crossorigin="anonymous"></script>
+
+    <%-- GOOGLE FONT --%>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/fssstyla.css">
+    <link rel="stylesheet" href="css/fssstyla-resp.css">
+
+    <%-- FAVICON --%>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+      <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="index.aspx"><img src="img/logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="divider"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.aspx">Ana Sayfa<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Çözümlerimiz</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="wms.aspx">WMS</a>
+                    <a class="dropdown-item" href="its.aspx">Ilaç Takip Sistemi</a>
+                    <a class="dropdown-item" href="labeling.aspx">GS1 KareKod Etiketleme</a>
+                    <a class="dropdown-item" href="uts.aspx">UTS-Ürün Takibi</a>
+                    <a class="dropdown-item" href="hmadde.aspx">Hammadde Yönetimi</a>
+                    <a class="dropdown-item" href="ket.aspx">Kırmızı Et Takibi</a>
+                    <a class="dropdown-item" href="bku.aspx">Bitki Koruma Ürünleri Takibi</a>
+                    <a class="dropdown-item" href="dbas.aspx">Demirbaş Takibi</a>
+                    <a class="dropdown-item" href="edonusum">E-Dönüşüm Çözümleri</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kurumsal</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="profil.aspx">Şirket Profili</a>
+                    <a class="dropdown-item" href="references.aspx">Referanslarımız</a>
+                    <a class="dropdown-item" href="ik.aspx">İnsan Kaynakları</a>
+                    <a class="dropdown-item" href="team.aspx">Takım</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="articles.aspx">Bilgi Bankası</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.aspx">İletişim</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+    </asp:ContentPlaceHolder>
+    <form id="form1" onsubmit="event.preventDefault(); return false;" runat="server">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+
+      <footer class="footer text-light">
+        <div class="container">
+          <div class="row">
+            <div class="brand-col col-md-3">
+              <a class="navbar-brand" href="index.aspx"><img src="img/logo-white.svg"></a>
+              <small>© 2017-2019</small>
+            </div>
+            <div class="col-md-3">
+              <h5>Kurumsal</h5>
+              <ul class="list-unstyled text-small">
+                <li><a href="profil.aspx">Şirket Profili</a></li>
+                <li><a href="team">Ekip</a></li>
+                <li><a href="profil.aspx">Kalite Politikamız</a></li>
+                <li><a href="profil.aspx">Gizlilik</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Çözümlerimiz</h5>
+              <ul class="list-unstyled text-small">
+                <li><a href="wms.aspx">WMS</a></li>
+                <li><a href="edonusum.aspx">E-Dönüşüm</a></li>
+                <li><a href="labeling.aspx">GS1 KareKod</a></li>
+                <li><a href="its.aspx">İlaç Takibi</a></li>
+                <li><a href="#hmadde.aspx">Hammadde Yönetimi</a></li>
+                <li><a href="ket.aspx">Kırmızı Et Çözümleri</a></li>
+                <li><a href="its.aspx">ÜTS-Ürün Takibi</a></li>
+                <li><a href="bku.aspx">Bitki Koruma Ürünleri Takibi</a></li>
+                <li><a href="dbas.aspx">Demirbaş Takibi</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Bize Ulaşın</h5>
+              <ul class="list-unstyled text-small">
+                <li><a href="contact.aspx">İletişim</a></li>
+                <li><a href="contact.aspx">Ofislerimiz</a></li>
+                <li><a href="ik.aspx">İnsan Kaynakları</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row legals">
+            <p class="small copyleft">©2019 FSSoftware Ltd.</p>
+            <a class="nav-item" href="#">Privacy</a>·<a class="nav-item" href="#">Terms</a>
+          </div>
+        </div>
+      </footer>
+
+    </form>
+
+    <div id="backToTop" class="fa fa-chevron-up"></div>
+
+    <script src="js/fssjsscript.js"></script>
+
+  </body>
+
+</html>
