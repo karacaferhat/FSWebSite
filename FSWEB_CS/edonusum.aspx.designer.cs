@@ -10,6 +10,6 @@
 namespace FSWEB_CS {
     
     
-    public partial class team {
+    public partial class edonusum {
     }
 }

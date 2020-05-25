@@ -20,7 +20,7 @@
 
                 <div class="row team-group">
                     <div class="team-group-title">
-                        <h2>Merhaba Takım</h2>
+                        <h2>FSSoftware Ailesi</h2>
                     </div>
                     <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">
@@ -74,14 +74,7 @@
                                     <div class="officer-short-brief">Cihan; kabına sığamadığı zamanlarda motora atlayıp dağ yollarında yolculuğa çıkmayı sever. Suyun derinliklerinde heyecan verici yaşam ile ilgilenmek ya da doğa ile bütünleşip şehrin gürültüsünden uzakta olmak ona her zaman iyi gelir. Bazen ise serüveni bir müzikle başlar ve bir jazz grubunda baterinin başında buluverir kendisini.</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/selin_bol.jpg" class="card-img-top" alt="...">
-                                    <div class="officer-name">Selin Bol</div>
-                                    <div class="officer-title">Software Development Specialist</div>
-                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu onu bambaşka diyarlara götürür.. Meditasyon yapmayı çok sever, pilates ve yoga ile ilgilidir.Sihirli bir değneği olsa, imza parfümünü keşfetmeyi ve çok severek dinlediği Depeche Mode'un "Enjoy The Silence" klibinde yer almayı diler..Tam bir siyah sever. Mottosu:"Life Is Just An Illusion"..</div>
-                                </div>
-                            </div>
+                         
                             <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
@@ -96,11 +89,12 @@
 
                 <div class="row team-group">
                     <div class="team-group-title">
-                        <h2>Seniors</h2>
+                        <h2>Uzman</h2>
                     </div>
                     <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">
-                            <div class="col-md-4">
+                           
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Özgür Koç</div>
@@ -108,7 +102,15 @@
                                     <div class="officer-short-brief">...</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" src="img/team/selin_bol.jpg" class="card-img-top" alt="...">
+                                    <div class="officer-name">Selin Bol</div>
+                                    <div class="officer-title">Software Development Specialist</div>
+                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu onu bambaşka diyarlara götürür.. Meditasyon yapmayı çok sever, pilates ve yoga ile ilgilidir.Sihirli bir değneği olsa, imza parfümünü keşfetmeyi ve çok severek dinlediği Depeche Mode'un "Enjoy The Silence" klibinde yer almayı diler..Tam bir siyah sever. Mottosu:"Life Is Just An Illusion"..</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Zehra Güleç</div>
@@ -116,7 +118,7 @@
                                     <div class="officer-short-brief">Dokuz Eylül Üniversitesi Bilgisayar Programcılığı bölümünü bitirdikten sonra kariyeri yazılım firmalarında devam etmiştir. Mesleği gereği uzun süre bilgisayar karşında oturarak çalışmak onda hareketli bir yaşama geçme isteği yaratmış ve kendini tam da doğanın içinde bulmuştur. Doğaya ait olan her şeye büyük bir tutkusu vardır. Doğal yaşam , doğaya ait olmak  ve onunla bütünleşmek en vazgeçilmezidir.Uzun yıllar dağcılık sporu ile ilgilenmiş , bir dönem doğa yürüyüş rehberliği de yapmıştır. Türkiye’nin çatısı olan Ağrı Dağı’nın zirvesine ulaşmak ise kendini keşfetmenin yolunu açmıştır. Çadırı ve evini sığdırdığı sırt çantasıyla huzur bulduğu dağlara çıkmaya her zaman hazırdır..</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" img src="img/team/zeynel_tosunoglu.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Zeynel Tosunoğlu</div>
@@ -130,7 +132,7 @@
 
                  <div class="row team-group">
                     <div class="team-group-title">
-                        <h2>Boses</h2>
+                        <h2>Yönetim</h2>
                     </div>
                     <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">
@@ -164,7 +166,7 @@
                 </div>
                 <div class="row team-group">
                     <div class="team-group-title">
-                        <h2>Big Chief</h2>
+                        <h2>CEO</h2>
                     </div>
                     <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">

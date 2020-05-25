@@ -67,12 +67,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".well-known\pki-validation\EEE2E8004CD6D4815F151210C8976BD1.txt" />
     <Content Include="article1.aspx" />
     <Content Include="article2.aspx" />
     <Content Include="article3.aspx" />
     <Content Include="articles.aspx" />
+    <Content Include="edonusum.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="css\fssstyla-resp.css" />
+    <Content Include="css\fssstyla.css" />
     <Content Include="dbas.aspx" />
+    <Content Include="favicon-full.ico\android-icon-144x144.png" />
+    <Content Include="favicon-full.ico\android-icon-192x192.png" />
+    <Content Include="favicon-full.ico\android-icon-36x36.png" />
+    <Content Include="favicon-full.ico\android-icon-48x48.png" />
+    <Content Include="favicon-full.ico\android-icon-72x72.png" />
+    <Content Include="favicon-full.ico\android-icon-96x96.png" />
+    <Content Include="favicon-full.ico\apple-icon-114x114.png" />
+    <Content Include="favicon-full.ico\apple-icon-120x120.png" />
+    <Content Include="favicon-full.ico\apple-icon-144x144.png" />
+    <Content Include="favicon-full.ico\apple-icon-152x152.png" />
+    <Content Include="favicon-full.ico\apple-icon-180x180.png" />
+    <Content Include="favicon-full.ico\apple-icon-57x57.png" />
+    <Content Include="favicon-full.ico\apple-icon-60x60.png" />
+    <Content Include="favicon-full.ico\apple-icon-72x72.png" />
+    <Content Include="favicon-full.ico\apple-icon-76x76.png" />
+    <Content Include="favicon-full.ico\apple-icon-precomposed.png" />
+    <Content Include="favicon-full.ico\apple-icon.png" />
+    <Content Include="favicon-full.ico\browserconfig.xml" />
+    <Content Include="favicon-full.ico\favicon-16x16.png" />
+    <Content Include="favicon-full.ico\favicon-32x32.png" />
+    <Content Include="favicon-full.ico\favicon-96x96.png" />
+    <Content Include="favicon-full.ico\favicon.ico" />
+    <Content Include="favicon-full.ico\ms-icon-144x144.png" />
+    <Content Include="favicon-full.ico\ms-icon-150x150.png" />
+    <Content Include="favicon-full.ico\ms-icon-310x310.png" />
+    <Content Include="favicon-full.ico\ms-icon-70x70.png" />
+    <Content Include="favicon\android-icon-144x144.png" />
+    <Content Include="favicon\android-icon-192x192.png" />
+    <Content Include="favicon\android-icon-36x36.png" />
+    <Content Include="favicon\android-icon-48x48.png" />
+    <Content Include="favicon\android-icon-72x72.png" />
+    <Content Include="favicon\android-icon-96x96.png" />
+    <Content Include="favicon\apple-icon-114x114.png" />
+    <Content Include="favicon\apple-icon-120x120.png" />
+    <Content Include="favicon\apple-icon-144x144.png" />
+    <Content Include="favicon\apple-icon-152x152.png" />
+    <Content Include="favicon\apple-icon-180x180.png" />
+    <Content Include="favicon\apple-icon-57x57.png" />
+    <Content Include="favicon\apple-icon-60x60.png" />
+    <Content Include="favicon\apple-icon-72x72.png" />
+    <Content Include="favicon\apple-icon-76x76.png" />
+    <Content Include="favicon\apple-icon-precomposed.png" />
+    <Content Include="favicon\apple-icon.png" />
+    <Content Include="favicon\browserconfig.xml" />
+    <Content Include="favicon\favicon-16x16.png" />
+    <Content Include="favicon\favicon-32x32.png" />
+    <Content Include="favicon\favicon-96x96.png" />
+    <Content Include="favicon\favicon.ico" />
+    <Content Include="favicon\ms-icon-144x144.png" />
+    <Content Include="favicon\ms-icon-150x150.png" />
+    <Content Include="favicon\ms-icon-310x310.png" />
+    <Content Include="favicon\ms-icon-70x70.png" />
     <Content Include="hmadde.aspx" />
     <Content Include="ik.aspx" />
     <Content Include="img\bku\download.jpg" />
@@ -87,7 +143,27 @@
     <Content Include="img\carousel\saa.jpg" />
     <Content Include="img\carousel\warehouse.jpg" />
     <Content Include="img\daikin.png" />
+    <Content Include="img\dbas\anadolu-bank-logo.jpg" />
+    <Content Include="img\dbas\bakım-islemleri.jpg" />
+    <Content Include="img\dbas\demirbas-giris.jpg" />
+    <Content Include="img\dbas\demirbas-iliskilendirme.jpg" />
+    <Content Include="img\dbas\demirbas-listesi.jpg" />
+    <Content Include="img\dbas\demirbas-slider.jpg" />
+    <Content Include="img\dbas\periyodik-sayim.jpg" />
     <Content Include="img\dominos.png" />
+    <Content Include="img\dominos.png" />
+    <Content Include="img\fss-decor-black.svg" />
+    <Content Include="img\fss-decor-dark.svg" />
+    <Content Include="img\fss-decor-light.svg" />
+    <Content Include="img\fss-decor-white.svg" />
+    <Content Include="img\hmmadde\hammadde-kalitekontrolstatu.jpg" />
+    <Content Include="img\hmmadde\hammadde-yonetim-modulu.jpg" />
+    <Content Include="img\hmmadde\kalitekontrolstatu.jpg" />
+    <Content Include="img\hmmadde\kristal-logo.jpg" />
+    <Content Include="img\hmmadde\ravago-logo.jpg" />
+    <Content Include="img\hmmadde\silgan-logo.jpg" />
+    <Content Include="img\hmmadde\uretim-modulu.jpg" />
+    <Content Include="img\hmmadde\uretim-yonetimi-slider.jpg" />
     <Content Include="img\index\4.png" />
     <Content Include="img\index\bku.jpg" />
     <Content Include="img\index\ein.png" />
@@ -103,8 +179,39 @@
     <Content Include="img\index\t2.jpg" />
     <Content Include="img\index\Untitled.png" />
     <Content Include="img\index\uts.jpg" />
+    <Content Include="img\its\cinnagen-ilac.jpg" />
+    <Content Include="img\its\its-deativasyon.jpg" />
+    <Content Include="img\its\its-dogrulama.jpg" />
+    <Content Include="img\its\its-eczaneden-satis.jpg" />
+    <Content Include="img\its\its-slider.jpg" />
+    <Content Include="img\its\its_bildirimler.jpg" />
+    <Content Include="img\its\ucb-pharma-logo.jpg" />
+    <Content Include="img\its\world-couirer-logo.jpg" />
+    <Content Include="img\ket\amasya-et-logo.jpg" />
+    <Content Include="img\ket\bonfilet-logo.jpg" />
+    <Content Include="img\ket\degerli-et-uretim.jpg" />
+    <Content Include="img\ket\kasapetperformans.jpg" />
+    <Content Include="img\ket\kesimhane-tartım.jpg" />
+    <Content Include="img\ket\kofteci-yusuf.jpg" />
+    <Content Include="img\ket\kırmızıet-slider.jpg" />
+    <Content Include="img\ket\mamul-satis.jpg" />
+    <Content Include="img\ket\sakatat-takibi.jpg" />
+    <Content Include="img\ket\veteriner-kalitekontrol.jpg" />
+    <Content Include="img\labeling\anadolu-etap-logo.jpg" />
+    <Content Include="img\labeling\gs1-slider.jpg" />
+    <Content Include="img\labeling\karekod-etiketleme.jpg" />
+    <Content Include="img\labeling\koli-etiketi.jpg" />
+    <Content Include="img\labeling\lukoil-logo.jpg" />
+    <Content Include="img\labeling\palet-etiketi.jpg" />
+    <Content Include="img\labeling\peyman-logo.jpg" />
+    <Content Include="img\labeling\rfid-etiketleme.jpg" />
     <Content Include="img\location.jpg" />
+    <Content Include="img\logo-black.svg" />
+    <Content Include="img\logo-dark.svg" />
+    <Content Include="img\logo-light.svg" />
+    <Content Include="img\logo-white.svg" />
     <Content Include="img\logo.svg" />
+    <Content Include="img\logo\grupfarma.jpg" />
     <Content Include="img\mobile.png" />
     <Content Include="img\monitor.png" />
     <Content Include="img\ravago.jpg" />
@@ -117,7 +224,24 @@
     <Content Include="img\referanslar\Film\fono_film.jpg" />
     <Content Include="img\referanslar\Film\fujifilm_logo.jpg" />
     <Content Include="img\referanslar\Film\imaj.png" />
+    <Content Include="img\referanslar\GIDA\altunkaya.jpg" />
+    <Content Include="img\referanslar\GIDA\anadolu-etap.jpg" />
+    <Content Include="img\referanslar\GIDA\bahcivan.jpg" />
+    <Content Include="img\referanslar\GIDA\bonfilet.jpg" />
+    <Content Include="img\referanslar\GIDA\coskun-et.jpg" />
+    <Content Include="img\referanslar\GIDA\cumhuriyet.jpg" />
+    <Content Include="img\referanslar\GIDA\dominos.jpg" />
+    <Content Include="img\referanslar\GIDA\ekur-logo.jpg" />
+    <Content Include="img\referanslar\GIDA\kofteci-ramiz.jpg" />
+    <Content Include="img\referanslar\GIDA\kofteci-yusuf.jpg" />
+    <Content Include="img\referanslar\GIDA\kristal-yag.jpg" />
     <Content Include="img\referanslar\GIDA\mango_gıda.png" />
+    <Content Include="img\referanslar\GIDA\namet.jpg" />
+    <Content Include="img\referanslar\GIDA\oba-makarna.jpg" />
+    <Content Include="img\referanslar\GIDA\panda.jpg" />
+    <Content Include="img\referanslar\GIDA\pehlivanoglu.jpg" />
+    <Content Include="img\referanslar\GIDA\peyman.jpg" />
+    <Content Include="img\referanslar\GIDA\polonez.jpg" />
     <Content Include="img\referanslar\GIDA\reka.png" />
     <Content Include="img\referanslar\GIDA\seyidoğlu.png" />
     <Content Include="img\referanslar\GIDA\tarım_kredi.png" />
@@ -139,16 +263,6 @@
     <Content Include="img\referanslar\Kağıt Ambalaj\viking.png" />
     <Content Include="img\referanslar\Kimya\enplast.jpg" />
     <Content Include="img\referanslar\Kimya\tekpol.jpg" />
-    <Content Include="img\referanslar\Kırmızı Et\amasya-et-logo-mobile.png" />
-    <Content Include="img\referanslar\Kırmızı Et\bonfilet.jpg" />
-    <Content Include="img\referanslar\Kırmızı Et\coşkun.jpg" />
-    <Content Include="img\referanslar\Kırmızı Et\cumhuriyet_sucukları.png" />
-    <Content Include="img\referanslar\Kırmızı Et\dominos.png" />
-    <Content Include="img\referanslar\Kırmızı Et\ekur.jpg" />
-    <Content Include="img\referanslar\Kırmızı Et\kofteci_ramiz_logo.png" />
-    <Content Include="img\referanslar\Kırmızı Et\köfteci_yusuf_logo.png" />
-    <Content Include="img\referanslar\Kırmızı Et\pehlivanoğlu.png" />
-    <Content Include="img\referanslar\Kırmızı Et\polonez.png" />
     <Content Include="img\referanslar\Lojistik\bestbuy.png" />
     <Content Include="img\referanslar\Lojistik\daikin_logo.png" />
     <Content Include="img\referanslar\Lojistik\dominos.png" />
@@ -172,6 +286,7 @@
     <Content Include="img\referanslar\Perakende\köfteci_yusuf_logo.png" />
     <Content Include="img\referanslar\Perakende\sonorous1866.png" />
     <Content Include="img\referanslar\Perakende\westmarine.png" />
+    <Content Include="img\referanslar\referanslar-slider.jpg" />
     <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\AKTOSUNLAR_260_60.png" />
     <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\ANADOLU_ETAP_185_125.png" />
     <Content Include="img\referanslar\Tüm Logolar_Kendi_Boyutları\BESTBUY_2050_1420.png" />
@@ -358,6 +473,21 @@
     <Content Include="img\sstories\oba.jpg" />
     <Content Include="img\sstories\peyman.jpg" />
     <Content Include="img\sstories\volt.jpg" />
+    <Content Include="img\team\bunyamin_guler.jpg" />
+    <Content Include="img\team\burc_uzalp.png" />
+    <Content Include="img\team\cihan_sevimli.jpg" />
+    <Content Include="img\team\derya_sag.png" />
+    <Content Include="img\team\didem_durmaz.jpg" />
+    <Content Include="img\team\dursun_tosunoglu.jpg" />
+    <Content Include="img\team\ferhat_karaca.jpg" />
+    <Content Include="img\team\firat_kilic.jpg" />
+    <Content Include="img\team\goksu_eren.jpg" />
+    <Content Include="img\team\ozgur_koc.jpg" />
+    <Content Include="img\team\selin_bol.jpg" />
+    <Content Include="img\team\suha_zengel.jpg" />
+    <Content Include="img\team\yasemin_yutaz.jpg" />
+    <Content Include="img\team\zehra_gulec.jpg" />
+    <Content Include="img\team\zeynel_tosunoglu.jpg" />
     <Content Include="img\transfer.png" />
     <Content Include="img\unedited\Blog_Fotoğrafları\erp_01.jpg" />
     <Content Include="img\unedited\Blog_Fotoğrafları\FSMobility_ITS.jpg" />
@@ -1504,7 +1634,9 @@
     <Content Include="img\unedited\İş_Ortakları\ZENITH_300_300.png" />
     <Content Include="img\zebra.png" />
     <Content Include="index.aspx" />
+    <Content Include="bku.aspx" />
     <Content Include="its.aspx" />
+    <Content Include="js\fssjsscript.js" />
     <Content Include="ket.aspx" />
     <Content Include="labeling.aspx" />
     <Content Include="privacy.aspx" />
@@ -1544,6 +1676,13 @@
     <Compile Include="articles.aspx.designer.cs">
       <DependentUpon>articles.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edonusum.aspx.cs">
+      <DependentUpon>edonusum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edonusum.aspx.designer.cs">
+      <DependentUpon>edonusum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1578,6 +1717,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bku.aspx.cs">
+      <DependentUpon>bku.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bku.aspx.designer.cs">
+      <DependentUpon>bku.aspx</DependentUpon>
     </Compile>
     <Compile Include="its.aspx.cs">
       <DependentUpon>its.aspx</DependentUpon>
@@ -1664,6 +1810,11 @@
     <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KARE_01.pptx" />
     <Content Include="img\unedited\website\FSMobility_Sektörel_Referans_Logolar\REFERANSLAR_KENDİ_BOYUTLARINDA_01.pptx" />
     <Content Include="Site1.Master" />
+    <Content Include="favicon\.DS_Store" />
+    <Content Include="favicon\manifest.json" />
+    <Content Include="favicon-full.ico\.DS_Store" />
+    <Content Include="favicon-full.ico\manifest.json" />
+    <None Include="Properties\PublishProfiles\FSSoftwareWeb - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1672,16 +1823,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="img\dbas\" />
-    <Folder Include="img\hmmadde\" />
-    <Folder Include="img\its\" />
-    <Folder Include="img\ket\" />
-    <Folder Include="img\labeling\" />
-    <Folder Include="img\logo\" />
     <Folder Include="img\referanslar\Demir Çelik\" />
     <Folder Include="img\referanslar\Endüstri\" />
     <Folder Include="img\referanslar\Medikal\" />
-    <Folder Include="img\team\" />
     <Folder Include="img\unedited\Donanımlar_Resim\el\datalogic\" />
     <Folder Include="img\unedited\website\Donanımlar_Resim\el\datalogic\" />
     <Folder Include="img\uts\" />

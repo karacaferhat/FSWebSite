@@ -159,7 +159,7 @@
         </h1>
         <div class="card-deck">
           <div class="card">
-            <img src="img/dominos.jpg" class="card-img-top" alt="...">
+            <img src="img/dominos.png" class="card-img-top" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Domino's Pizza</h5>
@@ -167,7 +167,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="img/daikin.jpg" class="card-img-top" alt="...">
+            <img src="img/daikin.png" class="card-img-top" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Daikin Klima</h5>
