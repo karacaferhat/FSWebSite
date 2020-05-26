@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="row scroll-triggered-anim fade-in-animation">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/didem_durmaz.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Didem Durmaz</div>
@@ -66,7 +66,7 @@
                                     <div class="officer-short-brief">Didem; doğa ve hayvanlar konusunda aşırı duyarlı olmasıyla bilinir. İki sokak kedisine annelik yapmaktadır, at binmeyi, doğada yay ile atış antrenmanlarını, kamp ve gezilerini sever. Deniz ve dalış tutkun olduğu aktivitelerdir. Enduro motorlara ilgisi vardır. Eski milli voleybolcudur. Pilates ve fonksiyonel eğitmenlikle spor ile bağını korumaktadır.</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Cihan Sevimli</div>
@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                          
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Bünyamin Güler</div>

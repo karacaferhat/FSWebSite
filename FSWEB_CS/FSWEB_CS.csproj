@@ -219,8 +219,15 @@
     <Content Include="img\referanslar\DemirCelik\emtel.png" />
     <Content Include="img\referanslar\DemirCelik\fisek.png" />
     <Content Include="img\referanslar\DemirCelik\logoblack.png" />
+    <Content Include="img\referanslar\Endustri\arlight-logo.jpg" />
+    <Content Include="img\referanslar\Endustri\canik-logo.jpg" />
+    <Content Include="img\referanslar\Endustri\daikin.jpg" />
+    <Content Include="img\referanslar\Endustri\karmak-logo.jpg" />
     <Content Include="img\referanslar\Endustri\philip-morris.png" />
     <Content Include="img\referanslar\Endustri\schneider_log.png" />
+    <Content Include="img\referanslar\Endustri\ugur-logo.jpg" />
+    <Content Include="img\referanslar\Endustri\volt-logo.jpg" />
+    <Content Include="img\referanslar\Endustri\west-marine.jpg" />
     <Content Include="img\referanslar\Film\fono_film.jpg" />
     <Content Include="img\referanslar\Film\fujifilm_logo.jpg" />
     <Content Include="img\referanslar\Film\imaj.png" />
@@ -244,6 +251,7 @@
     <Content Include="img\referanslar\GIDA\polonez.jpg" />
     <Content Include="img\referanslar\GIDA\reka.png" />
     <Content Include="img\referanslar\GIDA\seyidoğlu.png" />
+    <Content Include="img\referanslar\GIDA\tahsildaroglu.jpg" />
     <Content Include="img\referanslar\GIDA\tarım_kredi.png" />
     <Content Include="img\referanslar\GIDA\tat_logo.jpg" />
     <Content Include="img\referanslar\GIDA\yurt-konserve.png" />
@@ -256,13 +264,19 @@
     <Content Include="img\referanslar\inşaat\teknosera.png" />
     <Content Include="img\referanslar\inşaat\özgür yapı.png" />
     <Content Include="img\referanslar\Kağıt Ambalaj\altunkaya.jpg" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\cotton-club.jpg" />
     <Content Include="img\referanslar\Kağıt Ambalaj\etap_kağıt.png" />
     <Content Include="img\referanslar\Kağıt Ambalaj\gel-bul.png" />
     <Content Include="img\referanslar\Kağıt Ambalaj\KAAN-PLASTİK-LOGO1.png" />
     <Content Include="img\referanslar\Kağıt Ambalaj\sertur.png" />
+    <Content Include="img\referanslar\Kağıt Ambalaj\silgan.jpg" />
     <Content Include="img\referanslar\Kağıt Ambalaj\viking.png" />
     <Content Include="img\referanslar\Kimya\enplast.jpg" />
+    <Content Include="img\referanslar\Kimya\fujifilm.jpg" />
+    <Content Include="img\referanslar\Kimya\kyk.jpg" />
+    <Content Include="img\referanslar\Kimya\ravago.jpg" />
     <Content Include="img\referanslar\Kimya\tekpol.jpg" />
+    <Content Include="img\referanslar\Kimya\viking.jpg" />
     <Content Include="img\referanslar\Lojistik\bestbuy.png" />
     <Content Include="img\referanslar\Lojistik\daikin_logo.png" />
     <Content Include="img\referanslar\Lojistik\dominos.png" />
@@ -272,6 +286,12 @@
     <Content Include="img\referanslar\Lojistik\westmarine.png" />
     <Content Include="img\referanslar\Madencilik\kaltun.png" />
     <Content Include="img\referanslar\Madencilik\karbeton.png" />
+    <Content Include="img\referanslar\Medikal\cinnagen-ilac.jpg" />
+    <Content Include="img\referanslar\Medikal\grup-farma.jpg" />
+    <Content Include="img\referanslar\Medikal\set-medikal.jpg" />
+    <Content Include="img\referanslar\Medikal\ucb-pharma.jpg" />
+    <Content Include="img\referanslar\Medikal\world-couirer.jpg" />
+    <Content Include="img\referanslar\Medikal\world-medicine.jpg" />
     <Content Include="img\referanslar\Mobilya\array.png" />
     <Content Include="img\referanslar\Mobilya\görhanmobilya.png" />
     <Content Include="img\referanslar\Mobilya\mobiljet.png" />
@@ -1825,7 +1845,6 @@
   <ItemGroup>
     <Folder Include="img\referanslar\Demir Çelik\" />
     <Folder Include="img\referanslar\Endüstri\" />
-    <Folder Include="img\referanslar\Medikal\" />
     <Folder Include="img\unedited\Donanımlar_Resim\el\datalogic\" />
     <Folder Include="img\unedited\website\Donanımlar_Resim\el\datalogic\" />
     <Folder Include="img\uts\" />
