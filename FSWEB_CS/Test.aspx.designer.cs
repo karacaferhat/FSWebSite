@@ -10,6 +10,6 @@
 namespace FSWEB_CS {
     
     
-    public partial class index {
+    public partial class Test {
     }
 }

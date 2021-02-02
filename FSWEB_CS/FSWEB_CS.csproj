@@ -1663,6 +1663,7 @@
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
     <Content Include="team.aspx" />
+    <Content Include="Test.aspx" />
     <Content Include="uts.aspx" />
     <Content Include="Web.config" />
     <Content Include="wms.aspx" />
@@ -1801,6 +1802,13 @@
     </Compile>
     <Compile Include="team.aspx.designer.cs">
       <DependentUpon>team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="uts.aspx.cs">
       <DependentUpon>uts.aspx</DependentUpon>

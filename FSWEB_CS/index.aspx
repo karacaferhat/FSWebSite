@@ -136,7 +136,7 @@
               </h2>
               <div class="lead">
                 <p>Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar.Etiketleme, kolileme,sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.</p>
-                <a href="wms.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <a href="its.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
@@ -160,7 +160,7 @@
               </h2>
               <div class="lead">
                 <p>Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.</p>
-                <a href="labeling.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <a href="ket.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
@@ -244,7 +244,7 @@
               </h2>
               <div class="lead">
                 <p>FSMobility ile demirbaşlarınızı kimliklendirip takip edebilirsiniz.</p>
-                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <a href="dbas.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
