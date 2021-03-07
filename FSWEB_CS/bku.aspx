@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="bku.aspx.cs" Inherits="FSWEB_CS.bku" %>
+﻿<%@ Page Title=" " Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="bku.aspx.cs" Inherits="FSWEB_CS.bku" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 

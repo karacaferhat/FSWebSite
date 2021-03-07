@@ -1,4 +1,4 @@
-﻿<%@ Page Title="FS Software" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="FSWEB_CS.index" %>
+﻿<%@ Page Title="FSSoftware" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="FSWEB_CS.index" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
   <main role="main">
