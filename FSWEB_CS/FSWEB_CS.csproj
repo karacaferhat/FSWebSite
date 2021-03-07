@@ -1851,6 +1851,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="en\e-solutions\" />
     <Folder Include="img\referanslar\Demir Çelik\" />
     <Folder Include="img\referanslar\Endüstri\" />
     <Folder Include="img\unedited\Donanımlar_Resim\el\datalogic\" />
