@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FSWEB_CS
-{
-
-
-    public partial class index
-    {
+namespace FSWEB_CS {
+    
+    
+    public partial class index {
     }
 }
