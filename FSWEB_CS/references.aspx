@@ -118,7 +118,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Bonfilet</h5>
-              <p class="card-text">Canlı hayvan kabulünden, karkas ve çeyrek kabule, çeyreklemeye ve parçalamaya, et ve şarküteri ürünlerinin üretimden sevkiyata kadar olan süreçlerin barkodlu olarak online takip edilmesidir. Proje Logo Tiger Enterprise ile online entegre çalışmaktadır.</p>
+              <p class="card-text">Depoya karkasın girişi, parçalanması, üretimi, mamül yapımı, maliyetler(maliyet muhasebesi) ve müşteriye sevkiyata kadarki (sevkiyat dahil) süreçlerinin wireless el terminalleri ile Netsis ve BizerBa ile online bir şekilde yönetilebilmesi için sistem uygulama danışmanlığı, eğitim, proje yönetimi ve destek kalemlerinden oluşan proje çözümü sunmaktadır.</p>
             </div>
           </div>
           <div class="card">
@@ -126,7 +126,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Coşkun Et</h5>
-              <p class="card-text">Hammadde ve Mamul İzlenebilirlik Otomasyonu ile canlı Kesim, veteriner kontrol, sıcak karkas tartım, soğuk karkas tartım, çeyrekleme, çeyrek SatışSüreçleri Üüretime çıkış operasyonu FSMobility ile yönetilmektedir. SistemNetsis ile online entegre çalışmaktadır..</p>
+              <p class="card-text">Hammadde ve Mamul İzlenebilirlik Otomasyonu ile canlı Kesim, veteriner kontrol, sıcak karkas tartım, soğuk karkas tartım, çeyrekleme, çeyrek Satışsüreçleri üretime çıkış operasyonu FSMobility ile yönetilmektedir. SistemNetsis ile online entegre çalışmaktadır..</p>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Polonez</h5>
-              <p class="card-text">Hammadde kabulünden, ürünlerinin üretiminden sevkiyatına kadar olan süreçlerin kalite süreçleri paralelinde barkodlu olarak online takip edilmesidir. Proje Netsis Tiger ile online entegre çalışmaktadır. .</p>
+              <p class="card-text">Hammadde kabulünden, ürünlerinin üretiminden sevkiyatına kadar olan süreçlerin kalite süreçleri paralelinde barkodlu olarak online takip edilmesidir. Proje Netsis Tiger ile online entegre çalışmaktadır.</p>
             </div>
           </div>
                <div class="card">
@@ -144,15 +144,15 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Köfteci Yusuf</h5>
-              <p class="card-text">canlı hayvan kabulünden, karkas ve çeyrek kabule, çeyreklemeye ve parçalamaya, et ve şarküteri ürünlerinin üretimden sevkiyata kadar olan süreçlerin barkodlu olarak online takip edilmesidir. Proje Logo Tiger Enterprise ile online entegre çalışmaktadır..</p>
+              <p class="card-text">Proje; fabrikadan şubelere gelen ürünün tazeliğini, soğuk hava depolarından reyona çıkışını barkod ile takip etmeyi kapsar.Logo ile irsaliye entegrasyonu, depolar arası transfer fişleri, ambar çıkış fişleri entegrasyonu yapılmıştır..</p>
             </div>
           </div>
                <div class="card">
             <img src="img/referanslar/GIDA/cumhuriyet.jpg" class="card-img-top" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">Cumhuriyet</h5>
-              <p class="card-text">Projede, Çanakkale’de üretilen ürünün bölgelere sevki, bölgelerin ürünü depoya kabul’ü, rota bazlı müşterilere sevki, parekende satışları ve bölgelerin arasındaki ürün transferleri Logo ile entegre takip edilmektedir.</p>
+              <h5 class="card-title text-fss font-weight-bold">Cumhuriyet Sucukları</h5>
+              <p class="card-text">Projede, Cumhuriyet Sucukları Fabrika Lojistik Depo Yönetim (WMS) Projesi” kapsamında FSMobility izlenebilirliği yapılmak istenen ürünlerin barkodlu depo yönetim sistemiyle takip edilmesini sağlamıştır.</p>
             </div>
           </div>
                <div class="card-deck">
@@ -254,7 +254,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Uğur Derin Dondurucu</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum metus est, vitae lacinia elit lobortis eu. Curabitur eget libero sit amet tortor rhoncus fringilla a eget leo. Fusce vitae justo velit. Ut ante augue, vestibulum sed odio molestie, placerat mollis urna. In vitae suscipit ligula, ac consectetur mauris. Nam orci elit, ultricies sit amet blandit non, congue at enim. Quisque non tincidunt ex, id fermentum lorem. Donec faucibus libero porttitor pellentesque auctor.</p>
+              <p class="card-text">Projede, Fabrika Lojistik Depo Yönetim (WMS) Projesi” kapsamında FSMobility izlenebilirliği yapılmak istenen ürünlerin barkodlu depo yönetim sistemiyle takip edilmesini sağlamıştır.</p>
             </div>
           </div>
           <div class="card">
@@ -384,7 +384,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Fuji Film</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum metus est, vitae lacinia elit lobortis eu. Curabitur eget libero sit amet tortor rhoncus fringilla a eget leo. Fusce vitae justo velit. Ut ante augue, vestibulum sed odio molestie, placerat mollis urna. In vitae suscipit ligula, ac consectetur mauris. Nam orci elit, ultricies sit amet blandit non, congue at enim. Quisque non tincidunt ex, id fermentum lorem. Donec faucibus libero porttitor pellentesque auctor.</p>
+              <p class="card-text">Projede, Fabrika Lojistik Depo Yönetim (WMS) Projesi” kapsamında FSMobility izlenebilirliği yapılmak istenen ürünlerin barkodlu depo yönetim sistemiyle takip edilmesini sağlamıştır..</p>
           <div class="card-deck">
           <div class="card">
           </div>
@@ -412,7 +412,7 @@
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Cotton-Club</h5>
-              <p class="card-text">Aenean tellus sem, consequat vel elit sit amet, mollis tristique augue. Praesent ut fringilla dui. Proin tincidunt viverra malesuada. Fusce convallis volutpat turpis, ac mollis ex accumsan vitae. Fusce mattis turpis ac sodales vestibulum. Donec euismod aliquam felis in cursus. Nunc iaculis, purus eget molestie laoreet, augue nisl gravida odio, ac rhoncus tortor erat vitae nibh. Quisque eu nisi non urna dictum semper. Aliquam erat volutpat. Duis mollis id nulla vitae dapibus.</p>
+              <p class="card-text">Projede Fabrika Lojistik Depo Yönetim (WMS) Projesi” kapsamında FSMobility izlenebilirliği yapılmak istenen ürünlerin barkodlu depo yönetim sistemiyle takip edilmesini sağlamıştır.</p>
             </div>
           </div>
           <div class="card">
@@ -440,4 +440,3 @@
   </script>
 
 </asp:Content>
-

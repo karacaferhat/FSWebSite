@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FSWEB_CS</RootNamespace>
     <AssemblyName>FSWEB_CS</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,17 +44,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\FSWeb\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -62,16 +64,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include=".well-known\pki-validation\EEE2E8004CD6D4815F151210C8976BD1.txt" />
     <Content Include="article1.aspx" />
     <Content Include="article2.aspx" />
     <Content Include="article3.aspx" />
+    <Content Include="article4.aspx" />
+    <Content Include="article5.aspx" />
+    <Content Include="article6.aspx" />
+    <Content Include="article7.aspx" />
+    <Content Include="article8.aspx" />
+    <Content Include="article9.aspx" />
     <Content Include="articles.aspx" />
+    <Content Include="basin.aspx" />
+    <Content Include="dijitaldonusumbasarihikayeleri.aspx" />
+    <Content Include="dijitaldonusumuygulamalaripaneli.aspx" />
     <Content Include="edonusum.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="css\fssstyla-resp.css" />
@@ -129,8 +135,23 @@
     <Content Include="favicon\ms-icon-150x150.png" />
     <Content Include="favicon\ms-icon-310x310.png" />
     <Content Include="favicon\ms-icon-70x70.png" />
+    <Content Include="fssoftwarefortuneturkiyedergisinde.aspx" />
+    <Content Include="fssoftwarekobiefordergisinde.aspx" />
+    <Content Include="fssoftwarevision2021.aspx" />
     <Content Include="hmadde.aspx" />
     <Content Include="ik.aspx" />
+    <Content Include="img\bkts\bkts_slider02.png" />
+    <Content Include="img\bkts\bkuts-01.png" />
+    <Content Include="img\bkts\bkuts-02.png" />
+    <Content Include="img\bkts\bkuts-03.png" />
+    <Content Include="img\bkts\bkuts-04.png" />
+    <Content Include="img\bkts\bkuts-05.png" />
+    <Content Include="img\bkts\bkuts-06.png" />
+    <Content Include="img\bkts\bküts-slider.png" />
+    <Content Include="img\bkts\egeon-logo.png" />
+    <Content Include="img\bkts\ekicioglu-logo.png" />
+    <Content Include="img\bkts\orfeus-logo.png" />
+    <Content Include="img\bku\bkuts_slider.png" />
     <Content Include="img\bku\download.jpg" />
     <Content Include="img\bku\download1.jpg" />
     <Content Include="img\bku\egeon.jpg" />
@@ -149,14 +170,23 @@
     <Content Include="img\dbas\demirbas-iliskilendirme.jpg" />
     <Content Include="img\dbas\demirbas-listesi.jpg" />
     <Content Include="img\dbas\demirbas-slider.jpg" />
+    <Content Include="img\dbas\demirbas-slider.png" />
     <Content Include="img\dbas\periyodik-sayim.jpg" />
     <Content Include="img\dominos.png" />
     <Content Include="img\dominos.png" />
+    <Content Include="img\e-donusum\1.png" />
+    <Content Include="img\e-donusum\2.png" />
+    <Content Include="img\e-donusum\3.png" />
+    <Content Include="img\e-donusum\4.png" />
+    <Content Include="img\e-donusum\5.png" />
+    <Content Include="img\e-donusum\e-donusum-slider.png" />
+    <Content Include="img\e-donusum\e-donusum.png" />
     <Content Include="img\fss-decor-black.svg" />
     <Content Include="img\fss-decor-dark.svg" />
     <Content Include="img\fss-decor-light.svg" />
     <Content Include="img\fss-decor-white.svg" />
     <Content Include="img\hmmadde\hammadde-kalitekontrolstatu.jpg" />
+    <Content Include="img\hmmadde\hammadde-slider.png" />
     <Content Include="img\hmmadde\hammadde-yonetim-modulu.jpg" />
     <Content Include="img\hmmadde\kalitekontrolstatu.jpg" />
     <Content Include="img\hmmadde\kristal-logo.jpg" />
@@ -165,26 +195,52 @@
     <Content Include="img\hmmadde\uretim-modulu.jpg" />
     <Content Include="img\hmmadde\uretim-yonetimi-slider.jpg" />
     <Content Include="img\index\4.png" />
+    <Content Include="img\index\Adsız tasarım %2816%29.png" />
     <Content Include="img\index\bku.jpg" />
+    <Content Include="img\index\deneyim-fs.png" />
+    <Content Include="img\index\deneyim02.png" />
+    <Content Include="img\index\deneyim_index.png" />
     <Content Include="img\index\ein.png" />
+    <Content Include="img\index\fsmobility-wms-cozumumuz %282%29.png" />
     <Content Include="img\index\FSMobility_Depo_Otomasyon.jpg" />
+    <Content Include="img\index\fssoftware-slider02.png" />
+    <Content Include="img\index\fssoftware-slider_03.png" />
+    <Content Include="img\index\fssoftware_slider05 %282%29.png" />
+    <Content Include="img\index\fssoftware_slider05.png" />
     <Content Include="img\index\ITS.jpg" />
     <Content Include="img\index\ket.jpg" />
+    <Content Include="img\index\kobiefor-kapak.png" />
+    <Content Include="img\index\lojitv-wmseğitimi-kapak.png" />
     <Content Include="img\index\makale1.png" />
     <Content Include="img\index\makale2.jpg" />
     <Content Include="img\index\makale3.jpg" />
     <Content Include="img\index\Peyman_01.jpeg" />
+    <Content Include="img\index\slider-01.png" />
+    <Content Include="img\index\slider-02.png" />
+    <Content Include="img\index\slider-fs.png" />
+    <Content Include="img\index\slider-fssoftware.png" />
+    <Content Include="img\index\slider.png" />
+    <Content Include="img\index\slider_ana.jpg" />
+    <Content Include="img\index\slider_fsmobility.png" />
+    <Content Include="img\index\slider_mobil.png" />
+    <Content Include="img\index\sureklilik_index.jfif" />
+    <Content Include="img\index\surelilk02.png" />
     <Content Include="img\index\t0.jpg" />
     <Content Include="img\index\t1.jpg" />
     <Content Include="img\index\t2.jpg" />
+    <Content Include="img\index\teknoloji02.png" />
+    <Content Include="img\index\teknoloji_index.png" />
     <Content Include="img\index\Untitled.png" />
     <Content Include="img\index\uts.jpg" />
+    <Content Include="img\index\vision2021-kapak.png" />
+    <Content Include="img\index\warehouse.jpg" />
     <Content Include="img\its\cinnagen-ilac.jpg" />
     <Content Include="img\its\its-deativasyon.jpg" />
     <Content Include="img\its\its-dogrulama.jpg" />
     <Content Include="img\its\its-eczaneden-satis.jpg" />
     <Content Include="img\its\its-slider.jpg" />
     <Content Include="img\its\its_bildirimler.jpg" />
+    <Content Include="img\its\its_Slider.png" />
     <Content Include="img\its\ucb-pharma-logo.jpg" />
     <Content Include="img\its\world-couirer-logo.jpg" />
     <Content Include="img\ket\amasya-et-logo.jpg" />
@@ -193,11 +249,13 @@
     <Content Include="img\ket\kasapetperformans.jpg" />
     <Content Include="img\ket\kesimhane-tartım.jpg" />
     <Content Include="img\ket\kofteci-yusuf.jpg" />
+    <Content Include="img\ket\kırmızı-et-slider.png" />
     <Content Include="img\ket\kırmızıet-slider.jpg" />
     <Content Include="img\ket\mamul-satis.jpg" />
     <Content Include="img\ket\sakatat-takibi.jpg" />
     <Content Include="img\ket\veteriner-kalitekontrol.jpg" />
     <Content Include="img\labeling\anadolu-etap-logo.jpg" />
+    <Content Include="img\labeling\etiketleme_02.png" />
     <Content Include="img\labeling\gs1-slider.jpg" />
     <Content Include="img\labeling\karekod-etiketleme.jpg" />
     <Content Include="img\labeling\koli-etiketi.jpg" />
@@ -481,18 +539,48 @@
     <Content Include="img\referanslar\Tüm_Logolar_Kare\İNŞAAT\ÖZGÜRYAPI_250_250.png" />
     <Content Include="img\rt.png" />
     <Content Include="img\sevk.jpg" />
+    <Content Include="img\solution_partners\datalogic.png" />
+    <Content Include="img\solution_partners\eficas.png" />
+    <Content Include="img\solution_partners\egebimtes.png" />
     <Content Include="img\solution_partners\gbm.png" />
     <Content Include="img\solution_partners\HONEYWELL.png" />
     <Content Include="img\solution_partners\IBM.png" />
     <Content Include="img\solution_partners\logo.png" />
     <Content Include="img\solution_partners\Netsis.png" />
+    <Content Include="img\solution_partners\sap.png" />
     <Content Include="img\solution_partners\ZEBRA.png" />
     <Content Include="img\solution_partners\ZENITH.png" />
+    <Content Include="img\sstories\article-kapak.png" />
     <Content Include="img\sstories\buyuk_1polonez.jpg" />
+    <Content Include="img\sstories\depo-yonetim-sistemi-nasıl-secilir.png" />
+    <Content Include="img\sstories\depo-yonetim-sisteni-nasıl-secilir.png" />
+    <Content Include="img\sstories\dominos-basarı-oykusu.png" />
+    <Content Include="img\sstories\e-donusum-nedir.png" />
+    <Content Include="img\sstories\ekur-basari-hikayesi.png" />
     <Content Include="img\sstories\ekur.jpg" />
+    <Content Include="img\sstories\endustri-4.0-kapak.png" />
+    <Content Include="img\sstories\erp-kapak.png" />
+    <Content Include="img\sstories\erp-slider.png" />
+    <Content Include="img\sstories\gs-1-nedir.png" />
+    <Content Include="img\sstories\iot-kapak.png" />
+    <Content Include="img\sstories\iot-slider.png" />
     <Content Include="img\sstories\oba.jpg" />
     <Content Include="img\sstories\peyman.jpg" />
+    <Content Include="img\sstories\proje-yonetimi-slider.png" />
+    <Content Include="img\sstories\proje-yonetimi-slider02.png" />
+    <Content Include="img\sstories\saglikli-gida-takibi-kapak.png" />
+    <Content Include="img\sstories\saglikli-gida-takibi-slider.png" />
+    <Content Include="img\sstories\tarimda-dijital-donusum-kapak.png" />
+    <Content Include="img\sstories\tarimda-dijital-donusum-slider.png" />
+    <Content Include="img\sstories\tedarik-zinciri-slider.png" />
+    <Content Include="img\sstories\tedarik-zinciri-yonetimi-islevi.png" />
+    <Content Include="img\sstories\volt-basarı-hikayesi.png" />
     <Content Include="img\sstories\volt.jpg" />
+    <Content Include="img\sstories\yazılım-teknolojisi-02.png" />
+    <Content Include="img\sstories\yazılım-teknolojisi-slider.png" />
+    <Content Include="img\sstories\yazılım_teknolojisi.png" />
+    <Content Include="img\team\ayhan-adıyaman.png" />
+    <Content Include="img\team\berkay-kose.png" />
     <Content Include="img\team\bunyamin_guler.jpg" />
     <Content Include="img\team\burc_uzalp.png" />
     <Content Include="img\team\cihan_sevimli.jpg" />
@@ -1652,6 +1740,14 @@
     <Content Include="img\unedited\İş_Ortakları\UMA_160_160.jpg" />
     <Content Include="img\unedited\İş_Ortakları\ZEBRA_320_320.png" />
     <Content Include="img\unedited\İş_Ortakları\ZENITH_300_300.png" />
+    <Content Include="img\uts\uts_Slider.png" />
+    <Content Include="img\wms\dominos.png" />
+    <Content Include="img\wms\hiyerarsik-alan-yonetimi.png" />
+    <Content Include="img\wms\ios-android.png" />
+    <Content Include="img\wms\ravago.png" />
+    <Content Include="img\wms\satınalma-stokyonetimi.png" />
+    <Content Include="img\wms\wms-etiketleme.png" />
+    <Content Include="img\wms\wms-slider.png" />
     <Content Include="img\zebra.png" />
     <Content Include="index.aspx" />
     <Content Include="bku.aspx" />
@@ -1659,13 +1755,17 @@
     <Content Include="js\fssjsscript.js" />
     <Content Include="ket.aspx" />
     <Content Include="labeling.aspx" />
+    <Content Include="lojitvuretimdepolojistiksurecleriyonetimi.aspx" />
+    <Content Include="lojitvwmsegitimi.aspx" />
     <Content Include="privacy.aspx" />
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
+    <Content Include="tarimdadijitaldonusum.aspx" />
     <Content Include="team.aspx" />
     <Content Include="uts.aspx" />
     <Content Include="Web.config" />
     <Content Include="wms.aspx" />
+    <Content Include="yerliyazilimcozumlerionlinetanitim.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="article1.aspx.cs">
@@ -1689,12 +1789,75 @@
     <Compile Include="article3.aspx.designer.cs">
       <DependentUpon>article3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="article4.aspx.cs">
+      <DependentUpon>article4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article4.aspx.designer.cs">
+      <DependentUpon>article4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article5.aspx.cs">
+      <DependentUpon>article5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article5.aspx.designer.cs">
+      <DependentUpon>article5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article6.aspx.cs">
+      <DependentUpon>article6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article6.aspx.designer.cs">
+      <DependentUpon>article6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article7.aspx.cs">
+      <DependentUpon>article7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article7.aspx.designer.cs">
+      <DependentUpon>article7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article8.aspx.cs">
+      <DependentUpon>article8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article8.aspx.designer.cs">
+      <DependentUpon>article8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article9.aspx.cs">
+      <DependentUpon>article9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article9.aspx.designer.cs">
+      <DependentUpon>article9.aspx</DependentUpon>
+    </Compile>
     <Compile Include="articles.aspx.cs">
       <DependentUpon>articles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="articles.aspx.designer.cs">
       <DependentUpon>articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="basin.aspx.cs">
+      <DependentUpon>basin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basin.aspx.designer.cs">
+      <DependentUpon>basin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dijitaldonusumbasarihikayeleri.aspx.cs">
+      <DependentUpon>dijitaldonusumbasarihikayeleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dijitaldonusumbasarihikayeleri.aspx.designer.cs">
+      <DependentUpon>dijitaldonusumbasarihikayeleri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dijitaldonusumuygulamalaripaneli.aspx.cs">
+      <DependentUpon>dijitaldonusumuygulamalaripaneli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dijitaldonusumuygulamalaripaneli.aspx.designer.cs">
+      <DependentUpon>dijitaldonusumuygulamalaripaneli.aspx</DependentUpon>
     </Compile>
     <Compile Include="edonusum.aspx.cs">
       <DependentUpon>edonusum.aspx</DependentUpon>
@@ -1716,6 +1879,27 @@
     </Compile>
     <Compile Include="dbas.aspx.designer.cs">
       <DependentUpon>dbas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fssoftwarefortuneturkiyedergisinde.aspx.cs">
+      <DependentUpon>fssoftwarefortuneturkiyedergisinde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fssoftwarefortuneturkiyedergisinde.aspx.designer.cs">
+      <DependentUpon>fssoftwarefortuneturkiyedergisinde.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fssoftwarekobiefordergisinde.aspx.cs">
+      <DependentUpon>fssoftwarekobiefordergisinde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fssoftwarekobiefordergisinde.aspx.designer.cs">
+      <DependentUpon>fssoftwarekobiefordergisinde.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fssoftwarevision2021.aspx.cs">
+      <DependentUpon>fssoftwarevision2021.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fssoftwarevision2021.aspx.designer.cs">
+      <DependentUpon>fssoftwarevision2021.aspx</DependentUpon>
     </Compile>
     <Compile Include="hmadde.aspx.cs">
       <DependentUpon>hmadde.aspx</DependentUpon>
@@ -1766,6 +1950,20 @@
     <Compile Include="labeling.aspx.designer.cs">
       <DependentUpon>labeling.aspx</DependentUpon>
     </Compile>
+    <Compile Include="lojitvuretimdepolojistiksurecleriyonetimi.aspx.cs">
+      <DependentUpon>lojitvuretimdepolojistiksurecleriyonetimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lojitvuretimdepolojistiksurecleriyonetimi.aspx.designer.cs">
+      <DependentUpon>lojitvuretimdepolojistiksurecleriyonetimi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lojitvwmsegitimi.aspx.cs">
+      <DependentUpon>lojitvwmsegitimi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lojitvwmsegitimi.aspx.designer.cs">
+      <DependentUpon>lojitvwmsegitimi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="privacy.aspx.cs">
       <DependentUpon>privacy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1795,6 +1993,13 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="tarimdadijitaldonusum.aspx.cs">
+      <DependentUpon>tarimdadijitaldonusum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarimdadijitaldonusum.aspx.designer.cs">
+      <DependentUpon>tarimdadijitaldonusum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="team.aspx.cs">
       <DependentUpon>team.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1815,6 +2020,13 @@
     </Compile>
     <Compile Include="wms.aspx.designer.cs">
       <DependentUpon>wms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yerliyazilimcozumlerionlinetanitim.aspx.cs">
+      <DependentUpon>yerliyazilimcozumlerionlinetanitim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yerliyazilimcozumlerionlinetanitim.aspx.designer.cs">
+      <DependentUpon>yerliyazilimcozumlerionlinetanitim.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -1847,7 +2059,6 @@
     <Folder Include="img\referanslar\Endüstri\" />
     <Folder Include="img\unedited\Donanımlar_Resim\el\datalogic\" />
     <Folder Include="img\unedited\website\Donanımlar_Resim\el\datalogic\" />
-    <Folder Include="img\uts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -134,7 +134,7 @@
       <div class="container scroll-triggered-anim fade-in-animation">
         <div class="row solution-card image-on-left">
           <div class="col-md-6 solution-card-img">
-            <img src="https://source.unsplash.com/FEPfs43yiPE/640x360" alt="img">
+          <img src="https://source.unsplash.com/FEPfs43yiPE/640x360" alt="img">
           </div>
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">

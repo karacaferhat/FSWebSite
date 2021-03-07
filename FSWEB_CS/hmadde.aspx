@@ -103,7 +103,7 @@
       <div class="container scroll-triggered-anim fade-in-animation">
         <div class="row solution-card image-on-left">
           <div class="col-md-6 solution-card-img">
-            <img src="img/hmmadde/kalitekontrolstatu.jpg" alt="img">
+            <img src="img/hmmadde/hammadde-kalitekontrolstatu.jpg" alt="img">
           </div>
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">

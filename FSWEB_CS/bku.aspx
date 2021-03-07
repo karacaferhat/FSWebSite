@@ -6,7 +6,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/its/its-slider.jpg" alt="its">
+            <img src="img/bkts/bkts_slider02.png" alt="its">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
@@ -55,30 +55,30 @@
         <div class="row solution-card">
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
-              <span class="fss-title">Bildirimler</span>
+              <span class="fss-title">Bakanlık Bildirimleri</span>
               <span class="sub-heading"></span>
             </h2>
             <div class="lead">
-              <p>Üretim bildiriminden  satış bildirimine kadar ki tüm süreci kapsar. Üretim bildirimi, İthalat bildirimi, Üretici/İthalatçı firma satış bildirimi,  depo satış bildirimi, depo alış bildirimi ile reçete satış onayı bakanlığa bildirilir bildirilmez SGK sistemi tetiklenerek İTS’den bu satışa ait ilaçları sorgular .</p>
+              <p>Üretim bildiriminden satış bildirimine kadar ki tüm süreci kapsar. Üretim bildirimi, Üretim Giriş Onayı, Yurtdışı/Yurtiçi Depo Giriş , Palet etiketleme (Koli-palet kimlik ilişkisi ile), Depo Giriş Onayı ile  bakanlığa bildirilir.</p>
             </div>
           </div>
           <div class="col-md-6 solution-card-img">
-            <img src="img/its/its_bildirimler.jpg" alt="img">
+              <img src="img/bkts/bkuts-06.png" alt="img">
           </div>
         </div>
       </div>
       <div class="container scroll-triggered-anim fade-in-animation">
         <div class="row solution-card image-on-left">
           <div class="col-md-6 solution-card-img">
-            <img src="https://source.unsplash.com/cw2Zn2ZQ9YQ/640x360" alt="img">
+            <img <img src="img/bkts/bkuts-01.png" alt="img">
           </div>
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
-              <span class="fss-title">Eczanelerin Elden İlaç Satışı</span>
+              <span class="fss-title">Depo İşlemleri</span>
               <span class="sub-heading"></span>
             </h2>
             <div class="lead">
-              <p>Eczaneler geri ödeme kurumları dışında bir ilaç sattıklarında bunlar da sisteme bildirir. Bu işlemler için eczane yazılımlarının kolaylık sağlamaktadır.</p>
+              <p>Depoya yerleştirme, rafa transfer, toplama alanına transfer  ve sayım işlemleri gerçekleştirilir. </p>
             </div>
           </div>
         </div>
@@ -87,30 +87,30 @@
         <div class="row solution-card">
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
-              <span class="fss-title">Doğrulama</span>
+              <span class="fss-title">Sevk İşlemleri</span>
               <span class="sub-heading"></span>
             </h2>
             <div class="lead">
-              <p>Sistemde bir ürünün sadece satılabilir olduğunu doğrular. Doğrulama servisi ile eczane, ecza deposu ya da üretici elindeki bir ürünün satılabilir olduğunu görebilir. Doğrulama sonucunda ürün hakkında dönen bir cevap vardır. Bu cevap olumlu ise ürün satılabilir demektir.</p>
+              <p>Müşteri sipariş seçimi, kontrollü yükleme, çıkış onayı ve bakanlık bildirimi bu süreçte gerçekleştirilebilir. </p>
             </div>
           </div>
           <div class="col-md-6 solution-card-img">
-            <img src="img/its/its-dogrulama.jpg" alt="img">
+            <img src="img/bkts/bkuts-02.png" alt="img">
           </div>
         </div>
       </div>
       <div class="container scroll-triggered-anim fade-in-animation">
         <div class="row solution-card image-on-left">
           <div class="col-md-6 solution-card-img">
-            <img src="img/unedited/Yeni%20klasör/malalımonayı.jpg" alt="img">
+              <img src="img/bkts/bkuts-03.png" alt="img">
           </div>
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
-              <span class="fss-title">Mal Alım Onayı</span>
+              <span class="fss-title">Tedarikçi İade İşlemleri</span>
               <span class="sub-heading"></span>
             </h2>
             <div class="lead">
-              <p>Lojistik ile depolamanın birleştiği nokta mal kabuldür. Mal kabul, gelen ürünün dikkatle incelendiği bir nokta olup burada hatalı gelen ürün varsa ayıklanır.</p>
+              <p>Tedarikçi seçimi kontrollü yükleme, Çıkış onayı ve tekrar bakanlığa bildirilir..</p>
             </div>
           </div>
         </div>
@@ -119,34 +119,19 @@
         <div class="row solution-card">
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
-              <span class="fss-title">Deaktivasyon</span>
+              <span class="fss-title">Kalite</span>
               <span class="sub-heading"></span>
             </h2>
             <div class="lead">
-              <p>Deaktivasyon sebeplerinden “imha” en bilinen yöntemdir. Eğer ürünün imha edilmesi istenmişse sistemdeki kaydı kapatılarak bu ürünün satılması önlenir ve ürün tekrar sisteme geri dönmez.</p>
+              <p>Sevk edilebilir durumu, kalite durumu ve bloke durumu belirlenir.</p>
             </div>
           </div>
           <div class="col-md-6 solution-card-img">
-            <img src="img/its/its-deativasyon.jpg" alt="img">
+           <img src="img/bkts/bkuts-04.png" alt="img">
           </div>
         </div>
       </div>
-      <div class="container scroll-triggered-anim fade-in-animation">
-        <div class="row solution-card image-on-left">
-          <div class="col-md-6 solution-card-img">
-            <img src="https://source.unsplash.com/FEPfs43yiPE/640x360" alt="img">
-          </div>
-          <div class="col-md-6 solution-card-body">
-            <h2 class="featurette-heading">
-              <span class="fss-title">İade</span>
-              <span class="sub-heading"></span>
-            </h2>
-            <div class="lead">
-              <p>Mal alım iadesi ve mal satış iadesi olarak sınıfandırılır. Alım iadesi kapsamında alınan ürünlerin iadesi durumunda o ürünlerin stoktan çıkarılması ve diğer firma stoklarına geçmesi için bu bildirim yapılmalıdır. Satış iadesi mal alım iadesinin benzeri harekettir. Mal satış iadesi doğrulama içerir, üretici ya da ecza deposunun iade aldığı ürünlerin doğruluğundan emin olması sağlanır.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+     </div>
     </div>
     <div class="container-fluid blog scroll-triggered-anim references-deck">
       <div class="container">
@@ -159,27 +144,27 @@
         </h1>
         <div class="card-deck">
           <div class="card">
-              <img src="img/its/cinnagen-ilac.jpg" alt="...">
+              <img src="img/bkts/ekicioglu-logo.png" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">Cinnagen İlaç</h5>
-              <p class="card-text">FSMobility İTS çözümü ile Cinnagen İlaç bildiriminleri FSMobility sayesinde yapıyor.</p>
+              <h5 class="card-title text-fss font-weight-bold">Ekicioğlu Tarım İlaçları</h5>
+              <p class="card-text">FSMobility BKTS çözümü ile Ekicioğlu Bitki Koruma Ürünleri bildiriminleri FSMobility sayesinde yapıyor.</p>
             </div>
           </div>
           <div class="card">
-              <img src="img/its/ucb-pharma-logo.jpg" alt="...">
+              <img src="img/bkts/egeon-logo.png" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">UCB Pharma</h5>
-              <p class="card-text">FSMobility ITS üzerinden UCB Pharma Üretim, PTS, Satış, İade ve Deaktivasyon bildirimleri gerçekleştiriyor.</p>
+              <h5 class="card-title text-fss font-weight-bold">Egeon Tarım</h5>
+              <p class="card-text">FSMobility BKTS üzerinden Egeon Tarım bildirimleri gerçekleştiriyor.</p>
             </div>
           </div>
           <div class="card">
-              <img src="img/its/world-couirer-logo.jpg" alt="...">
+              <img src="img/bkts/orfeus-logo.png" alt="...">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">World Courier</h5>
-              <p class="card-text">FSMobility ITS üzerinden World Courier PTS bildirim,İTS bildirim ve Sevk İşlemlerini gerçekleştiriyor.</p>
+              <h5 class="card-title text-fss font-weight-bold">Orfeus Tarım</h5>
+              <p class="card-text">FSMobility BKTS üzerinden Orfeous tarım bildirimlerini gerçekleştiriyor.</p>
             </div>
           </div>
         </div>
