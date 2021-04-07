@@ -6,7 +6,7 @@
         <div class="carousel bg-fss">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                   <img src="img/sstories/yazılım-teknolojisi-02.png" alt="references">
+                   <img <img src="img/sstories/fssoftware-fortune-turkiye-slider.png" alt="sstories">
                 </div>
             </div>
         </div>
@@ -16,12 +16,31 @@
                     <div class="col-lg-2"></div>
                     <div class="col-12 col-lg-8">
                         <h1 class="text-orange font-black">FSSoftware Fortune Türkiye Dergisi'nde!</h1>
-                        <p>FSSoftware, yeni versiyonu ile kurumsal yazılım platform hedeflerinibireysel mobil ve sosyal medya alışkanlıklarının birleştiği güncel bir platform olmayı tercih ederek Android ve iOS üzerinde çalıştırılabilen ürün ailesi geliştirmiştir.</p>
-                        <p>Böylelikle mobil veri tanımlama sektörünün donanım gereksinimlerini daha geniş bir yelpazeye taşıyarak, donanımda rekabet ve çeşitlilik hedefine ulaşmıştır.Kullanıcı deneyimi ekseninde ise zaten alışık oldukları mobil cep telefonu teknolojilerini iş hayatında da aktif bir pozisyona geçirerek , kullanıcı yeteneklerinde deneyim kazanımı sağlamıştır.</p>
-                        <h3 class="text-fss font-bold">FSMobility Yazılım Teknolojisi Nedir?</h3>
-                        <p>Bu hedeflere ulaşılmak üzere yol haritası olarak Back-End tarafında SQL Server database REST API ve Cloud barındırma çözümlerine yönelmiş, Front-End tarafında ise HyBrid HTML5 ve Android WebView tercih edilmiştir.</p>
-                        <p>Hybrid mimari sayesinde çalışma zamanı, güncelleme ve bakım ihtiyaçları minimize edilmiş performans için sunucu taraflı çözümler ile load balance sağlanmıştır. Aynı mimari ile mobil cihazlarınızda, el terminallerinizde veya web tarayıcılarınızda farklı çözünürlük ve boyutlarda ortak kullanım özelliği sağlanmaktadır. Ekran çözünürlük ve boyutlarınıza göre ayarlanan ve dizayn edilen akıllı Grid ve Dashboard özellikleri ile daha kolay raporlama yapılabilir ve ürün izlenilebilirlik yetenekleri arttırılmıştır.</p>Özellikle destek ihtiyacı olmadan sistem geliştirmelerinin son kullanıcı yada power user seviyesinde yapılabilmesi için Son Kullanıcı Raporlama modülü yeni versiyonun en belirgin teknolojik hamlelerinden biridir.                        
-                        <p>İleriye dönük teknolojik değişimleri doğru zamanda karşılamak, hızlı reaksiyon vererek müşterilerine en güncel teknolojileri sunabilmek adına Back-End ve Front-End tarafında bağımsız ve modüler bir mimari kullanılmıştır.Güvenlik altyapısı OAUTH 2 ve SSL mimarisi ile güçlendirilmiş, yayınlama platformları Google  Play ve App Store platformlarına taşınmıştır. Sistem bakım gereksinimleri Azure Bulut hizmetleri içerisinde pratik ve hızlı bir çözüme kavuşmuştur. FSSoftware sıkça yön değiştiren rüzgarlara karşı öngörülere dayanarak değil, hızlı adapte olabilme yeteneğimizi geliştiren yol haritası çıkarılmış ve değişimleri müşterilerimizin seçeneklerini zenginleştirmek üzerine bir vizyona dayandırmayı tercih etmiştir.</p>
+                        <p>Proje ve Satış Müdürümüz Dursun Tosunoglu Fortune Türkiye Dergisi Aralık ayı özel YASAD Eki'nde Bulut Tabanlı Çözümler ile sürdürebilirliği değerlendirdi..</p>
+                        <h3 class="text-fss font-bold">Bulut ile Üretim ve Depo Yönetiminde Sürdürebilirlik Sağladık!</h3>
+                        <p>Satış ve Proje Müdürümüz Dursun Tosunoğlu Fortune Türkiye Dergisine FSMobility ürünümüzün pandemi döneminde uzaktan yaşamı hangi boyutlarda desteklediğini anlattı.</p>
+                        <p>"Pandemi süresince Gıda, İlaç, Lojistik, Kimya gibi sektörlerin önemi üst seviyeye çıktı. Üretilen ürünlerin ne zaman, hangi iş emrine göre, hangi vardiya tarafından üretildiği, hangi kalite yöneticisinin ürünün sevk edilmesine izin verdiği, hangi depocunun ürünü hazırlayıp, hangi yöneticinin sevk onayına izin verdiği, ürünlerin son kullanım tarihleri, lot numaraları ve ürün kimlik numaraları sistemimiz tarafından sürekli izlenebilmektedir. Bu süreç izlenebilirliği mamul üretiminde olduğu gibi hammadde ve yarı mamul ürünlerin kullanımı için de yapılabilmektedir."</p>
+                        <h3 class="text-fss font-bold">Fortune Türkiye Aralık Ayı Dergisinde Neler Var?</h3>
+                        <p>YILIN İŞ İNSANLARI LİSTESİ<p>
+                        <p>NBA'DEN İŞ DÜNYASINA LİDERLİK DERSLERİ<p>
+                        <p>NBA’nin Pandemi Formulü<p>
+                        <p>NBA ister COVID, ister sosyal adalet ya da işleyebilen bir izolasyon programı olsun, belli başlı konularda nasıl yol alınacağını daha iyi bilen bir yapı izlenimi veriyor. Hem iş dünyasına hem de liderlere önemli lidelik dersleri veriyor.</p>
+                        <p>Akıllı TV’ler<p>
+                        <p>Adressable TV denilen ve hane halkı verisine göre farklı reklam TV spotu yayını yapan ve bunların izlenme oranlarını ölçen sistem, doğru kişiye doğru reklamı göstererek azami etkiyi yaratabiliyor.</p>
+                        <p>Yeni Teknolojiler ve Şehir Yönetimi</p>
+                        <p>Akıllı şehirler, gelişen şehir nüfusunun çevre, enerji, ulaşım, insan gibi kaynakların daha verimli, sürdürülebilir ve kontrol edilebilir düzeyde kullanımını hedefliyor.</p>
+                        <p>Fortune 500 Türkiye Dijital Zirvesi</p>
+                        <p>Bu yıl 13’üncü kez yayınlanan Fortune 500 Türkiye Araştırması ile Türkiye’nin devler ligini belirleyen Fortune Türkiye, daha ilk yıllardan itibaren Türkiye’de de bu listenin bir referans çalışması olarak kabul edilmesini sağladı.</p>
+                        <p>Yılın İş İnsanları Listesi</p>
+                        <p>Fortune Türkiye dergisinin bu yıl dokuzuncu kez hazırladığı “Yılın İş İnsanları/2020” listesi, sürdürülebilir başarılara sahip liderleri biraraya getirdi.</p>
+                        <p>Sürdürülebilirlik İçin Teknoloji</p>
+                        <p>Schneider Electric’in yeni vizyonu, dijitalleşme, dönüşüm ve yaptıklarının sonuçlarını ölçerek sürekli yenilemek üzerine.</p>
+                        <p>Fortune Türkiye Aralık sayısı tüm dijital platformlar ve bayilerde.. Fortune Türkiye Aralık sayısını, Turkcell Dergilik, Vodafone dMags, Türk Telekom e-Dergi, Magzter, PressReader ve Samsung SMAG'tan da takip edebilirsiniz.
+
+
+
+
+
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
