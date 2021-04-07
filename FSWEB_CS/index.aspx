@@ -385,8 +385,8 @@
               <img src="img/sstories/yazılım_teknolojisi.png" class="card-img-top" alt="...">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">FSMobility Yazılım Teknolojisi</h5>
-                <p class="card-text">FSSoftware, yeni versiyonu ile kurumsal yazılım platform hedeflerini bireysel mobil ve sosyal medya alışkanlıklarının birleştiği güncel bir platform olmayı tercih ederek Android ve iOS üzerinde çalıştırılabilen ürün ailesi geliştirmiştir.</p>
+                <h5 class="card-title text-fss font-weight-bold">FSSoftware, TÜBİTAK Desteği ile Yeni Ürünü FSStokchain'i Çıkardı!</h5>
+                <p class="card-text">FSSoftware, TÜBİTAK desteğini alarak yeni versiyonu FSStokchain ile kurumsal yazılım platform hedeflerini bireysel mobil ve sosyal medya alışkanlıklarının birleştiği güncel bir platform olmayı tercih ederek Android ve iOS üzerinde çalıştırılabilen ürün ailesi geliştirmiştir.</p>
               </div>
               <div class="card-footer bg-white">
                 <a href="article1.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
@@ -445,7 +445,7 @@
                <img src="img/index/vision2021-kapak.png"  class="card-img-top" alt="...">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">Vision 2021 Çok Yakında....</h5>
+                <h5 class="card-title text-fss font-weight-bold">FSSoftware Vision 2021 Dergisinde!</h5>
                 <p class="card-text">Kurumsal Çözüm ve Teknoloji Üreticilerinin Vizyonları ve Planları Vision 2021'de.</p>
               </div>
               <div class="card-footer bg-white">

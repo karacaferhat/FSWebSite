@@ -6,7 +6,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/sstories/article-kapak.png" <alt="references">
+          <img class="carousel-img righted" src="img/sstories/fssoftware-basında-biz-kapak.png" <alt="sstories">
           <div class="container w-auto">
             <div class="carousel-caption px-4 pt-3 pb-2 w-auto">
               <h1 class="font-weight-normal text-fss"><span class="fa fa-book-open mr-2"></span>Basında Biz</h1>
@@ -64,7 +64,7 @@
         </div>
            <div class="card-deck">
           <div class="card">
-            <img src="img/sstories/proje-yonetimi-slider.png" class="card-img-top" alt="...">
+            <img src="img/sstories/fssoftware-fortune-dergisinde.png" class="card-img-top" alt="...">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">FSSoftware Fortune Türkiye Dergisi'nde!</h5>
@@ -78,10 +78,10 @@
             </div>
           </div>
           <div class="card">
-            <img  class="card-img-top" src="img/sstories/iot-kapak.png" alt="...">
+            <img src="img/sstories/lojitv-fssofware.png"  alt="...">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">Lojitv Üretim, Depo ve Lojistik Süreçleri Yönetimi</h5>
+              <h5 class="card-title text-fss font-weight-bold">FSMobility Tanıtımı - Lojitv</h5>
               <p class="card-text">Lojistik ve tedarik zinciri sektörünün daha ileriye taşınması ve gelişmesi açısından sektöre yönelik faydalı bilgiler sunan Loji TV kanalına Proje ve Satış Müdürümüz Dursun Tosunoglu ile şirketimizi tanıtmak üzere konuk olduk.</p>
             </div>
             <div class="card-footer bg-white">
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="img/sstories/saglikli-gida-takibi-kapak.png" class="card-img-top" alt="...">
+              <img src="img/sstories/dijital-donusum-uygulamaları-fssoftware.png" class="card-img-top" alt="...">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Dijital Dönüşüm Uygulamaları Paneli</h5>
@@ -108,7 +108,7 @@
         </div>
            <div class="card-deck">
           <div class="card">
-            <img <img src="img/sstories/tarimda-dijital-donusum-kapak.png" class="card-img-top" alt="...">
+            <img src="img/sstories/yasad-fssoftware-online-etkinlik.png" class="card-img-top" alt="...">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Yerli Yazılım Çözümleri Online Tanıtım Etkinliği</h5>
@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="img/sstories/endustri-4.0-kapak.png" class="card-img-top" alt="...">
+            <img src="img/sstories/fssoftware-ıct-media-kapak.png" class="card-img-top" alt="sstories">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Tarımda Dijital Dönüşüm</h5>
@@ -136,7 +136,7 @@
             </div>
           </div>
           <div class="card">
-            <img src="img/sstories/erp-kapak.png" class="card-img-top alt="...">
+            <img src="img/sstories/fssoftware-dijitaldonusum-basarı-hikayeleri.png" class="card-img-top alt="sstories">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Dijital Dönüşüm Başarı Hikayeleri 2020</h5>
@@ -156,8 +156,9 @@
   </div>
 
   <script>
-    $(".nav-item").removeClass("active");
-    $('.nav-item:contains("Bilgi Bankası")').addClass("active");
+      $(".nav-item").removeClass("active");
+      $('.nav-item:contains("Bilgi Bankası")').addClass("active");
+      $('.dropdown-item:contains("Basın")').addClass("active");
   </script>
 
 </asp:Content>
