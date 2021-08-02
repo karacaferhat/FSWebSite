@@ -12,6 +12,14 @@
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>FSMobility ile Kırmızı Et Takibi</h1>
+              <meta name="Title" content="Kırmızı Et Takibi | Hammaddeden Paketlemeye İzlenebilir Et Teknolojisi">
+              <meta name="Description" content="FSMobility Kırmızı Et Modülü ile birlikte hayvanın çiftlikte kaldığı süreçle başlayıp, satış ve tüketicinin sofrasına gelinceye kadar en üst düzeyde izlebilirlik sağlar.">
+		      <meta name="Keywords" content="gıda izlenebilirliği, gıda güvenliği, geriye deoğru izlenebilirlik, depo yönetimi, kırmız et izlenebilirliği, sakatat tabiki">
+	          <meta name="siteid" content="tr">
+	          <meta name="countryid" content="TR">
+	          <meta name="robots" content="ket.aspx.cs, follow">
+	          <meta name="country" content="Turkey">
+	          <meta name="Language" content="tr">
               <p>Hammaddeden Paketlemeye İzlenebilir Et Teknolojisi</p>
             </div>
           </div>

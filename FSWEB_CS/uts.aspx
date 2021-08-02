@@ -7,11 +7,19 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/uts/uts-slider.jpg" alt="wms">
+          <img class="carousel-img righted" img src="img/uts/uts-slider.png" alt="wms">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>Güvenli Sağlık ve Kozmetik Ürün Takibi</h1>
+              <meta name="Title" content="Güvenli Sağlık ve Kozmetik Ürün | FSSoftware">
+              <meta name="Description" content="Depo etiketleri, müşterilere yanlış öğelerin gönderilmesi ve dikkatle ele alınması gereken öğelerin yanlış kullanılması gibi hataları ortadan kaldırır.">
+		      <meta name="Keywords" content="GS1, Karekod, Etiketleme, depo yönetimi,">
+	          <meta name="siteid" content="tr">
+	          <meta name="countryid" content="TR">
+	          <meta name="robots" content="labeling.aspx.cs, follow">
+	          <meta name="country" content="Turkey">
+	          <meta name="Language" content="tr">
               <p>Yasal Takip Zincirinde Yerinizi Alın</p>
             </div>
           </div>
@@ -163,7 +171,7 @@
         </div>
       </div>
     </div>
-  </div>
+
 
   <script>
     $(".nav-item").removeClass("active");

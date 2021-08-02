@@ -17,30 +17,21 @@
         </div>
         <div class="container-fluid">
             <div class="container">
-
-                <div class="row team-group">
+                        <div class="row team-group">
                     <div class="team-group-title">
                         <h2>FSSoftware Ailesi</h2>
                     </div>
-                    <div class="col-12">
-                        <div class="row scroll-triggered-anim fade-in-animation">
-                            <div class="col-md-3">
+                         <div class="col-12">
+			             <div class="row scroll-triggered-anim fade-in-animation">
+			              <div class="col-md-4">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/goksu_eren.jpg" alt="...">
+                                    <img class="officer-photo" <img src="img/team/goksu_eren.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Göksu Eren</div>
                                     <div class="officer-title">Sales and Marketing Assistant</div>
-                                    <div class="officer-short-brief">Göksu; dünyalar tatlısı iki köpeğiyle vakit geçirmekten, kamp yapmaktan ve doğayla iç içe olmaktan oldukça hoşlanır. Tam bir yaz insanıdır. Fırsat buldukça konser ve festivallere katılıp sosyaleşmeyi sevse de dizi ve film arşivini genişletmeyi tercih etmesi ile çevresine sürekli film ve dizi önermesiyle bilinir.</div>
+                                    <div class="officer-short-brief">Ofisimizin enerji kaynağı, pozitifi ve organizatörü Göksu; iki köpeğiyle vakit geçirmekten, kamp yapmaktan ve doğayla iç içe olmaktan oldukça hoşlanır. Tam bir yaz insanıdır. Fırsat buldukça konser ve festivallere katılıp sosyaleşmeyi sevse de dizi ve film arşivini genişletmeyi tercih etmesi ile çevresine sürekli film ve dizi önermesiyle bilinir..</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" <img src="img/team/firat_kilic.jpg" class="card-img-top" alt="...">
-                                    <div class="officer-name">Fırat Kılıç</div>
-                                    <div class="officer-title">Project and Sales Specialist</div>
-                                    <div class="officer-short-brief">Proje ve Satış uzmanımız Fırat; tatlı mı tatlı kızı ve eşiyle vakit geçirmekten oldukça keyif alır. </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/yasemin_yutaz.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Yasemin Yutaz</div>
@@ -48,60 +39,61 @@
                                     <div class="officer-short-brief">Doğayı sever en çok...papatyaları...çimenler üzerindeki yaz kokusunu.. uçsuz bucaksız kayalıklar ardına batan güneşi izlemeyi...sonbahar yağmuru altında sarı kırmızı yapraklar arasında yürümeyi...Ağacın kahve gövdesini...denizin rakı beyazı köpüğünü..</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" <img src="img/team/derya_sag.png" class="card-img-top" alt="...">
-                                    <div class="officer-name">Derya Sağ</div>
-                                    <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">Okumayı ve araştırmayı oldukça seven Derya; üçüncü üniversitesini okurken yapay zekaya olan ilgisi sayesinde kendisini yazılım sektörü içinde bulmuştur. Detayları ve detaylarda hata aramayı oldukça seven Derya; mükemmelliyetçi yapısı ile projelerini sürdürmeye devam etmektedir. Avrupa şehirlerine ve Avrupa sinemasına oldukça düşkündür. Duyulmamış ve orjinal bir film var ise size tavsiye verebilir.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row scroll-triggered-anim fade-in-animation">
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" <img src="img/team/berkay-kose.png" class="card-img-top" alt="...">
-                                    <div class="officer-name">Berkay Köse</div>
-                                    <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">Uygulama danışmanımız Berkay; futbol oynamaktan büyük keyif alır. Sıkı bir Formula 1 izleyicisi olmanın yanı sıra favori film türü gerilimdir. Ailesi ile vakit geçirmekten oldukça keyif alır.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" <img src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="...">
+                                    <img class="officer-photo" src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Cihan Sevimli</div>
                                     <div class="officer-title">Implementation Consultant</div>
                                     <div class="officer-short-brief">Cihan; kabına sığamadığı zamanlarda motora atlayıp dağ yollarında yolculuğa çıkmayı sever. Suyun derinliklerinde heyecan verici yaşam ile ilgilenmek ya da doğa ile bütünleşip şehrin gürültüsünden uzakta olmak ona her zaman iyi gelir. Bazen ise serüveni bir müzikle başlar ve bir jazz grubunda baterinin başında buluverir kendisini.</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                        </div>
+                     </div>
+                         <div class="col-15">
+			             <div class="row scroll-triggered-anim fade-in-animation">
+			              <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" <img src="img/team/ayhan-adıyaman.png" class="card-img-top" alt="...">
+                                    <img class="officer-photo" <img src="img/team/berkay-kose.png"" class="card-img-top" alt="...">
+                                    <div class="officer-name">Berkay Köse</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Uygulama danışmanımız Berkay; futbol oynamaktan büyük keyif alır. Sıkı bir Formula 1 izleyicisi olmanın yanı sıra favori film türü gerilimdir. Ailesi ile vakit geçirmekten oldukça keyif alır.</div>
+                            </div>
+                            </div>
+                             <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" src="img/team/ayhan-adıyaman.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Ayhan Adıyaman</div>
                                     <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">Ekibimizin en genç üyesi Ayhan tam bir futbol aşığıdır. İzlemeyi ve oynamayı oldukça sever. Aynı zamanda doğada vakit geçirmekten serada çiçeklerle bir arada olmaktan hoşlanır. İyi bir müzik dinleyicisidir.</div>
-                                </div>
+                                   <div class="officer-short-brief">Ekibimizin en genç üyesi Ayhan tam bir futbol aşığıdır. İzlemeyi ve oynamayı oldukça sever. Aynı zamanda doğada vakit geçirmekten serada çiçeklerle bir arada olmaktan hoşlanır. İyi bir müzik dinleyicisidir.</div>
+                             </div> 
                             </div>
                             <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Bünyamin Güler</div>
                                     <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin 4 senedir FSSoftware ailesinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever..</div>
+                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
+                                  </div>
                                 </div>
+                          <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" <img src="img/team/mirhan-benek.png" " class="card-img-top" alt="...">
+                                    <div class="officer-name">Mirhan Benek</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Mirhan 6 yaşındaki kızı ve eşiyle vakit geçirmekten oldukça hoşlanır.Eşi ve kızından geri kalan büyük zamanı mı amatör olarak zıpkınla dalış yaparak, balık avlayarak geçirir. Yeni yerler görmeyi gezmeyi sever, futbol izlemeyi de oldukça sever.</div>
+                                </div>
+                              </div>
+                             </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="row team-group">
+                    <div class="row team-group">
                     <div class="team-group-title">
+                    <div class="col-12">
                         <h2>Uzman</h2>
                     </div>
+                    </div>
                     <div class="col-12">
-                        <div class="row scroll-triggered-anim fade-in-animation">
-                           
+                        <div class="row scroll-triggered-anim fade-in-animation">      
                             <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
@@ -125,12 +117,10 @@
                                     <div class="officer-title">Project Implementation Executive</div>
                                     <div class="officer-short-brief">Mesleği gereği uzun süre bilgisayar karşında oturarak çalışmak onda hareketli bir yaşama geçme isteği yaratmış ve kendini tam da doğanın içinde bulmuştur. Doğal yaşam , doğaya ait olmak  ve onunla bütünleşmek en vazgeçilmezidir.Uzun yıllar dağcılık sporu ile ilgilenmiş , bir dönem doğa yürüyüş rehberliği de yapmıştır. Türkiye’nin çatısı olan Ağrı Dağı’nın zirvesine ulaşmak ise kendini keşfetmenin yolunu açmıştır. Çadırı ve evini sığdırdığı sırt çantasıyla huzur bulduğu dağlara çıkmaya her zaman hazırdır..</div>
                                 </div>
-                            </div>
-                            
+                            </div> 
                         </div>
                     </div>
                 </div>
-
                  <div class="row team-group">
                     <div class="team-group-title">
                         <h2>Yönetim</h2>
@@ -158,8 +148,7 @@
                                     <img class="officer-photo" <img src="img/team/ferhat_karaca.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Ferhat Karaca</div>
                                     <div class="officer-title">Software Development Manager</div>
-                                    <div class="officer-short-brief">Yazılım geliştirme çalışmalarından zaman bulduğunda dağlarda motosiklet sürerken rastlayabilirsiniz. Amatör olarak fotoğraf çeken ve gitar çalmaya çalışan hobi meraklısıdır.
-</div>
+                                    <div class="officer-short-brief">Yazılım geliştirme çalışmalarından zaman bulduğunda dağlarda motosiklet sürerken rastlayabilirsiniz. Amatör olarak fotoğraf çeken ve gitar çalmaya çalışan hobi meraklısıdır.</div>
                                 </div>
                             </div>
                         </div>
@@ -180,14 +169,14 @@
                                     <div class="officer-short-brief">Gerçek bir caz sever ve koleksiyoner.Artık bulmanın çok zor olduğu mükemmel albümler ve diskografileri arşivinde görebilirsiniz.Teknolojimizi onun arşivini tutabilecek büyüklüğe taşımak istiyoruz :)</div>
                                 </div>
                             </div>
-                            <div class="col-md-4"></div>
                         </div>
                     </div>
-                </div>
-
+                 </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+     </div>
+   </div>
 
     <script>
         $(".nav-item").removeClass("active");

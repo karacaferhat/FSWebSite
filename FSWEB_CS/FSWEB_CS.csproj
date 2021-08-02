@@ -606,6 +606,7 @@
     <Content Include="img\team\ferhat_karaca.jpg" />
     <Content Include="img\team\firat_kilic.jpg" />
     <Content Include="img\team\goksu_eren.jpg" />
+    <Content Include="img\team\mirhan-benek.png" />
     <Content Include="img\team\ozgur_koc.jpg" />
     <Content Include="img\team\selin_bol.jpg" />
     <Content Include="img\team\suha_zengel.jpg" />
@@ -1756,7 +1757,7 @@
     <Content Include="img\unedited\İş_Ortakları\UMA_160_160.jpg" />
     <Content Include="img\unedited\İş_Ortakları\ZEBRA_320_320.png" />
     <Content Include="img\unedited\İş_Ortakları\ZENITH_300_300.png" />
-    <Content Include="img\uts\uts_Slider.png" />
+    <Content Include="img\uts\uts-slider.png" />
     <Content Include="img\wms\dominos.png" />
     <Content Include="img\wms\hiyerarsik-alan-yonetimi.png" />
     <Content Include="img\wms\ios-android.png" />

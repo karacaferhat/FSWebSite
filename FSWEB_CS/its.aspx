@@ -11,6 +11,14 @@
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>FSMobility ile İlaç Takip Sistemi</h1>
+              <meta name="Title" content="İlaç Takip Sistemi | FSSoftware">
+              <meta name="Description" content="FSMobility İlaç Takip Sistemi ile toplanan verilerden istatistik çıkartılıp sağlık sektöründe yaşanabilecek krizlere erken müdahale fırsatı verir ve ilaçların sebep olduğu herhangi bir yan etki veya rahatsızlık tespit edilmesi durumunda T.C. Sağlık Bakanlığı’nın, hiç vakit kaybetmeden ilaçları piyasadan geri çekerek duruma müdahale etmesine de olanak sağlar.">
+		      <meta name="Keywords" content="İzlenebilirlik, Güvenilir İlaç Tedariği, Gözetim ve Denetim stok yönetimi, depo yönetimi, ilaç takip sistemi">
+	          <meta name="siteid" content="tr">
+	          <meta name="countryid" content="TR">
+	          <meta name="robots" content="its.aspx.cs, follow">
+	          <meta name="country" content="Turkey">
+	          <meta name="Language" content="tr">
               <p>Üretimden Tüketime İlaca Güvenli Erişim</p>
             </div>
           </div>
