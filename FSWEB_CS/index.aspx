@@ -16,6 +16,14 @@
               <div class="carousel-caption text-center">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <h1>Yeni Nesil İzlenebilirlik</h1>
+                <meta name="Title" content="Yeni Nesil İzlenebilirlik | FSSoftware">
+	            <meta name="Description" content="Depo yönetim sistemi (WMS), bir işletme şirket deposunun tüm operasyonel süreçlerinin ve depolama kurallarının merkezi yönetimini sağlayan bir çözümdür.">
+		        <meta name="Keywords" content="depo yönetimi nedir, depo yönetim sistemi, depo yönetim çözümleri, depo yönetim yazılımı, Bulut Depo ">
+	            <meta name="siteid" content="tr">
+	            <meta name="countryid" content="TR">
+	            <meta name="robots" content="index.aspx.cs, follow">
+	            <meta name="country" content="Turkey">
+	            <meta name="Language" content="tr">
                 <p>Yüksek teknoloji, esnek mimari ve her ölçekte ideal performans</p>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
@@ -30,6 +38,14 @@
               <div class="carousel-caption">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <h1>Sistemli Sürdürülebilir Depo Yönetimi</h1>
+                <meta name="Title" content="Sistemli Sürdürülebilir Depo Yönetimi | FSSoftware">
+	            <meta name="Description" content="FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.">
+		        <meta name="Keywords" content="Proje yönetimi, depo yönetim sistemi, wms, Akıllı Depo, sürdürebilir yazılım çözümü ">
+	            <meta name="siteid" content="tr">
+	            <meta name="countryid" content="TR">
+	            <meta name="robots" content="index.aspx.cs, follow">
+	            <meta name="country" content="Turkey">
+	            <meta name="Language" content="tr">
                 <p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Çözümler</p>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
@@ -43,7 +59,15 @@
             <div class="container">
               <div class="carousel-caption">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <h1>iOS & Android Compatible</h1>
+                <h1>IOS & Android Compatible</h1>
+                <meta name="Title" content="IOS & Android | FSSoftware">
+	            <meta name="Description" content="FSMobility, WMS işlevlerine odaklanan bir yazılım çözümüdür.Android ve IOS platformları üzerinden çok dilli destek ile geliştirilmiştir.">
+		        <meta name="Keywords" content="Endüstri 4.0 Operasyonları, IOT & Big Data, Bulut Çözümleri & IOS & Android">
+	            <meta name="siteid" content="tr">
+	            <meta name="countryid" content="TR">
+	            <meta name="robots" content="index.aspx.cs, follow">
+	            <meta name="country" content="Turkey">
+	            <meta name="Language" content="tr">
                 <p>Industry 4.0 Operations, IOT & Big Data Provider, Cloud Solutions</p>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
@@ -89,7 +113,10 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-WMS:</span>
-                <span class="sub-heading">Depo Çözümünüz</span>
+                  <meta name="Title" content="FSMobility WMS">
+                  <meta name="Description" content="FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.">
+                    <meta name="Keywords" content="FSMobility, depo çözümü, stok takibi">  
+                  <span class="sub-heading">Depo Çözümünüz</span>
               </h2>
               <div class="lead">
                 <p>FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.</p>
@@ -113,6 +140,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-GS1:</span>
+                <meta name="Title" content="FSMObility GS1 | FSSoftware">
+	            <meta name="Description" content="Uluslararası kimliklendirme ve etiketleme gereksinimleri için hazır bir üründür.FSMobility ile GS1 DataMatrix Ean gibi Global standadizasyon esaslarını birebir kkarşılayabilirsiniz.Sektörel ihtiyaçlarınıza yönelik esneklik sunmak üzere tasarlanmış, bir çok kurumsal firmada başarılı biçimde kullanılan yazılım çözümüdür.">
+		        <meta name="Keywords" content="kimliklendirme, etiketleme, gs1, datamatrix, ean ">
                 <span class="sub-heading">Etiketleme</span>
               </h2>
               <div class="lead">
@@ -131,6 +161,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-ITS:</span>
+                <meta name="Title" content="İlaç Takip Sistemi - ITS | FSMobility">
+	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.">
+		        <meta name="Keywords" content="ilaç takip sistemi, its,">
                 <span class="sub-heading">İlaç Takip Sistemi</span>
               </h2>
               <div class="lead">
@@ -155,6 +188,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-Kırmızı Et Çözümü:</span>
+                <meta name="Title" content="Kırmızı Et İzlenebilirliği | FSMobility">
+	            <meta name="Description" content="Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.">
+		         <meta name="Keywords" content="kırmızı et takibi, kulak küpe takibi, karkas, kırmızı et izlenebilirliği ">
                 <span class="sub-heading">Çiftlikden Sofraya Kırmızı Et Takibi</span>
               </h2>
               <div class="lead">
@@ -173,6 +209,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-UTS:</span>
+                <meta name="Title" content="Ürün Takip Sistemi - UTS | FSMobility">
+	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, sağlık ürünleri üreten şirketlerin etiketleme, kolileme,sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.Sağlık bakanlığı UTS sistemi ile entegre bir yazılım çözümü sunar.">
+		        <meta name="Keywords" content="ürün takip sistemi, üts, sağlık bakanlığı">
                 <span class="sub-heading">Sağlık Bakanlığı Ürün Takip Sistemi</span>
               </h2>
               <div class="lead">
@@ -197,6 +236,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-BKU:</span>
+                <meta name="Title" content="Bitki Koruma Sistemi | FSMobility">
+	            <meta name="Description" content="SFSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.">
+		        <meta name="Keywords" content="bitki koruma sistemi, bitki koruma ürünleri, tarım bakanlığı, bitki koruma ürünleri takibi">
                 <span class="sub-heading">Bitki Koruma Ürünleri Takibi</span>
               </h2>
               <div class="lead">
@@ -215,6 +257,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">E-Dönüşüm:</span>
+                <meta name="Title" content="E-Dönüşüm| FSSoftware">
+	            <meta name="Description" content="FSSoftware e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.">
+		        <meta name="Keywords" content="e-dönüşüm,e-Fatura,e-İrsaliye,e-Arşiv">
                 <span class="sub-heading">14 ülkede çözüm ortağınız</span>
               </h2>
               <div class="lead">
@@ -239,6 +284,9 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-Demirbaş:</span>
+                <meta name="Title" content="Demirbaş Takibi | FSSoftware">
+	            <meta name="Description" content="FSMobility ile demirbaşlarınızı kimliklendirip takip edebilirsiniz.">
+		        <meta name="Keywords" content="demirbaş takibi">
                 <span class="sub-heading">Demirbaş Takibi</span>
               </h2>
               <div class="lead">
@@ -257,7 +305,11 @@
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility Hammadde Takibi:</span>
-                <span class="sub-heading">Üretimi ve hammadde akışınızı gerçek stok verileri ile planlayın</span>
+                <meta name="Title" content="Hammadde Takibi | FSMobility">
+	            <meta name="Description" content="Üretimi ve hammadde akışınızı gerçek stok verileri ile planlayın.">
+		        <meta name="Keywords" content="üretim takibi, hammadde takibi">
+                <span class="sub-heading">Hammadde Takibi</span>
+                <span class="sub-heading">Üretimi ve hammadde akışınızı gerçek stok verileri ile planlayın.</span>
               </h2>
               <div class="lead">
                 <p>FSMobility Hammadde alış üretime besleme , eksik hammmade takibi, son kullanma tarihi yönetimi gibi kritik görevleri yerine getirir.</p>

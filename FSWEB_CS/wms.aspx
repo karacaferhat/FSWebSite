@@ -11,6 +11,14 @@
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>Sistemli Sürdürülebilir Depo Yönetimi</h1>
+              <meta name="Title" content="Sistemli Sürdürülebilir Depo Yönetimi | FSSoftware">
+              <meta name="Description" content="FSMobility WMS Çözümü üretim ve depo süreçlerinde işlem gören tüm mamul yarı mamül ve hammadde stoklarınızın geriye veya ileriye dönük izlenebilirliğini sağlar. Kalite sistemlerinize entegre olarak kalite kontrol zincirinizin değerli bir paydaşı olarak size hizmet eder.">
+		      <meta name="Keywords" content="depo yönetim sistemi, wms, Akıllı Depo, izlenebilirlik, stok yönetimi, entegre çözüm, etiketleme, satınalma stok yönetimi, hatasız ürün gönderimi, ürün izlenebilirliği">
+	          <meta name="siteid" content="tr">
+	          <meta name="countryid" content="TR">
+	          <meta name="robots" content="wms.aspx.cs, follow">
+	          <meta name="country" content="Turkey">
+	          <meta name="Language" content="tr">
               <p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Çözümler</p>
             </div>
           </div>

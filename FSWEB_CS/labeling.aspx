@@ -12,6 +12,14 @@
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>GS1 KareKod Etiketleme</h1>
+              <meta name="Title" content="GS1 KareKod Etiketleme | FSSoftware">
+              <meta name="Description" content="Depo etiketleri, müşterilere yanlış öğelerin gönderilmesi ve dikkatle ele alınması gereken öğelerin yanlış kullanılması gibi hataları ortadan kaldırır.">
+		      <meta name="Keywords" content="GS1, Karekod, Etiketleme, depo yönetimi,">
+	          <meta name="siteid" content="tr">
+	          <meta name="countryid" content="TR">
+	          <meta name="robots" content="labeling.aspx.cs, follow">
+	          <meta name="country" content="Turkey">
+	          <meta name="Language" content="tr">
               <p>Uluslararası Standartlarda Etiketleme</p>
             </div>
           </div>
