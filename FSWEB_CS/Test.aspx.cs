@@ -11,8 +11,25 @@ namespace FSWEB_CS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string s = Request["key"];
-            Response.Write(s);
+           
+
+            var error = "";
+            var cons = "";
+            var token = "";
+
+            try
+            {
+                cons = Request["conversationId"].ToString();
+                token = Request.Form["token"].ToString();
+            }
+            catch (Exception ex)
+            {
+                error = ex.Message;
+
+            }
+            Response.Write(cons +"</br>");
+            Response.Write(token + "</br>");            
+            Response.Write(error + "</br>");
         }
     }
 }
