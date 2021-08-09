@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".well-known\pki-validation\D35508D69348C8CF14B60F562C1246D8.txt" />
     <Content Include=".well-known\pki-validation\EEE2E8004CD6D4815F151210C8976BD1.txt" />
     <Content Include="article1.aspx" />
     <Content Include="article2.aspx" />
