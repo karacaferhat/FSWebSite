@@ -104,14 +104,14 @@
             </div>
           </div>
           <div class="col-md-6 solution-card-img">
-              <img src="img/unedited/Yeni%20klasör/paketislemleri.jpg" alt="img">
+              <img src="img/uts/paketislemleri.jpg" alt="img">
           </div>
         </div>
       </div>
       <div class="container scroll-triggered-anim fade-in-animation">
         <div class="row solution-card image-on-left">
           <div class="col-md-6 solution-card-img">
-            <img src="https://source.unsplash.com/ZOVj4QkmMBc/640x360" alt="img">
+           <img src="img/uts/iptal-bildirimleri.png" alt="img">
           </div>
           <div class="col-md-6 solution-card-body">
             <h2 class="featurette-heading">
@@ -153,7 +153,7 @@
         </h1>
         <div class="card-deck">
           <div class="card">
-              <img src="img/uts/grup-farma.png" class="card-img-top" alt="...">
+            <img src="img/uts/grup-farma.png" alt="img">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Grup Farma</h5>
@@ -161,7 +161,7 @@
             </div>
           </div>
           <div class="card">
-              <img src="img/uts/set-medikal-logo.png"class="card-img-top" alt="...">
+              <img src="img/uts/set-medikal-logo.png" alt="img">
             <!-- Resimler 1x1 Ölçekli Olmalı -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Set Medikal</h5>

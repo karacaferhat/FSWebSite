@@ -223,7 +223,7 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/uts/uts_Slider.png" alt="img">
+              <img src="img/uts/uts_slider_index.png" alt="img">
             </div>
           </div>
         </div>

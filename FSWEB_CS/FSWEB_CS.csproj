@@ -1756,7 +1756,15 @@
     <Content Include="img\unedited\İş_Ortakları\UMA_160_160.jpg" />
     <Content Include="img\unedited\İş_Ortakları\ZEBRA_320_320.png" />
     <Content Include="img\unedited\İş_Ortakları\ZENITH_300_300.png" />
+    <Content Include="img\uts\grup-farma.png" />
+    <Content Include="img\uts\iptal-bildirimleri.png" />
+    <Content Include="img\uts\paketislemleri.jpg" />
+    <Content Include="img\uts\set-medikal-logo.png" />
+    <Content Include="img\uts\transfer.png" />
+    <Content Include="img\uts\uts-gericekme.jpg" />
     <Content Include="img\uts\uts-slider.png" />
+    <Content Include="img\uts\uts_slider_index.png" />
+    <Content Include="img\uts\ürün-hareketleri-geri-cagirma.jpg" />
     <Content Include="img\wms\dominos.png" />
     <Content Include="img\wms\hiyerarsik-alan-yonetimi.png" />
     <Content Include="img\wms\ios-android.png" />
