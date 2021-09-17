@@ -156,6 +156,50 @@
           </div>
         <div class="container-fluid blog scroll-triggered-anim">
       <div class="container">
+          <div class="card-deck">
+          <div class="card">
+            <img src="img/index/akillikobi-kapak.png" class="card-img-top" alt="...">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">FSStockChain Akıllı Kobi Platformunda!</h5>
+              <p class="card-text">Türkiye Odalar ve Borsalar Birliği ile Visa'nın ortak projesi Akıllı KOBİ platformunda FSStockChain WMS çözümü yer alıyor.</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="akillikobi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+           <div class="card">
+           <img src="img/index/tv-8int-fssoftware.png" class="card-img-top alt="...">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">TV8int Şehrin Nabzı</h5>
+              <p class="card-text">TV8Int Şehrin Nabzı programına konuk olduk. Dominos'un Gebze Fabrikasında gerçekleştirdiğimiz yayında şirketimiz, ürünümüz ve projelerimizden bahsetme fırsatı bulduk...</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="akillikobi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/sstories/isbirligi-günü-kapak.png" class="card-img-top" alt="...">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge B2B İşbirliği Günü</h5>
+              <p class="card-text">TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısı teknoloji tedarikçisi firmaların sanayi firmalarının talebine yönelik yenilikçi ürün/süreç gelişeceği, hızla ürüne dönüşebilecek ve yüksek ticarileşme potansiyeline sahip Ar-Ge projelerini desteklemektedir.</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="isbirligigunu.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+        </div>
         <!-- CARD DECK ROW :::::: HER SATIR İÇİN BU ÇOĞALTILACAK -->
         <div class="card-deck">
           <div class="card">

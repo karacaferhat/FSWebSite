@@ -466,44 +466,46 @@
           </h1>
           <div class="card-deck">
             <div class="card">
-              <img src="img/index/kobiefor-kapak.png" class="card-img-top" alt="...">
+              <img src="img/index/akillikobi-kapak.png" class="card-img-top" alt="...">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">Kobiefor Dergisi Yayında!</h5>
-                <p class="card-text">Sanayide Dijital Dönüşüm ve Pandemi konulu YASAD özel sayısı yayındadır.Proje ve Satış Yöneticimiz Özgür Koç'un yazısını okumak için tıklayınız</p>
+                <h5 class="card-title text-fss font-weight-bold">FSSoftware Akıllı Kobi Platformunda!</h5>
+                <p class="card-text">İşini dijitale taşımak ve dijital dönüşümünü gerçekleştirmek isteyen KOBİ'lerin ihtiyaç duyduğu ürün ve hizmetlerin tek bir noktadan ulaşılabilir olmasını sağlamak amacıyla TOBB ve Visa iş birliğinde hayata geçirilen Akıllı KOBİ platformuFSStockChain WMS çözümü yer alıyor.</p>
               </div>
               <div class="card-footer bg-white">
-                <a href="fssoftwarekobiefordergisinde.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <a href="akillikobi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
                   <span class="fa fa-info-circle"></span>
                   Devamını Oku
                 </a>
               </div>
             </div>
-            <div class="card">
-              <img src="img/index/lojitv-wmseğitimi-kapak.png" alt="...">
+             <div class="card">
+               <img src="img/index/tv-8int-fssoftware.png" class="card-img-top" alt="img">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">WMS Eğitimi - Lojitv</h5>
-                <p class="card-text">7 Mart'ta Özgür Koç önderliğinde gerçekleştireceğimiz Lojitv Youtube kanalında “Depo Yönetimi Sistemleri” eğitimi gerçekleşti.</p>
+                <h5 class="card-title text-fss font-weight-bold">TV8int Şehrin Nabzı</h5>
+                <p class="card-text">TV8Int Şehrin Nabzı programına konuk olduk. Dominos'un Gebze Fabrikasında gerçekleştirdiğimiz yayında şirketimiz, ürünümüz ve projelerimizden bahsetme fırsatı bulduk..</p>
               </div>
               <div class="card-footer bg-white">
-                <a href="lojitvwmsegitimi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <a href="fssoftwaretv8intsehrinnabzi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
                   <span class="fa fa-info-circle"></span>
                   Devamını Oku
                 </a>
               </div>
-            </div>
+            </div>      
             <div class="card">
-               <img src="img/index/vision2021-kapak.png"  class="card-img-top" alt="...">
+              <img src="img/sstories/isbirligi-günü-kapak.png" alt="...">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">FSSoftware Vision 2021 Dergisinde!</h5>
-                <p class="card-text">Kurumsal Çözüm ve Teknoloji Üreticilerinin Vizyonları ve Planları Vision 2021'de.</p>
+                <h5 class="card-title text-fss font-weight-bold">Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge B2B İşbirliği Günü</h5>
+                <p class="card-text">TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısı teknoloji tedarikçisi firmaların sanayi firmalarının talebine yönelik yenilikçi ürün/süreç gelişeceği, hızla ürüne dönüşebilecek ve yüksek ticarileşme potansiyeline sahip Ar-Ge projelerini desteklemektedir. </p>
               </div>
               <div class="card-footer bg-white">
-                <a href="fssoftwarevision2021.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <a href="isbirligigunu.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
                   <span class="fa fa-info-circle"></span>
                   Devamını Oku
+                </a>
+              </div>
                 </a>
               </div>
             </div>      
