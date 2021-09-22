@@ -21,9 +21,9 @@
                     <div class="team-group-title">
                         <h2>FSSoftware Ailesi</h2>
                     </div>
-                         <div class="col-12">
+                         <div class="col-15">
 			             <div class="row scroll-triggered-anim fade-in-animation">
-			              <div class="col-md-4">
+			              <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/goksu_eren.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Göksu Eren</div>
@@ -31,7 +31,7 @@
                                     <div class="officer-short-brief">Ofisimizin enerji kaynağı, pozitifi ve organizatörü Göksu; iki köpeğiyle vakit geçirmekten, kamp yapmaktan ve doğayla iç içe olmaktan oldukça hoşlanır. Tam bir yaz insanıdır. Fırsat buldukça konser ve festivallere katılıp sosyaleşmeyi sevse de dizi ve film arşivini genişletmeyi tercih etmesi ile çevresine sürekli film ve dizi önermesiyle bilinir..</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/yasemin_yutaz.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Yasemin Yutaz</div>
@@ -39,7 +39,7 @@
                                     <div class="officer-short-brief">Doğayı sever en çok...papatyaları...çimenler üzerindeki yaz kokusunu.. uçsuz bucaksız kayalıklar ardına batan güneşi izlemeyi...sonbahar yağmuru altında sarı kırmızı yapraklar arasında yürümeyi...Ağacın kahve gövdesini...denizin rakı beyazı köpüğünü..</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Cihan Sevimli</div>
@@ -47,8 +47,14 @@
                                     <div class="officer-short-brief">Cihan; kabına sığamadığı zamanlarda motora atlayıp dağ yollarında yolculuğa çıkmayı sever. Suyun derinliklerinde heyecan verici yaşam ile ilgilenmek ya da doğa ile bütünleşip şehrin gürültüsünden uzakta olmak ona her zaman iyi gelir. Bazen ise serüveni bir müzikle başlar ve bir jazz grubunda baterinin başında buluverir kendisini.</div>
                                 </div>
                             </div>
-                        </div>
-                     </div>
+                            <div class="col-md-3">
+                                <div class="officer-badge">
+                                   <img class="officer-photo" <img src="img/team/huseyin-tureoglu.png" class="card-img-top" alt="...">
+                                    <div class="officer-name">Hüseyin Türeoğlu</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Hüseyin, güler yüzlü ve sıcakkanlılığı ile ofise renk katmıştır. Sağlıklı yaşam hayat mottolarından birisi olup, düzenli beslenme rutini ve spor alışkanlığı sayesinde ekibe sağlıklı yaşamı aşılamaya çalışmaktadır. Yazılım alanında kendini geliştirmeyi önemseyen Hüseyin vakit bulduğu zamanlarda bilardo oynamayı, uzun yürüyüşler yaparak farklı yerler keşfetmeyi sevmektedir.</div>
+                                </div>
+                            </div>
                          <div class="col-15">
 			             <div class="row scroll-triggered-anim fade-in-animation">
 			              <div class="col-md-3">
