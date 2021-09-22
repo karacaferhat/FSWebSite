@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'FSSoftwareWeb'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_96855561bc8e499ca57cf5df52881bdd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_af9f63ed62674452b158c3b1e98567fe }}
         package: .
