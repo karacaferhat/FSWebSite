@@ -367,16 +367,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <ul>
-                  <li><img src="img/solution_partners/IBM.png" alt="..."></li>
-                  <li><img src="img/solution_partners/logo.png" alt="..."></li>
-                  <li><img src="img/solution_partners/netsis.png" alt="..."></li>
-                  <li><img src="img/solution_partners/sap.png" alt="..."></li>
+                  <li><img src="img/index/ibm_logo.png" alt="..."></li>
+                  <li><img src="img/index/logo.png" alt="..."></li>
+                  <li><img src="img/index/netsis_logo.png" alt="..."></li>
+                  <li><img src="img/index/kora_logo.png" alt="..."></li>
                  </ul>
               </div>
               <div class="carousel-item">
                 <ul>
                   <li><img src="img/solution_partners/ZENITH.png" alt="..."></li>
-                  <li><img src="img/solution_partners/zebra.png" alt="..."></li>
+                  <li><img src="img/index/setsis_logo.png"" alt="..."></li>
                   <li><img src="img/solution_partners/datalogic.png" alt="..."></li> 
                   <li><img src="img/solution_partners/HONEYWELL.png" alt="..."></li>
                 </ul>
