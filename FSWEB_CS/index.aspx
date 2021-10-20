@@ -195,7 +195,7 @@
               </h2>
               <div class="lead">
                 <p>Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.</p>
-                <a href="labeling.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <a href="ket.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
