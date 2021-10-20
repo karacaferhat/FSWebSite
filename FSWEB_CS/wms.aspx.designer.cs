@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FSWEB_CS {
-    
-    
-    public partial class wms {
+namespace FSWEB_CS
+{
+
+
+    public partial class wms
+    {
     }
 }

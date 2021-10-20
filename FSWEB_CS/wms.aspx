@@ -11,8 +11,8 @@
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
               <h1>Sistemli Sürdürülebilir Depo Yönetimi</h1>
-              <meta name="Title" content="Sistemli Sürdürülebilir Depo Yönetimi | FSSoftware">
-              <meta name="Description" content="FSMobility WMS Çözümü üretim ve depo süreçlerinde işlem gören tüm mamul yarı mamül ve hammadde stoklarınızın geriye veya ileriye dönük izlenebilirliğini sağlar. Kalite sistemlerinize entegre olarak kalite kontrol zincirinizin değerli bir paydaşı olarak size hizmet eder.">
+              <meta name="Title" content="Sürdürülebilir Depo Yönetim Sistemi| FSSoftware">
+              <meta name="Description" content="FSMobility Depo Yönetim Sistemi WMS Çözümü üretim ve depo süreçlerinde işlem gören tüm mamul yarı mamül ve hammadde stoklarınızın geriye veya ileriye dönük izlenebilirliğini sağlar. Kalite sistemlerinize entegre olarak kalite kontrol zincirinizin değerli bir paydaşı olarak size hizmet eder.">
 		      <meta name="Keywords" content="depo yönetim sistemi, wms, Akıllı Depo, izlenebilirlik, stok yönetimi, entegre çözüm, etiketleme, satınalma stok yönetimi, hatasız ürün gönderimi, ürün izlenebilirliği">
 	          <meta name="siteid" content="tr">
 	          <meta name="countryid" content="TR">
@@ -53,7 +53,7 @@
               </div>
             </div>
             <h3 class="font-weight-bold">Entegre Çözüm</h3>
-            <p>FSMobility WMS ürünü mevcut ERP sisteminiz ile entegre çalışır.Satış sistemlerinize güncel stoklarınızı hatasız biçimde iletir. Doğru karar vermeniz için güncel verilerinizi sürekli kullanımınıza sunar.</p>
+            <p>FSMobility Depo Yönetim Sistemi ürünü mevcut ERP sisteminiz ile entegre çalışır.Satış sistemlerinize güncel stoklarınızı hatasız biçimde iletir. Doğru karar vermeniz için güncel verilerinizi sürekli kullanımınıza sunar.</p>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@
                           <span class="sub-heading">Hatasız Ürün Gönderimi</span>
                       </h2>
                       <div class="lead">
-                          <p>Müşteri memnuniyetinin en değerli faktörlerinden biri sevkiyatlarınızı hatasız ve zamanında yapabilmenizdir. FSMobility WMS Çözümü ürün toplama, ambalajlama araca yükleme sevkiyat ve faturalandırma süreçlerinizin kesintisiz ve hatasız işletilmesini sağlar.</p>
+                          <p>Müşteri memnuniyetinin en değerli faktörlerinden biri sevkiyatlarınızı hatasız ve zamanında yapabilmenizdir. FSMobility Depo Yönetim Sistemi Çözümü ürün toplama, ambalajlama araca yükleme sevkiyat ve faturalandırma süreçlerinizin kesintisiz ve hatasız işletilmesini sağlar.</p>
                       </div>
                   </div>
               </div>
