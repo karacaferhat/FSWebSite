@@ -78,6 +78,7 @@
     <Content Include="article9.aspx" />
     <Content Include="articles.aspx" />
     <Content Include="basin.aspx" />
+    <Content Include="bilisim500.aspx" />
     <Content Include="dijitaldonusumbasarihikayeleri.aspx" />
     <Content Include="dijitaldonusumuygulamalaripaneli.aspx" />
     <Content Include="edonusum.aspx" />
@@ -175,6 +176,7 @@
     <Content Include="img\dbas\demirbas-slider.jpg" />
     <Content Include="img\dbas\demirbas-slider.png" />
     <Content Include="img\dbas\periyodik-sayim.jpg" />
+    <Content Include="img\dijital-etkinlik-savunma-sanayi.png" />
     <Content Include="img\dominos.png" />
     <Content Include="img\dominos.png" />
     <Content Include="img\e-donusum\1.png" />
@@ -201,10 +203,13 @@
     <Content Include="img\index\Adsız tasarım %2816%29.png" />
     <Content Include="img\index\akillikobi-kapak.png" />
     <Content Include="img\index\akıllı-kobi-slider.png" />
+    <Content Include="img\index\bilisim-500-slider.png" />
+    <Content Include="img\index\bilisimbesyuz.png" />
     <Content Include="img\index\bku.jpg" />
     <Content Include="img\index\deneyim-fs.png" />
     <Content Include="img\index\deneyim02.png" />
     <Content Include="img\index\deneyim_index.png" />
+    <Content Include="img\index\dijital-etkinlik-savunma-sanayi.png" />
     <Content Include="img\index\ein.png" />
     <Content Include="img\index\fsmobility-wms-cozumumuz %282%29.png" />
     <Content Include="img\index\FSMobility_Depo_Otomasyon.jpg" />
@@ -222,6 +227,8 @@
     <Content Include="img\index\makale1.png" />
     <Content Include="img\index\makale2.jpg" />
     <Content Include="img\index\makale3.jpg" />
+    <Content Include="img\index\makfed-dijital-etkinlik %282%29.png" />
+    <Content Include="img\index\makfed-slider.png" />
     <Content Include="img\index\netsis_logo.png" />
     <Content Include="img\index\Peyman_01.jpeg" />
     <Content Include="img\index\setsis_logo.png" />
@@ -1798,9 +1805,11 @@
     <Content Include="labeling.aspx" />
     <Content Include="lojitvuretimdepolojistiksurecleriyonetimi.aspx" />
     <Content Include="lojitvwmsegitimi.aspx" />
+    <Content Include="makfeddijitaletkinlik.aspx" />
     <Content Include="privacy.aspx" />
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
+    <Content Include="savunmasanayidijitaletkinlik.aspx" />
     <Content Include="tarimdadijitaldonusum.aspx" />
     <Content Include="team.aspx" />
     <Content Include="Test.aspx" />
@@ -1893,6 +1902,13 @@
     </Compile>
     <Compile Include="basin.aspx.designer.cs">
       <DependentUpon>basin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bilisim500.aspx.cs">
+      <DependentUpon>bilisim500.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bilisim500.aspx.designer.cs">
+      <DependentUpon>bilisim500.aspx</DependentUpon>
     </Compile>
     <Compile Include="dijitaldonusumbasarihikayeleri.aspx.cs">
       <DependentUpon>dijitaldonusumbasarihikayeleri.aspx</DependentUpon>
@@ -2027,6 +2043,13 @@
     <Compile Include="lojitvwmsegitimi.aspx.designer.cs">
       <DependentUpon>lojitvwmsegitimi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="makfeddijitaletkinlik.aspx.cs">
+      <DependentUpon>makfeddijitaletkinlik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="makfeddijitaletkinlik.aspx.designer.cs">
+      <DependentUpon>makfeddijitaletkinlik.aspx</DependentUpon>
+    </Compile>
     <Compile Include="privacy.aspx.cs">
       <DependentUpon>privacy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2048,6 +2071,13 @@
     </Compile>
     <Compile Include="references.aspx.designer.cs">
       <DependentUpon>references.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="savunmasanayidijitaletkinlik.aspx.cs">
+      <DependentUpon>savunmasanayidijitaletkinlik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="savunmasanayidijitaletkinlik.aspx.designer.cs">
+      <DependentUpon>savunmasanayidijitaletkinlik.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

@@ -20,8 +20,56 @@
         <!-- CARD DECK ROW :::::: HER SATIR İÇİN BU ÇOĞALTILACAK -->
         <div class="card-deck">
           < <div class="card">
-            <img src="img/index/akillikobi-kapak.png" class="card-img-top alt="...">
+           <img src="img/index/bilisimbesyuz.png" class="card-img-top alt="...">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h5>
+              <p class="card-text">Türkiye’nin İlk 500 Bilişim Şirketi sonuçları açıklandı. Araştırma sonuçlarına göre ilk 500 Bilişim şirketi arasında yer aldık.</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="bilisim500.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+          <div class="card">
+              <img src="img/index/makfed-dijital-etkinlik%20(2).png" class="card-img-top" alt="img">
+              <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+              <div class="card-body">
+                <h5 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h5>
+                <p class="card-text">MAKFED Türkiye Makina Federasyonu üyesi makine sanayi firmaları ile YASAD Yazılım Sanayicileri Derneği üyesi teknoloji tedarikçisi firmaların, TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısına yönelik eşleşmelerini sağlamak amacıyla 14 Ekim 2021, yarın “Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Etkinliği” düzenlendiği etkinliğe FSSoftware olarak katılım sağladık.</p>
+              </div>
+              <div class="card-footer bg-white">
+                <a href="makfeddijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                  <span class="fa fa-info-circle"></span>
+                  Devamını Oku
+                </a>
+              </div>
+            </div>      
+          <div class="card">
+            <img src="img/index/dijital-etkinlik-savunma-sanayi.png" class="card-img-top" alt="...">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h5>
+              <p class="card-text">SASAD Savunma ve Havacılık Sanayii İmalatçılar Derneği ve YASAD İletişim İş Birliği Protokolü çerçevesinde Savunma ve Havacılık Sanayii firmalarının dijitalleşmesine katkıda bulunacak yazılımların sunulacağı dijital etkinlikte Akıllı Depo ve Üretim Yönetimi kapsamında FSMobility ürünümüzü tanıtmak üzere Satış ve Proje Müdürümüz Dursun Tosunoglu katkılarıyla etkinliğine katılım sağladık.</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="savunmasanayidijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+          </div>
+        </div>
+         <div class="container-fluid blog scroll-triggered-anim">
+            <div class="container">
+        <!-- CARD DECK ROW :::::: HE.R SATIR İÇİN BU ÇOĞALTILACAK -->
+            <div class="card-deck">
+            <div class="card">
+            <img src="img/index/akillikobi-kapak.png" class="card-img-top" alt="img">
+              <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">FSStockChain Akıllı Kobi Platformunda!</h5>
               <p class="card-text">Türkiye Odalar ve Borsalar Birliği ile Visa'nın ortak projesi Akıllı KOBİ platformunda FSStockChain WMS çözümü yer alıyor..</p>
