@@ -55,9 +55,9 @@
                                     <div class="officer-short-brief">Hüseyin, güler yüzlü ve sıcakkanlılığı ile ofise renk katmıştır. Sağlıklı yaşam hayat mottolarından birisi olup, düzenli beslenme rutini ve spor alışkanlığı sayesinde ekibe sağlıklı yaşamı aşılamaya çalışmaktadır. Yazılım alanında kendini geliştirmeyi önemseyen Hüseyin vakit bulduğu zamanlarda bilardo oynamayı, uzun yürüyüşler yaparak farklı yerler keşfetmeyi sevmektedir.</div>
                                 </div>
                             </div>
-                         <div class="col-15">
+                         <div class="col-12">
 			             <div class="row scroll-triggered-anim fade-in-animation">
-			              <div class="col-md-3">
+			              <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/berkay-kose.png"" class="card-img-top" alt="...">
                                     <div class="officer-name">Berkay Köse</div>
@@ -65,7 +65,7 @@
                                     <div class="officer-short-brief">Uygulama danışmanımız Berkay; futbol oynamaktan büyük keyif alır. Sıkı bir Formula 1 izleyicisi olmanın yanı sıra favori film türü gerilimdir. Ailesi ile vakit geçirmekten oldukça keyif alır.</div>
                             </div>
                             </div>
-                             <div class="col-md-3">
+                             <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/ayhan-adıyaman.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Ayhan Adıyaman</div>
@@ -73,15 +73,7 @@
                                    <div class="officer-short-brief">Ekibimizin en genç üyesi Ayhan tam bir futbol aşığıdır. İzlemeyi ve oynamayı oldukça sever. Aynı zamanda doğada vakit geçirmekten serada çiçeklerle bir arada olmaktan hoşlanır. İyi bir müzik dinleyicisidir.</div>
                              </div> 
                             </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
-                                    <div class="officer-name">Bünyamin Güler</div>
-                                    <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
-                                  </div>
-                                </div>
-                          <div class="col-md-3">
+                          <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/mirhan-benek.png" " class="card-img-top" alt="...">
                                     <div class="officer-name">Mirhan Benek</div>
@@ -98,9 +90,9 @@
                         <h2>Uzman</h2>
                     </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-15">
                         <div class="row scroll-triggered-anim fade-in-animation">      
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Özgür Koç</div>
@@ -108,7 +100,7 @@
                                     <div class="officer-short-brief">Eski milli sporcumuz Özgür için spor hayatının vazgeçilmezidir. Fırsat buldukça Amerikan futbolu oynamaya devam etmektedir. Müzik arşivi konusunda geniş bir bilgisi olmasının yanı sıra gitar çalması ve güzel sesi ile de oldukça yeteneklidir.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/selin_bol.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Selin Bol</div>
@@ -116,7 +108,15 @@
                                     <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu onu bambaşka diyarlara götürür.. Meditasyon yapmayı çok sever, pilates ve yoga ile ilgilidir.Sihirli bir değneği olsa, imza parfümünü keşfetmeyi ve çok severek dinlediği Depeche Mode'un "Enjoy The Silence" klibinde yer almayı diler..Tam bir siyah sever. Mottosu:"Life Is Just An Illusion"..</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
+                                    <div class="officer-name">Bünyamin Güler</div>
+                                    <div class="officer-title">Sr. Implementation Consultant</div>
+                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
+                                  </div>
+                                </div>
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Zehra Güleç</div>
