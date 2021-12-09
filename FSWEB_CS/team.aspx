@@ -35,7 +35,7 @@
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/yasemin_yutaz.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Yasemin Yutaz</div>
-                                    <div class="officer-title">Project and Sales Asistant</div>
+                                    <div class="officer-title">Project and Sales Assistant</div>
                                     <div class="officer-short-brief">Doğayı sever en çok...papatyaları...çimenler üzerindeki yaz kokusunu.. uçsuz bucaksız kayalıklar ardına batan güneşi izlemeyi...sonbahar yağmuru altında sarı kırmızı yapraklar arasında yürümeyi...Ağacın kahve gövdesini...denizin rakı beyazı köpüğünü..</div>
                                 </div>
                             </div>
@@ -102,10 +102,10 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/selin_bol.jpg" class="card-img-top" alt="...">
+                                    <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Selin Bol</div>
-                                    <div class="officer-title">Software Development Specialist</div>
-                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu onu bambaşka diyarlara götürür.. Meditasyon yapmayı çok sever, pilates ve yoga ile ilgilidir.Sihirli bir değneği olsa, imza parfümünü keşfetmeyi ve çok severek dinlediği Depeche Mode'un "Enjoy The Silence" klibinde yer almayı diler..Tam bir siyah sever. Mottosu:"Life Is Just An Illusion"..</div>
+                                    <div class="officer-title">Sr. Software Development Specialist</div>
+                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu bambaşka diyarlara götürür.İyi bir rock müzik dinleyicisidir, parfümlere karşı sıradışı bir merakı vardır..</div>
                                 </div>
                             </div>
                             <div class="col-md-3">
