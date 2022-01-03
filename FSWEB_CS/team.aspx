@@ -55,9 +55,9 @@
                                     <div class="officer-short-brief">Hüseyin, güler yüzlü ve sıcakkanlılığı ile ofise renk katmıştır. Sağlıklı yaşam hayat mottolarından birisi olup, düzenli beslenme rutini ve spor alışkanlığı sayesinde ekibe sağlıklı yaşamı aşılamaya çalışmaktadır. Yazılım alanında kendini geliştirmeyi önemseyen Hüseyin vakit bulduğu zamanlarda bilardo oynamayı, uzun yürüyüşler yaparak farklı yerler keşfetmeyi sevmektedir.</div>
                                 </div>
                             </div>
-                         <div class="col-12">
+                         <div class="col-15">
 			             <div class="row scroll-triggered-anim fade-in-animation">
-			              <div class="col-md-4">
+			              <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/berkay-kose.png"" class="card-img-top" alt="...">
                                     <div class="officer-name">Berkay Köse</div>
@@ -65,7 +65,7 @@
                                     <div class="officer-short-brief">Uygulama danışmanımız Berkay; futbol oynamaktan büyük keyif alır. Sıkı bir Formula 1 izleyicisi olmanın yanı sıra favori film türü gerilimdir. Ailesi ile vakit geçirmekten oldukça keyif alır.</div>
                             </div>
                             </div>
-                             <div class="col-md-4">
+                             <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/ayhan-adıyaman.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Ayhan Adıyaman</div>
@@ -73,7 +73,7 @@
                                    <div class="officer-short-brief">Ekibimizin en genç üyesi Ayhan tam bir futbol aşığıdır. İzlemeyi ve oynamayı oldukça sever. Aynı zamanda doğada vakit geçirmekten serada çiçeklerle bir arada olmaktan hoşlanır. İyi bir müzik dinleyicisidir.</div>
                              </div> 
                             </div>
-                          <div class="col-md-4">
+                          <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/mirhan-benek.png" " class="card-img-top" alt="...">
                                     <div class="officer-name">Mirhan Benek</div>
@@ -81,8 +81,14 @@
                                     <div class="officer-short-brief">Mirhan 6 yaşındaki kızı ve eşiyle vakit geçirmekten oldukça hoşlanır.Eşi ve kızından geri kalan büyük zamanı mı amatör olarak zıpkınla dalış yaparak, balık avlayarak geçirir. Yeni yerler görmeyi gezmeyi sever, futbol izlemeyi de oldukça sever.</div>
                                 </div>
                               </div>
-                             </div>
-                            </div>
+                          <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" <img src="img/team/ege-yılmaz.png" class="card-img-top" alt="...">
+                                    <div class="officer-name">Ege Yılmaz</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Ege, hayattaki mottosu pozitiflik ve yapıcı olmaktır, bu şekilde her şeyin daha verimli ilerleyeceğine inanır. Hedefi bilişim alanında kendisini olabildiğince geliştirmektir. Ekonomi ve teknoloji ilgi alanıdır. Fırsat buldukça yeni yerler keşfetmeyi ve yeni lezzetler denemeyi sever. Tarihi yapılar ve müzelerle ilgili olup, gezi yazıları mevcuttur.</div>
+                                </div>
+                              </div>
                         </div>
                     <div class="row team-group">
                     <div class="team-group-title">
