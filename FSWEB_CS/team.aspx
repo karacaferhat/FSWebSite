@@ -111,7 +111,7 @@
                                     <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Selin Bol</div>
                                     <div class="officer-title">Sr. Software Development Specialist</div>
-                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu bambaşka diyarlara götürür.İyi bir rock müzik dinleyicisidir, parfümlere karşı sıradışı bir merakı vardır..</div>
+                                    <div class="officer-short-brief">The sound of a Cicada and the scent of Honeysuckle Blossom take you to different lands. She is a good rock music listener, has an unusual interest in perfumes..</div>
                                 </div>
                             </div>
                             <div class="col-md-3">
