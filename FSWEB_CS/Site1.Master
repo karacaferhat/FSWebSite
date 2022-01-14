@@ -4,6 +4,7 @@
   <head runat="server">
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBX45P984H"></script>
+<meta name="google-site-verification" content="dHMFqDXe618xGFGEOIpNiSdZY_I3frZG1isyx4CM5_Q" />
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -15,7 +16,6 @@
     <title></title>
       <meta name="Description" content="Depo yönetim sistemi ,envanter takibi ">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="google-site-verification" content="dHMFqDXe618xGFGEOIpNiSdZY_I3frZG1isyx4CM5_Q" />
 
     <%-- BOOTSTRAP --%>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
