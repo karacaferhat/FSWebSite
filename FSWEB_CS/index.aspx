@@ -24,7 +24,7 @@
 	            <meta name="robots" content="index.aspx.cs, follow">
 	            <meta name="country" content="Turkey">
 	            <meta name="Language" content="tr">
-                <meta name="google-site-verification" content="dHMFqDXe618xGFGEOIpNiS">
+                <meta name="google-site-verification" content="dHMFqDXe618xGFGEOIpNiSdZY_I3frZG1isyx4CM5_Q" />
                 <p>Yüksek teknoloji, esnek mimari ve her ölçekte ideal performans</p>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
