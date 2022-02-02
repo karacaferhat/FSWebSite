@@ -135,7 +135,7 @@
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img <src="img/index/gs1-etiketleme.png" alt="img">
+              <img <img src="img/index/gs1-etiketleme.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
@@ -467,7 +467,7 @@
           </h1>
         <div class="card-deck">
           < <div class="card">
-           <img src="img/index/bilisimbesyuz.png" class="card-img-top alt="...">
+           <img class="lazy" data-src=="img/index/bilisimbesyuz.png" class="card-img-top alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h5>
@@ -481,7 +481,7 @@
             </div>
           </div>
           <div class="card">
-              <img src="img/index/makfed-dijital-etkinlik%20(2).png" class="card-img-top" alt="img">
+              <img class="lazy" data-src="img/index/makfed-dijital-etkinlik%20(2).png" class="card-img-top" alt="img">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                 <h5 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h5>
@@ -495,7 +495,7 @@
               </div>
             </div>      
           <div class="card">
-            <img src="img/index/dijital-etkinlik-savunma-sanayi.png" class="card-img-top" alt="...">
+            <img class="lazy" data-src=="img/index/dijital-etkinlik-savunma-sanayi.png" class="card-img-top" alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <h5 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h5>
