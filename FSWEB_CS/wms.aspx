@@ -10,16 +10,16 @@
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-              <h1>Sistemli Sürdürülebilir Depo Yönetimi</h1>
-              <meta name="Title" content="Sürdürülebilir Depo Yönetim Sistemi| FSSoftware">
+              <h1>Depo Yönetim Sistemi (WMS) </h1>
+              <meta name="Title" content="Depo Yönetim Sistemi (WMS)| FSSoftware">
               <meta name="Description" content="FSMobility Depo Yönetim Sistemi WMS Çözümü üretim ve depo süreçlerinde işlem gören tüm mamul yarı mamül ve hammadde stoklarınızın geriye veya ileriye dönük izlenebilirliğini sağlar. Kalite sistemlerinize entegre olarak kalite kontrol zincirinizin değerli bir paydaşı olarak size hizmet eder.">
-		      <meta name="Keywords" content="depo yönetim sistemi, wms, Akıllı Depo, izlenebilirlik, stok yönetimi, entegre çözüm, etiketleme, satınalma stok yönetimi, hatasız ürün gönderimi, ürün izlenebilirliği">
+		      <meta name="Keywords" content="depo yönetim sistemi, depo yönetim sistemi nedir, depo yönetimi, depo yönetimi yazılımı, wms">
 	          <meta name="siteid" content="tr">
 	          <meta name="countryid" content="TR">
 	          <meta name="robots" content="wms.aspx.cs, follow">
 	          <meta name="country" content="Turkey">
 	          <meta name="Language" content="tr">
-              <p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Çözümler</p>
+              <p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Sistemli Sürdürülebilir Depo Yönetimi Çözümleri</p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
                 <span class="cover-icon fa fa-binoculars"></span>
               </div>
             </div>
-            <h3 class="font-weight-bold">İzlenebilirlik</h3>
+            <h3 class="font-weight-bold">Yeni Nesil İzlenebilirlik</h3>
             <p>FSMobility WMS Çözümü üretim ve depo süreçlerinde işlem gören tüm mamul yarı mamül ve hammadde stoklarınızın geriye veya ileriye dönük izlenebilirliğini sağlar. Kalite sistemlerinize entegre olarak kalite kontrol zincirinizin değerli bir paydaşı olarak size hizmet eder.</p>
           </div>
           <div class="col-md-4 text-center green">
