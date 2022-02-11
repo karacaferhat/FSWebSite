@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".well-known\pki-validation\CBD6C9EB606A8695BA871B414D46C027.txt" />
     <Content Include=".well-known\pki-validation\D35508D69348C8CF14B60F562C1246D8.txt" />
     <Content Include=".well-known\pki-validation\EEE2E8004CD6D4815F151210C8976BD1.txt" />
     <Content Include="akillikobi.aspx" />
@@ -2151,7 +2152,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
