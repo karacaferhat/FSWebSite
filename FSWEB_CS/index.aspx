@@ -16,14 +16,15 @@
               <div class="carousel-caption text-center">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <h1>Yeni Nesil İzlenebilirlik</h1>
-                <meta name="Title" content="Yeni Nesil İzlenebilirlik | FSSoftware">
-	            <meta name="Description" content="Depo yönetim sistemi (WMS), bir işletme şirket deposunun tüm operasyonel süreçlerinin ve depolama kurallarının merkezi yönetimini sağlayan bir çözümdür.">
+                <meta name="Title" content="FSSoftware Depo Yönetim Sistemi">
+	            <meta name="Description" content="Depo yönetim sistemi (WMS), bir işletme şirket deponuzda tüm operasyonel süreçlerinin ve depolama kurallarının merkezi yönetimini sağlayan bir çözümdür.">
 		        <meta name="Keywords" content="depo yönetimi nedir, depo yönetim sistemi, depo yönetim çözümleri, depo yönetim yazılımı, Bulut Depo ">
 	            <meta name="siteid" content="tr">
 	            <meta name="countryid" content="TR">
 	            <meta name="robots" content="index.aspx.cs, follow">
 	            <meta name="country" content="Turkey">
 	            <meta name="Language" content="tr">
+                <meta name="google-site-verification" content="dHMFqDXe618xGFGEOIpNiSdZY_I3frZG1isyx4CM5_Q" />
                 <p>Yüksek teknoloji, esnek mimari ve her ölçekte ideal performans</p>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
@@ -37,10 +38,10 @@
             <div class="container">
               <div class="carousel-caption">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <h1>Sistemli Sürdürülebilir Depo Yönetimi</h1>
+                <h1>Sürdürülebilir Depo Yönetim Sistemi</h1>
                 <meta name="Title" content="Sistemli Sürdürülebilir Depo Yönetimi | FSSoftware">
-	            <meta name="Description" content="FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.">
-		        <meta name="Keywords" content="Proje yönetimi, depo yönetim sistemi, wms, Akıllı Depo, sürdürebilir yazılım çözümü ">
+	            <meta name="Description" content="FSSoftware 200+ proje deneyimi ile depo yönetim sistemi ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.">
+		        <meta name="Keywords" content="depo yönetim sistemi, wms, Akıllı Depo">
 	            <meta name="siteid" content="tr">
 	            <meta name="countryid" content="TR">
 	            <meta name="robots" content="index.aspx.cs, follow">
@@ -55,13 +56,13 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="carousel-img left-n20" src="img/index/slider_mobil.png" alt="carousel-image">
+            <img class="carousel-img left-n20" src="img/index/wms-depo-yönetimi-cloud.png" alt="index">
             <div class="container">
               <div class="carousel-caption">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <h1>IOS & Android Compatible</h1>
                 <meta name="Title" content="IOS & Android | FSSoftware">
-	            <meta name="Description" content="FSMobility, WMS işlevlerine odaklanan bir yazılım çözümüdür.Android ve IOS platformları üzerinden çok dilli destek ile geliştirilmiştir.">
+	            <meta name="Description" content="FSMobility, Depo Yönetim Sistemi (WMS) işlevlerine odaklanan bir yazılım çözümüdür. Android ve IOS platformları üzerinden çok dilli destek ile geliştirilmiştir.">
 		        <meta name="Keywords" content="Endüstri 4.0 Operasyonları, IOT & Big Data, Bulut Çözümleri & IOS & Android">
 	            <meta name="siteid" content="tr">
 	            <meta name="countryid" content="TR">
@@ -84,17 +85,17 @@
         <div class="container">
           <div class="row scroll-triggered-anim fade-in-animation">
             <div class="col-md-4 text-center">
-             <img class="mx-auto mb-4 rounded-circle" img src="img/index/deneyim-fs.png" alt="img">
+             <img class="mx-auto mb-4 rounded-circle" src="img/index/deneyim-fssoftware.png" alt="index">
               <h3 class="font-weight-bold text-fss">Deneyim</h3>
               <p>20 yıllık sektör deneyimi ile FSSoftware ekibi müşteri ihtiyaçlarını yakından takip eden uzman danışmanlardan oluşmaktadır. İhtiyaçlarınızı analiz eder sizlere katma değer sunacak çözümler sunar. Pozitif yapıcı ve çözüm odaklı bakış açısı ile hareket etmeyi ilke edinir.</p>
             </div>
             <div class="col-md-4 text-center">
-              <img class="mx-auto mb-4 rounded-circle" src="img/index/FSMobility_Depo_Otomasyon.jpg"  alt="img">
+              <img class="mx-auto mb-4 rounded-circle" src="img/index/FSMobility_Depo_Otomasyon.jpg"  alt="index">
               <h3 class="font-weight-bold text-success">Teknoloji</h3>
               <p>FSMobility CFR, Annex 11 ve GAMP5 regülasyonlarına uygun standarlarda yazılım paketleri sunar. Endüstri 4.0 ve IOT standardlarını destekler. Sağlık ve Tarım Bakanlığı sistemlerine entegre modüllerine sahiptir.</p>
             </div>
             <div class="col-md-4 text-center">
-              <img class="mx-auto mb-4 rounded-circle" img src="img/index/teknoloji02.png" alt="img">
+              <img class="mx-auto mb-4 rounded-circle" <img src="img/index/teknoloji-fssoftware.png" alt="index">
               <h3 class="font-weight-bold text-orange">Süreklilik</h3>
               <p>FSMobility yola çıktığı günden bugüne kadar kendisine güvenen müşterilerinin %98 ile çalışmaya devam etmektedir. Gıda, İlaç,Tarım, Kırmızı Et, Kimya Sanayi gibi ana sektörlerde 150 den fazla kurumsal işletmede kullanılmaktadır.</p>
             </div>
@@ -112,14 +113,14 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <span class="fss-title">FSMobility-WMS:</span>
-                  <meta name="Title" content="FSMobility WMS">
-                  <meta name="Description" content="FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.">
-                    <meta name="Keywords" content="FSMobility, depo çözümü, stok takibi">  
-                  <span class="sub-heading">Depo Çözümünüz</span>
+                <span class="fss-title">FSMobility-Depo Yönetim Sistemi (WMS)</span>
+                  <meta name="Title" content="FSMobility Depo Yönetim Sistemi(WMS)">
+                  <meta name="Description" content="FSSoftware 200+ proje deneyimi ile depo yönetim sistemi ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.">
+                    <meta name="Keywords" content="FSMobility, depo çözümü, stok takibi, depo yönetim sistemi">  
+                  <span class="sub-heading">Depo Yönetim Sistemi Çözümünüz</span>
               </h2>
               <div class="lead">
-                <p>FSSoftware 200+ proje deneyimi ile stok takip / yönetim ihtiyaçlarınız için esnek, sürdürülebilir bir yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.</p>
+                <p>FSSoftware 200+ proje deneyimi ile depo yönetim sistemi ihtiyaçlarınız için esnek, sürdürülebilir bir depo yönetim sistemi yazılım çözümü sunmaktadır.Mal kabulden sevkiyata, kalite işlemlerinden fason takibine kadar geniş bir alanda hizmet sunmaktadır.</p>
                 <a href="wms.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
@@ -134,13 +135,13 @@
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img src="img/labeling/etiketleme_02.png" alt="img">
+              <img <img src="img/index/gs1-etiketleme.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <span class="fss-title">FSMobility-GS1:</span>
-                <meta name="Title" content="FSMObility GS1 | FSSoftware">
+                <meta name="Title" content="FSMobility GS1 | FSSoftware">
 	            <meta name="Description" content="Uluslararası kimliklendirme ve etiketleme gereksinimleri için hazır bir üründür.FSMobility ile GS1 DataMatrix Ean gibi Global standadizasyon esaslarını birebir kkarşılayabilirsiniz.Sektörel ihtiyaçlarınıza yönelik esneklik sunmak üzere tasarlanmış, bir çok kurumsal firmada başarılı biçimde kullanılan yazılım çözümüdür.">
 		        <meta name="Keywords" content="kimliklendirme, etiketleme, gs1, datamatrix, ean ">
                 <span class="sub-heading">Etiketleme</span>
@@ -160,7 +161,7 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <span class="fss-title">FSMobility-ITS:</span>
+                <span class="fss-title">FSMobility-İlaç Takip Sistemi:</span>
                 <meta name="Title" content="İlaç Takip Sistemi - ITS | FSMobility">
 	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.">
 		        <meta name="Keywords" content="ilaç takip sistemi, its,">
@@ -175,14 +176,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/its/its_Slider.png" alt="img">
+              <img src="img/index/ilaç-takip-sistemi.png" alt="img">
             </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img <img src="img/ket/kırmızı-et-slider.png" alt="img">
+              <img src="img/index/kırmızı-et-izlenebilirliği.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
@@ -191,11 +192,11 @@
                 <meta name="Title" content="Kırmızı Et İzlenebilirliği | FSMobility">
 	            <meta name="Description" content="Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.">
 		         <meta name="Keywords" content="kırmızı et takibi, kulak küpe takibi, karkas, kırmızı et izlenebilirliği ">
-                <span class="sub-heading">Çiftlikden Sofraya Kırmızı Et Takibi</span>
+                <span class="sub-heading">Çiftlikten Sofraya Kırmızı Et Takibi</span>
               </h2>
               <div class="lead">
                 <p>Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.</p>
-                <a href="labeling.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <a href="ket.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
@@ -208,7 +209,7 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <span class="fss-title">FSMobility-UTS:</span>
+                <span class="fss-title">FSMobility-Ürün Takip Sistemi:</span>
                 <meta name="Title" content="Ürün Takip Sistemi - UTS | FSMobility">
 	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, sağlık ürünleri üreten şirketlerin etiketleme, kolileme,sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.Sağlık bakanlığı UTS sistemi ile entegre bir yazılım çözümü sunar.">
 		        <meta name="Keywords" content="ürün takip sistemi, üts, sağlık bakanlığı">
@@ -235,7 +236,7 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <span class="fss-title">FSMobility-BKU:</span>
+                <span class="fss-title">FSMobility-Bitki Koruma Sistemi:</span>
                 <meta name="Title" content="Bitki Koruma Sistemi | FSMobility">
 	            <meta name="Description" content="SFSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.">
 		        <meta name="Keywords" content="bitki koruma sistemi, bitki koruma ürünleri, tarım bakanlığı, bitki koruma ürünleri takibi">
@@ -271,14 +272,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/e-donusum/e-donusum.png" alt="img">
+              <img src="img/index/e-fatura.png" alt="img">
             </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-                <img src="img/dbas/demirbas-slider.png" alt="img">
+                <img src="img/index/demirbaş-takibi.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
@@ -320,7 +321,7 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/hmmadde/hammadde-slider.png" alt="img">
+              <img src="img/index/hammadde-takibi.png" alt="img">
             </div>
           </div>
         </div>
@@ -333,7 +334,7 @@
           <div class="row three-col-card">
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" <img src="img/sstories/dominos-basarı-oykusu.png" alt="">
+                <img class="card-img-top" <img src="img/sstories/dominos-basarı-oykusu.png" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">Domino's Pizza dünyada olduğu gibi Türkiye'de de en yaygın evlere servis pizza zinciri konumundadır. Gebze, İzmir, Ankara ve G.Antep ana dağıtım depolarında Hammadde Kabul, Hammadde Kalite Kontrol, Depoya Yerleştirme, Üretime Çıkış, Üretimden YarıMamul/Mamul Giriş, Özel Mamul Sevk senaryoları, Tedarik Zincir Süreç Otomasyonu kurulmuştur.</p>
                 </div>
@@ -341,7 +342,7 @@
             </div>
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" <img src="img/sstories/ekur-basari-hikayesi.png" alt="">
+                <img class="card-img-top" <img src="img/sstories/ekur-basari-hikayesi.png" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">EKUR ET, Türkiye’deki hızlı servis restoran sektörünün pazar lideri TFI (TAB GIDA YATIRIMLARI) şirketi bünyesinde yer almaktadır.FSMObility ile canlı hayvan kabulünden, karkas ve çeyrek kabule, çeyreklemeye ve parçalamaya, et ve şarküteri ürünlerinin üretimden sevkiyata kadar olan süreçlerin barkodlu olarak online takip edilmesidir. Proje Logo Tiger Enterprise ile online entegre çalışmaktadır.</p>
                 </div>
@@ -349,7 +350,7 @@
             </div>
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" <img src="img/sstories/volt-basarı-hikayesi.png" alt="">
+                <img class="card-img-top" <img src="img/index/volt-basarı-hikayesi-wms.png"  alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">1966 yılında, bobinaj üretimi yapmak üzere kurulan Volt Motor, Türkiye’nin Lider Elektrikli Motor Üreticisi firmalarından biridir. Yarı Mamul Üretim Hatlarından çıkan malzemelerin etiketlemesi ve Operasyon Akışı içerisinde diğer hatlara tüketilmesi takipler, SAP Entegrasyonu ile birlikte FSMobility ile takip edilmektedir.</p>
                 </div>
@@ -367,16 +368,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <ul>
-                  <li><img src="img/solution_partners/IBM.png" alt="..."></li>
-                  <li><img src="img/solution_partners/logo.png" alt="..."></li>
-                  <li><img src="img/solution_partners/netsis.png" alt="..."></li>
-                  <li><img src="img/solution_partners/sap.png" alt="..."></li>
+                  <li><img src="img/index/ibm_logo.png" alt="..."></li>
+                  <li><img src="img/index/logo.png" alt="..."></li>
+                  <li><img src="img/index/netsis_logo.png" alt="..."></li>
+                  <li><img src="img/index/kora_logo.png" alt="..."></li>
                  </ul>
               </div>
               <div class="carousel-item">
                 <ul>
                   <li><img src="img/solution_partners/ZENITH.png" alt="..."></li>
-                  <li><img src="img/solution_partners/zebra.png" alt="..."></li>
+                  <li><img src="img/index/setsis_logo.png"" alt="..."></li>
                   <li><img src="img/solution_partners/datalogic.png" alt="..."></li> 
                   <li><img src="img/solution_partners/HONEYWELL.png" alt="..."></li>
                 </ul>
@@ -406,7 +407,7 @@
           </h1>
           <div class="card-deck">
             <div class="card">
-              <img src="img/sstories/depo-yonetim-sisteni-nasıl-secilir.png" class="card-img-top" alt="...">
+              <img src="img/index/depo-yonetim-sistemleri.png" class="card-img-top" alt="index">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                 <h5 class="card-title text-fss font-weight-bold">Depo Yönetim Sistemi (WMS) Nasıl Seçilir?</h5>
@@ -420,7 +421,7 @@
               </div>
             </div>
             <div class="card">
-               <img src="img/sstories/tedarik-zinciri-yonetimi-islevi.png" alt="...">
+               <img src="img/index/tedarik-zinciri-yönetimi.png"  alt="index">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                 <h5 class="card-title text-fss font-weight-bold">Tedarik Zincirinde Depo Yönetiminin Önemi ve İşlevi</h5>
@@ -464,51 +465,49 @@
               Tüm Yazılar
             </a>
           </h1>
-          <div class="card-deck">
-            <div class="card">
-              <img src="img/index/akillikobi-kapak.png" class="card-img-top" alt="...">
-              <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
-              <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">FSSoftware Akıllı Kobi Platformunda!</h5>
-                <p class="card-text">İşini dijitale taşımak ve dijital dönüşümünü gerçekleştirmek isteyen KOBİ'lerin ihtiyaç duyduğu ürün ve hizmetlerin tek bir noktadan ulaşılabilir olmasını sağlamak amacıyla TOBB ve Visa iş birliğinde hayata geçirilen Akıllı KOBİ platformuFSStockChain WMS çözümü yer alıyor.</p>
-              </div>
-              <div class="card-footer bg-white">
-                <a href="akillikobi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
-                  <span class="fa fa-info-circle"></span>
-                  Devamını Oku
-                </a>
-              </div>
+        <div class="card-deck">
+          < <div class="card">
+           <img class="lazy" src="img/index/bilisimbesyuz.png" alt="img">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h5>
+              <p class="card-text">Türkiye’nin İlk 500 Bilişim Şirketi sonuçları açıklandı. Araştırma sonuçlarına göre ilk 500 Bilişim şirketi arasında yer aldık.</p>
             </div>
-             <div class="card">
-               <img src="img/index/tv-8int-fssoftware.png" class="card-img-top" alt="img">
+            <div class="card-footer bg-white">
+              <a href="bilisim500.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
+          <div class="card">
+              <img class="lazy" src="img/index/makfed-dijital-etkinlik%20(2).png" alt="img">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">TV8int Şehrin Nabzı</h5>
-                <p class="card-text">TV8Int Şehrin Nabzı programına konuk olduk. Dominos'un Gebze Fabrikasında gerçekleştirdiğimiz yayında şirketimiz, ürünümüz ve projelerimizden bahsetme fırsatı bulduk..</p>
+                <h5 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h5>
+                <p class="card-text">MAKFED Türkiye Makina Federasyonu üyesi makine sanayi firmaları ile YASAD Yazılım Sanayicileri Derneği üyesi teknoloji tedarikçisi firmaların, TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısına yönelik eşleşmelerini sağlamak amacıyla 14 Ekim 2021, yarın “Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Etkinliği” düzenlendiği etkinliğe FSSoftware olarak katılım sağladık.</p>
               </div>
               <div class="card-footer bg-white">
-                <a href="fssoftwaretv8intsehrinnabzi.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <a href="makfeddijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
                   <span class="fa fa-info-circle"></span>
                   Devamını Oku
                 </a>
               </div>
             </div>      
-            <div class="card">
-              <img src="img/sstories/isbirligi-günü-kapak.png" alt="...">
-              <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
-              <div class="card-body">
-                <h5 class="card-title text-fss font-weight-bold">Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge B2B İşbirliği Günü</h5>
-                <p class="card-text">TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısı teknoloji tedarikçisi firmaların sanayi firmalarının talebine yönelik yenilikçi ürün/süreç gelişeceği, hızla ürüne dönüşebilecek ve yüksek ticarileşme potansiyeline sahip Ar-Ge projelerini desteklemektedir. </p>
-              </div>
-              <div class="card-footer bg-white">
-                <a href="isbirligigunu.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
-                  <span class="fa fa-info-circle"></span>
-                  Devamını Oku
-                </a>
-              </div>
-                </a>
-              </div>
-            </div>      
+          <div class="card">
+            <img class="lazy" src="img/index/dijital-etkinlik-savunma-sanayi.png" alt="img">
+            <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h5>
+              <p class="card-text">SASAD Savunma ve Havacılık Sanayii İmalatçılar Derneği ve YASAD İletişim İş Birliği Protokolü çerçevesinde Savunma ve Havacılık Sanayii firmalarının dijitalleşmesine katkıda bulunacak yazılımların sunulacağı dijital etkinlikte Akıllı Depo ve Üretim Yönetimi kapsamında FSMobility ürünümüzü tanıtmak üzere Satış ve Proje Müdürümüz Dursun Tosunoglu katkılarıyla etkinliğine katılım sağladık.</p>
+            </div>
+            <div class="card-footer bg-white">
+              <a href="savunmasanayidijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <span class="fa fa-info-circle"></span>
+                Devamını Oku
+              </a>
+            </div>
+          </div>
           </div>
       </div>
     </div>

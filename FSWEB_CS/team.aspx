@@ -35,7 +35,7 @@
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/yasemin_yutaz.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Yasemin Yutaz</div>
-                                    <div class="officer-title">Project and Sales Asistant</div>
+                                    <div class="officer-title">Project and Sales Assistant</div>
                                     <div class="officer-short-brief">Doğayı sever en çok...papatyaları...çimenler üzerindeki yaz kokusunu.. uçsuz bucaksız kayalıklar ardına batan güneşi izlemeyi...sonbahar yağmuru altında sarı kırmızı yapraklar arasında yürümeyi...Ağacın kahve gövdesini...denizin rakı beyazı köpüğünü..</div>
                                 </div>
                             </div>
@@ -73,14 +73,6 @@
                                    <div class="officer-short-brief">Ekibimizin en genç üyesi Ayhan tam bir futbol aşığıdır. İzlemeyi ve oynamayı oldukça sever. Aynı zamanda doğada vakit geçirmekten serada çiçeklerle bir arada olmaktan hoşlanır. İyi bir müzik dinleyicisidir.</div>
                              </div> 
                             </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
-                                    <div class="officer-name">Bünyamin Güler</div>
-                                    <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
-                                  </div>
-                                </div>
                           <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/mirhan-benek.png" " class="card-img-top" alt="...">
@@ -89,8 +81,14 @@
                                     <div class="officer-short-brief">Mirhan 6 yaşındaki kızı ve eşiyle vakit geçirmekten oldukça hoşlanır.Eşi ve kızından geri kalan büyük zamanı mı amatör olarak zıpkınla dalış yaparak, balık avlayarak geçirir. Yeni yerler görmeyi gezmeyi sever, futbol izlemeyi de oldukça sever.</div>
                                 </div>
                               </div>
-                             </div>
-                            </div>
+                          <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" <img src="img/team/ege-yılmaz.png" class="card-img-top" alt="...">
+                                    <div class="officer-name">Ege Yılmaz</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Ege, hayattaki mottosu pozitiflik ve yapıcı olmaktır, bu şekilde her şeyin daha verimli ilerleyeceğine inanır. Hedefi bilişim alanında kendisini olabildiğince geliştirmektir. Ekonomi ve teknoloji ilgi alanıdır. Fırsat buldukça yeni yerler keşfetmeyi ve yeni lezzetler denemeyi sever. Tarihi yapılar ve müzelerle ilgili olup, gezi yazıları mevcuttur.</div>
+                                </div>
+                              </div>
                         </div>
                     <div class="row team-group">
                     <div class="team-group-title">
@@ -98,9 +96,9 @@
                         <h2>Uzman</h2>
                     </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-15">
                         <div class="row scroll-triggered-anim fade-in-animation">      
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Özgür Koç</div>
@@ -108,15 +106,23 @@
                                     <div class="officer-short-brief">Eski milli sporcumuz Özgür için spor hayatının vazgeçilmezidir. Fırsat buldukça Amerikan futbolu oynamaya devam etmektedir. Müzik arşivi konusunda geniş bir bilgisi olmasının yanı sıra gitar çalması ve güzel sesi ile de oldukça yeteneklidir.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/selin_bol.jpg" class="card-img-top" alt="...">
+                                    <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Selin Bol</div>
-                                    <div class="officer-title">Software Development Specialist</div>
-                                    <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu onu bambaşka diyarlara götürür.. Meditasyon yapmayı çok sever, pilates ve yoga ile ilgilidir.Sihirli bir değneği olsa, imza parfümünü keşfetmeyi ve çok severek dinlediği Depeche Mode'un "Enjoy The Silence" klibinde yer almayı diler..Tam bir siyah sever. Mottosu:"Life Is Just An Illusion"..</div>
+                                    <div class="officer-title">Sr. Software Development Specialist</div>
+                                    <div class="officer-short-brief">The sound of a Cicada and the scent of Honeysuckle Blossom take you to different lands. She is a good rock music listener, has an unusual interest in perfumes..</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
+                                    <div class="officer-name">Bünyamin Güler</div>
+                                    <div class="officer-title">Sr. Implementation Consultant</div>
+                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
+                                  </div>
+                                </div>
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Zehra Güleç</div>

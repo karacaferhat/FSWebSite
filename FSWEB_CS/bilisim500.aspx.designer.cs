@@ -11,7 +11,7 @@ namespace FSWEB_CS
 {
 
 
-    public partial class wms
+    public partial class bilisim500
     {
     }
 }

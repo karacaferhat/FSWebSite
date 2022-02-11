@@ -6,7 +6,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/bkts/bkts_slider02.png" alt="its">
+           <img src="img/index/bitki-koruma-ürünleri-takip-sistemi.png" alt="index">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
@@ -136,7 +136,7 @@
     <div class="container-fluid blog scroll-triggered-anim references-deck">
       <div class="container">
         <h1 class="text-fss">
-          <span class="my-auto">İTS Referansları</span>
+          <span class="my-auto">Bitki Koruma Ürünleri Sistemi Takibi Referansları</span>
           <a href="references.aspx"  class="btn btn-outline-fss rounded-pill ml-auto my-auto">
             <span class="fa fa-list"></span>
             Tümü
