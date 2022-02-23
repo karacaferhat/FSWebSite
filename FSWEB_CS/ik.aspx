@@ -114,7 +114,7 @@
            <img class="lazy"src="img/ik/fssoftware_uygulama_danismani.jpg" alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
-              <h5 class="card-title text-fss font-weight-bold">Uygulama Danışmanı / İstanbul </h5>
+              <h5 class="card-title text-fss font-weight-bold">Uygulama Danışmanı / İstanbul</h5>
               <p class="card-text">İstanbul ofisimizde görevlendirilmek üzere ürünümüzün danışmanlık fonksiyonlarında “Uygulama Danışmanı” pozisyonu için görev alacak ekip arkadaşı arıyoruz.</p>
             </div>
             <div class="card-footer bg-white">
