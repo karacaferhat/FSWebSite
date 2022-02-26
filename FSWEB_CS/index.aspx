@@ -188,7 +188,8 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <span class="fss-title">FSMobility-Kırmızı Et Çözümü:</span>
+                <a href="ket.aspx" alt="index">
+                  <span class="fss-title">FSMobility-Kırmızı Et Çözümü:</span>
                 <meta name="Title" content="Kırmızı Et İzlenebilirliği | FSMobility">
 	            <meta name="Description" content="Çiftlikten sofraya kadar, kırmızı et süreçlerinin tüm aşamaların FSMobility ile kontrol edilmektedir.Kulak küpe takibi, karkas ürün giriş çıkışlarının tüm aşalamarı kontrolünüz altında.">
 		         <meta name="Keywords" content="kırmızı et takibi, kulak küpe takibi, karkas, kırmızı et izlenebilirliği ">
