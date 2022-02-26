@@ -410,6 +410,7 @@
               <img src="img/index/depo-yonetim-sistemleri.png" class="card-img-top" alt="index">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
+                <a href="article2.aspx" alt="index">
                 <h5 class="card-title text-fss font-weight-bold">Depo Yönetim Sistemi (WMS) Nasıl Seçilir?</h5>
                 <p class="card-text">Doğru Depo Yönetim Sistemi’ni (WMS) seçmek için, ürünlerinizi (ham madde, yarı mamül, mamül) depolarken nelere ihtiyacınız olduğunu tespit etmek önemli olduğu gibi, seçiminizden önce entegre bir Depo Yönetim Sistemi’ne sahip oluşun faydalarını anlamak da bir o kadar önemlidir.</p>
               </div>
@@ -424,6 +425,7 @@
                <img src="img/index/tedarik-zinciri-yönetimi.png"  alt="index">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
+                <a href="article3.aspx" alt="index">
                 <h5 class="card-title text-fss font-weight-bold">Tedarik Zincirinde Depo Yönetiminin Önemi ve İşlevi</h5>
                 <p class="card-text">Depolama yönetimi tedarik zincirini yönetiminin tedarik zincirinin hizmet düzeyi yönünden performanısını belirleyen en önemli fonksiyonlarından biridir. Depolar aynı zamanda ürünlerin hareketsiz ya da minimum harekete sahip olduğu süreçlerdir.</p>
               </div>
@@ -438,6 +440,7 @@
               <img src="img/sstories/yazılım_teknolojisi.png" class="card-img-top" alt="...">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
+              <a href="article1.aspx" alt="index">
                 <h5 class="card-title text-fss font-weight-bold">FSSoftware, TÜBİTAK Desteği ile Yeni Ürünü FSStokchain'i Çıkardı!</h5>
                 <p class="card-text">FSSoftware, TÜBİTAK desteğini alarak yeni versiyonu FSStokchain ile kurumsal yazılım platform hedeflerini bireysel mobil ve sosyal medya alışkanlıklarının birleştiği güncel bir platform olmayı tercih ederek Android ve iOS üzerinde çalıştırılabilen ürün ailesi geliştirmiştir.</p>
               </div>
@@ -470,6 +473,7 @@
            <img class="lazy" src="img/index/bilisimbesyuz.png" alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
+             <a href="bilisim500.aspx" alt="index">
               <h5 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h5>
               <p class="card-text">Türkiye’nin İlk 500 Bilişim Şirketi sonuçları açıklandı. Araştırma sonuçlarına göre ilk 500 Bilişim şirketi arasında yer aldık.</p>
             </div>
@@ -484,11 +488,12 @@
               <img class="lazy" src="img/index/makfed-dijital-etkinlik%20(2).png" alt="img">
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
+               <a href="makfeddijitaletkinlik.aspx" alt="index">
                 <h5 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h5>
                 <p class="card-text">MAKFED Türkiye Makina Federasyonu üyesi makine sanayi firmaları ile YASAD Yazılım Sanayicileri Derneği üyesi teknoloji tedarikçisi firmaların, TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısına yönelik eşleşmelerini sağlamak amacıyla 14 Ekim 2021, yarın “Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Etkinliği” düzenlendiği etkinliğe FSSoftware olarak katılım sağladık.</p>
               </div>
               <div class="card-footer bg-white">
-                <a href="makfeddijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
+                <a href="savunmasanayidijitaletkinlik.aspx" class="btn btn-sm btn-outline-fss rounded-pill card-link">
                   <span class="fa fa-info-circle"></span>
                   Devamını Oku
                 </a>
@@ -498,6 +503,7 @@
             <img class="lazy" src="img/index/dijital-etkinlik-savunma-sanayi.png" alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
+            <a href="makfeddijitaletkinlik.aspx" alt="index">
               <h5 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h5>
               <p class="card-text">SASAD Savunma ve Havacılık Sanayii İmalatçılar Derneği ve YASAD İletişim İş Birliği Protokolü çerçevesinde Savunma ve Havacılık Sanayii firmalarının dijitalleşmesine katkıda bulunacak yazılımların sunulacağı dijital etkinlikte Akıllı Depo ve Üretim Yönetimi kapsamında FSMobility ürünümüzü tanıtmak üzere Satış ve Proje Müdürümüz Dursun Tosunoglu katkılarıyla etkinliğine katılım sağladık.</p>
             </div>
