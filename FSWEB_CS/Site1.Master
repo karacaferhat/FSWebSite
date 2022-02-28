@@ -120,7 +120,7 @@
               <h5>Kurumsal</h5>
               <ul class="list-unstyled text-small">
                 <li><a href="profil.aspx">Şirket Profili</a></li>
-                <li><a href="team">Ekip</a></li>
+                <li><a href="team.aspx">Ekip</a></li>
                 <li><a href="profil.aspx">Kalite Politikamız</a></li>
                 <li><a href="profil.aspx">Gizlilik</a></li>
               </ul>
@@ -145,6 +145,8 @@
                 <li><a href="contact.aspx">İletişim</a></li>
                 <li><a href="contact.aspx">Ofislerimiz</a></li>
                 <li><a href="ik.aspx">İnsan Kaynakları</a></li>
+                <li><a href="https://www.linkedin.com/company/fssoftware/mycompany/?viewAsMember=true" class="icon-thumbnail fab fa-linkedin"></a> <a href="https://www.youtube.com/channel/UCsEx5-A40-qg2GNkR_4RZ9A" class="icon-radius fab fa-youtube"></a> <a href="https://www.instagram.com/fssoftware/" class="icon-radius fab fa-instagram"></a> <a href="https://www.facebook.com/FSSOFTWARE" class="icon-radius fab fa-facebook-f"></a></li>
+
               </ul>
             </div>
           </div>
