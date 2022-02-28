@@ -3,7 +3,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 
     <article class="main-content-container article">
-        <div class="carousel bg-fss">
+        <div class="carousel bg-fss"> 
             <div class="carousel-inner">
                 <div class="carousel-item active">
                    <img src="img/ik/uygulama-danismani-is-ilani.jpg"  alt="img">
