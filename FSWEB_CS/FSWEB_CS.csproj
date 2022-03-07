@@ -644,6 +644,7 @@
     <Content Include="img\team\bunyamin_guler.jpg" />
     <Content Include="img\team\burc_uzalp.png" />
     <Content Include="img\team\cihan_sevimli.jpg" />
+    <Content Include="img\team\derya-caglar-sen.png" />
     <Content Include="img\team\derya_sag.png" />
     <Content Include="img\team\didem_durmaz.jpg" />
     <Content Include="img\team\dursun_tosunoglu.jpg" />
@@ -1835,6 +1836,7 @@
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
     <Content Include="savunmasanayidijitaletkinlik.aspx" />
+    <Content Include="sitemap\sitemap.xml" />
     <Content Include="tarimdadijitaldonusum.aspx" />
     <Content Include="team.aspx" />
     <Content Include="Test.aspx" />

@@ -41,7 +41,7 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="...">
+                                    <img class="officer-photo" src="img/team/cihan_sevimli.jpg" class="card-img-top" alt="team">
                                     <div class="officer-name">Cihan Sevimli</div>
                                     <div class="officer-title">Implementation Consultant</div>
                                     <div class="officer-short-brief">Cihan; kabına sığamadığı zamanlarda motora atlayıp dağ yollarında yolculuğa çıkmayı sever. Suyun derinliklerinde heyecan verici yaşam ile ilgilenmek ya da doğa ile bütünleşip şehrin gürültüsünden uzakta olmak ona her zaman iyi gelir. Bazen ise serüveni bir müzikle başlar ve bir jazz grubunda baterinin başında buluverir kendisini.</div>
@@ -49,10 +49,10 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="officer-badge">
-                                   <img class="officer-photo" <img src="img/team/huseyin-tureoglu.png" class="card-img-top" alt="...">
-                                    <div class="officer-name">Hüseyin Türeoğlu</div>
+                                   <img class="officer-photo" <img src="img/team/derya-caglar-sen.png" class="card-img-top" alt="team">
+                                    <div class="officer-name">Derya Çağlar Şen</div>
                                     <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">Hüseyin, güler yüzlü ve sıcakkanlılığı ile ofise renk katmıştır. Sağlıklı yaşam hayat mottolarından birisi olup, düzenli beslenme rutini ve spor alışkanlığı sayesinde ekibe sağlıklı yaşamı aşılamaya çalışmaktadır. Yazılım alanında kendini geliştirmeyi önemseyen Hüseyin vakit bulduğu zamanlarda bilardo oynamayı, uzun yürüyüşler yaparak farklı yerler keşfetmeyi sevmektedir.</div>
+                                    <div class="officer-short-brief">...</div>
                                 </div>
                             </div>
                          <div class="col-15">
