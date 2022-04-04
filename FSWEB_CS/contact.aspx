@@ -55,14 +55,6 @@
                   <span class="fss-icon fa fa-envelope"></span>
                   <a href="mailto:info@fsmobility.com.tr">info@fsmobility.com.tr</a>
                 </div>
-              </div>
-              <div class="address-card">
-                <div class="address-title"><strong>ALMANYA</strong> Ofis</div>
-                <div class="address-detail">Ottostraße 18 76227 Karlsruhe Deutschland</div>
-                <div class="phone-number">
-                  <span class="fss-icon fa fa-phone-alt"></span>
-                  <span class="phone-digits">+49 (0) 721 50955</span>
-                </div>
                 <div class="e-mail">
                   <span class="fss-icon fa fa-envelope"></span>
                   <a href="mailto:info@fsmobility.com.tr">info@fsmobility.com.tr</a>
