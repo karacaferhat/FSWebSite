@@ -11,7 +11,7 @@ namespace FSWEB_CS
 {
 
 
-    public partial class article2
+    public partial class uygulamadanismani
     {
     }
 }

@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FSWEB_CS</RootNamespace>
     <AssemblyName>FSWEB_CS</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -51,6 +51,9 @@
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\FSWeb\System.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -58,10 +61,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include=".well-known\pki-validation\ADA37B47F907382A4C4A94531307236A.txt" />
@@ -201,6 +210,8 @@
     <Content Include="img\hmmadde\silgan-logo.jpg" />
     <Content Include="img\hmmadde\uretim-modulu.jpg" />
     <Content Include="img\hmmadde\uretim-yonetimi-slider.jpg" />
+    <Content Include="img\ik\fssoftware_uygulama_danismani.jpg" />
+    <Content Include="img\ik\uygulama-danismani-is-ilani.jpg" />
     <Content Include="img\index\4.png" />
     <Content Include="img\index\Adsız tasarım %2816%29.png" />
     <Content Include="img\index\akillikobi-kapak.png" />
@@ -285,6 +296,7 @@
     <Content Include="img\ket\mamul-satis.jpg" />
     <Content Include="img\ket\sakatat-takibi.jpg" />
     <Content Include="img\ket\veteriner-kalitekontrol.jpg" />
+    <Content Include="img\kurulum-uzmani.jpg" />
     <Content Include="img\labeling\anadolu-etap-logo.jpg" />
     <Content Include="img\labeling\etiketleme_02.png" />
     <Content Include="img\labeling\gs1-slider.jpg" />
@@ -633,6 +645,7 @@
     <Content Include="img\team\bunyamin_guler.jpg" />
     <Content Include="img\team\burc_uzalp.png" />
     <Content Include="img\team\cihan_sevimli.jpg" />
+    <Content Include="img\team\derya-caglar-sen.png" />
     <Content Include="img\team\derya_sag.png" />
     <Content Include="img\team\didem_durmaz.jpg" />
     <Content Include="img\team\dursun_tosunoglu.jpg" />
@@ -1815,6 +1828,7 @@
     <Content Include="its.aspx" />
     <Content Include="js\fssjsscript.js" />
     <Content Include="ket.aspx" />
+    <Content Include="kurulumuzmani.aspx" />
     <Content Include="labeling.aspx" />
     <Content Include="lojitvuretimdepolojistiksurecleriyonetimi.aspx" />
     <Content Include="lojitvwmsegitimi.aspx" />
@@ -1823,10 +1837,12 @@
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
     <Content Include="savunmasanayidijitaletkinlik.aspx" />
+    <Content Include="sitemap\sitemap.xml" />
     <Content Include="tarimdadijitaldonusum.aspx" />
     <Content Include="team.aspx" />
     <Content Include="Test.aspx" />
     <Content Include="uts.aspx" />
+    <Content Include="uygulamadanismani.aspx" />
     <Content Include="Web.config" />
     <Content Include="wms.aspx" />
     <Content Include="yerliyazilimcozumlerionlinetanitim.aspx" />
@@ -2035,6 +2051,13 @@
     <Compile Include="ket.aspx.designer.cs">
       <DependentUpon>ket.aspx</DependentUpon>
     </Compile>
+    <Compile Include="kurulumuzmani.aspx.cs">
+      <DependentUpon>kurulumuzmani.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kurulumuzmani.aspx.designer.cs">
+      <DependentUpon>kurulumuzmani.aspx</DependentUpon>
+    </Compile>
     <Compile Include="labeling.aspx.cs">
       <DependentUpon>labeling.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2126,6 +2149,13 @@
     </Compile>
     <Compile Include="uts.aspx.designer.cs">
       <DependentUpon>uts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uygulamadanismani.aspx.cs">
+      <DependentUpon>uygulamadanismani.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uygulamadanismani.aspx.designer.cs">
+      <DependentUpon>uygulamadanismani.aspx</DependentUpon>
     </Compile>
     <Compile Include="wms.aspx.cs">
       <DependentUpon>wms.aspx</DependentUpon>
