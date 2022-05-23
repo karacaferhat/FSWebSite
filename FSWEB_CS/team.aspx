@@ -96,9 +96,9 @@
                         <h2>Uzman</h2>
                     </div>
                     </div>
-                    <div class="col-15">
+                    <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">      
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Özgür Koç</div>
@@ -106,7 +106,7 @@
                                     <div class="officer-short-brief">Eski milli sporcumuz Özgür için spor hayatının vazgeçilmezidir. Fırsat buldukça Amerikan futbolu oynamaya devam etmektedir. Müzik arşivi konusunda geniş bir bilgisi olmasının yanı sıra gitar çalması ve güzel sesi ile de oldukça yeteneklidir.</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="...">
                                     <div class="officer-name">Selin Bol</div>
@@ -114,15 +114,7 @@
                                     <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu bambaşka diyarlara götürür. İyi bir rock müzik dinleyicisidir, parfümlere karşı sıradışı bir merakı vardır...</div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/bunyamin_guler.jpg" class="card-img-top" alt="...">
-                                    <div class="officer-name">Bünyamin Güler</div>
-                                    <div class="officer-title">Sr. Implementation Consultant</div>
-                                    <div class="officer-short-brief">2015 yılında bilgisayar mühendisliğini bitiren Bünyamin FSSoftware ailesinde uygulama danışmanlığı görevinde yer almaktadır. Teknoloji ile ilgilenmeyi, yeni yerler keşfetmeyi ve seyahat etmeyi oldukça sever.</div>
-                                  </div>
-                                </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <div class="officer-badge">
                                     <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Zehra Güleç</div>
