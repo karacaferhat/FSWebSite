@@ -52,7 +52,7 @@
                                    <img class="officer-photo" <img src="img/team/derya-caglar-sen.png" class="card-img-top" alt="team">
                                     <div class="officer-name">Derya Çağlar Şen</div>
                                     <div class="officer-title">Implementation Consultant</div>
-                                    <div class="officer-short-brief">...</div>
+                                    <div class="officer-short-brief">İstanbul ekibimizde Uygulama Danışmanı olarak projelerde aktif rol alan Derya, pozitifliğiyle,  enerjisiyle ofise renk katmıştır. Boş zamanlarında seyahat etmekten, yeni yerler keşfetmekten hoşlanmaktadır.</div> </div>
                                 </div>
                             </div>
                          <div class="col-15">
@@ -98,7 +98,7 @@
                     </div>
                     <div class="col-12">
                         <div class="row scroll-triggered-anim fade-in-animation">      
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
                                     <img class="officer-photo" <img src="img/team/ozgur_koc.jpg" class="card-img-top" alt="...">
                                     <div class="officer-name">Özgür Koç</div>
@@ -106,25 +106,34 @@
                                     <div class="officer-short-brief">Eski milli sporcumuz Özgür için spor hayatının vazgeçilmezidir. Fırsat buldukça Amerikan futbolu oynamaya devam etmektedir. Müzik arşivi konusunda geniş bir bilgisi olmasının yanı sıra gitar çalması ve güzel sesi ile de oldukça yeteneklidir.</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="...">
+                                    <img class="officer-photo"<img src="img/team/selin_bol.png" class="card-img-top" alt="img">
                                     <div class="officer-name">Selin Bol</div>
                                     <div class="officer-title">Sr. Software Development Specialist</div>
                                     <div class="officer-short-brief">Bir Ağustos Böceği'nin sesi bir de Hanımeli Çiçeği'nin kokusu bambaşka diyarlara götürür. İyi bir rock müzik dinleyicisidir, parfümlere karşı sıradışı bir merakı vardır...</div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="officer-badge">
-                                    <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="...">
+                                    <img class="officer-photo" src="img/team/zehra_gulec.jpg" class="card-img-top" alt="img">
                                     <div class="officer-name">Zehra Güleç</div>
                                     <div class="officer-title">Project Implementation Executive</div>
                                     <div class="officer-short-brief">Mesleği gereği uzun süre bilgisayar karşında oturarak çalışmak onda hareketli bir yaşama geçme isteği yaratmış ve kendini tam da doğanın içinde bulmuştur. Doğal yaşam , doğaya ait olmak  ve onunla bütünleşmek en vazgeçilmezidir.Uzun yıllar dağcılık sporu ile ilgilenmiş , bir dönem doğa yürüyüş rehberliği de yapmıştır. Türkiye’nin çatısı olan Ağrı Dağı’nın zirvesine ulaşmak ise kendini keşfetmenin yolunu açmıştır. Çadırı ve evini sığdırdığı sırt çantasıyla huzur bulduğu dağlara çıkmaya her zaman hazırdır..</div>
                                 </div>
                             </div> 
-                        </div>
+                            <div class="col-md-3">
+                                <div class="officer-badge">
+                                    <img class="officer-photo"<img src="img/team/eda-terci.png" class="card-img-top" alt="img">
+                                    <div class="officer-name">Eda Terci</div>
+                                    <div class="officer-title">E-Transformation Project Leader</div>
+                                    <div class="officer-short-brief">Heyecanlı ve panik yapım sayesinde yerinde duramayan ve her sorunu/olayı hızlıca sonuçlandırmaktan keyif alıp motive olan bir yapıya sahibim. Aslan burcu kadını olarak inatçılığım ve alışverişe olan düşkünlüğüm herkes tarafından bilinir. :)Boş zamanlarımızda eşimle tenis oynamayı ve yeni yerler keşfederek, yeni rotalar oluşturup uzun yolculuklara çıkmayı severiz.</div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
                     </div>
-                </div>
+                 </div>
                  <div class="row team-group">
                     <div class="team-group-title">
                         <h2>Yönetim</h2>
