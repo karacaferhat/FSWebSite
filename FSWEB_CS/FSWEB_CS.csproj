@@ -260,6 +260,7 @@
     <Content Include="img\index\slider.png" />
     <Content Include="img\index\slider_ana.jpg" />
     <Content Include="img\index\slider_fsmobility.png" />
+    <Content Include="img\index\slider_wms.png" />
     <Content Include="img\index\surelilk02.png" />
     <Content Include="img\index\t0.jpg" />
     <Content Include="img\index\t1.jpg" />
