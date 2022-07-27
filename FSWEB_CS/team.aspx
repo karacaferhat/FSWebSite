@@ -127,7 +127,7 @@
                                     <img class="officer-photo"<img src="img/team/eda-terci.png" class="card-img-top" alt="img">
                                     <div class="officer-name">Eda Terci</div>
                                     <div class="officer-title">E-Transformation Project Leader</div>
-                                    <div class="officer-short-brief">Heyecanlı ve panik yapım sayesinde yerinde duramayan ve her sorunu/olayı hızlıca sonuçlandırmaktan keyif alıp motive olan bir yapıya sahibim. Aslan burcu kadını olarak inatçılığım ve alışverişe olan düşkünlüğüm herkes tarafından bilinir. :)Boş zamanlarımızda eşimle tenis oynamayı ve yeni yerler keşfederek, yeni rotalar oluşturup uzun yolculuklara çıkmayı severiz.</div>
+                                    <div class="officer-short-brief">Heyecanlı ve panik yapısı sayesinde yerinde duramayan ve her sorunu/olayı hızlıca sonuçlandırmaktan keyif alıp motive olan bir yapıya sahiptir. Aslan burcu kadını olarak inatçılığı ve alışverişe olan düşkünlüğü herkes tarafından bilinir. :) Boş zamanlarında ise eşiyle tenis oynamayı ve yeni yerler keşfederek, yeni rotalar oluşturup uzun yolculuklara çıkmayı severler.</div>
                                 </div>
                              </div>
                           </div>
