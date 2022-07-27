@@ -90,6 +90,19 @@
                                 </div>
                               </div>
                         </div>
+                     <div class="col-12">
+                        <div class="row scroll-triggered-anim fade-in-animation">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <div class="officer-badge">
+                                    <img class="officer-photo" <img src="img/team/Turgay_Yildiz.png" class="card-img-top" alt="img">
+                                    <div class="officer-name">Turgay Yıldız</div>
+                                    <div class="officer-title">Implementation Consultant</div>
+                                    <div class="officer-short-brief">Asıl alanı finans olmasına rağmen bu alanda mutlu olmadığını fark edip eşinin desteğiyle bilişim alanına geçmeyi tercih etmiştir. Koyu bir Fenerbahçe taraftarı olan Turgay, Fenerbahçe maçlarının olduğu gün eve kapanır. Agresif görünüşünün altında sakin, sabırlı ve esprili bir yapıya sahiptir. Boş vakitlerinde bilgisayar oynamayı, maçları takip etmeyi sever ve tam bir Harry Potter hayranıdır.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row team-group">
                     <div class="team-group-title">
                     <div class="col-12">
