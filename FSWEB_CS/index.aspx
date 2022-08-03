@@ -11,7 +11,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="carousel-img centered" src="img/index/slider_ana.jpg" alt="carousel-image">
+            <img class="carousel-img centered" img src="img/index/slider_wms.png" alt="carousel-image">
             <div class="container">
               <div class="carousel-caption text-center">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
