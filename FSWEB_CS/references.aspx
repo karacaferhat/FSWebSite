@@ -214,6 +214,32 @@
             </div>
           </div>
         </div>
+          <div class="card-deck">
+          <div class="card">
+           <img src="img/referanslar/egemen-group-logo.png" class="card-img-top" alt="img">
+            <!-- Resimler 1x1 Ölçekli Olmalı -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Egemen Group</h5>
+              <p class="card-text">Egemen Group firmasının distribütörlüğünü yaptığı ana firmalardan temin ettiği ve Merkez Depoda ürettiği ürünlerin etiketlenerek Kemalpaşa ve Işıkkent Depolarına kabul edilmesi ve müşterilere sevk edilmesi, Online satış sitesinden alınan siparişlere göre ürünlerin sevk edilmesi SAP B1 ile Online entegre çalışacak şekilde FSMobility Depo Yönetim Sisteminin kontrolünde bu kapsamda yönetilmiştir.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/referanslar/volt_reduktor_logo.png" class="card-img-top" alt="img">
+            <!-- Resimler 1x1 Ölçekli Olmalı -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Volt Redüktör</h5>
+              <p class="card-text">VOLT Redüktör firmasında, mamul üretimlerinin gerçekleştirilmesi ve depolanması, müşteri siparişleri ile sevk edilmesi süreçlerini kapsamındadır. Üretimden Giriş, Sevke hazırlama, Sevkiyat senaryoları Barkod ile depo otomasyonu kapsamında el terminalleri ile yönetilmiştir. FSMobility sistemi NETSİS üzerinde VOLT Redüktör veri tabanları ile eş zamanlı entegre şekilde çalışmaktadır.</p>
+            </div>
+          </div>
+          <div class="card">
+           <img src="img/referanslar/donmez-debriyaj-logo.png" class="card-img-top" alt="img">
+            <!-- Resimler 1x1 Ölçekli Olmalı -->
+            <div class="card-body">
+              <h5 class="card-title text-fss font-weight-bold">Dönmez Debriyaj</h5>
+              <p class="card-text">Dönmez Debriyaj bünyesinde kullanılmakta olan FSMobility Yarı Mamul – Mamul – Sevkiyatsüreçlerine ek olarak; Hammadde ve Yardımcı Malzeme Kabul, Depolama, Üretime Transfer süreçleri bu proje kapsamında yönetilmiştir. NETSİS ile Online Entegre Tedarikçi Yönetim Portalı ile Tedarikçi Gönderi Belge Takibi, Tedarikçi Gönderi Ürün Takibi, Tedarikçi Performans takibi proje kapsamındadır. Üretim sahasında kullanılan MAS Sistemi ile Entegre izlenebilirlik akışı FSMobility Sisteminden takip edilmektedir.</p>
+            </div>
+          </div>
+        </div>
         <div class="card-deck">
           <div class="card">
             <img src="img/referanslar/Endustri/volt-logo.jpg" class="card-img-top" alt="...">

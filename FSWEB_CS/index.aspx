@@ -105,8 +105,8 @@
 
       <div class="container-fluid heading-section solution-heading-section">
         <h2 class="heading d-flex"><img class="fss-decorative-squares" src="img/fss-decor-white.svg" alt="fss-decor">Çözümlerimiz</h2>
+      
       </div>
-
       <div class="container-fluid solutions-section">
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative">
@@ -143,10 +143,10 @@
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
                 <a href="labeling.aspx" alt="index">            
                  <span class="fss-title">FSMobility-GS1</span></a> 
-                <meta name="Title" content="FSMobility GS1 | FSSoftware">
-	            <meta name="Description" content="Uluslararası kimliklendirme ve etiketleme gereksinimleri için hazır bir üründür.FSMobility ile GS1 DataMatrix Ean gibi Global standadizasyon esaslarını birebir karşılayabilirsiniz.Sektörel ihtiyaçlarınıza yönelik esneklik sunmak üzere tasarlanmış, bir çok kurumsal firmada başarılı biçimde kullanılan yazılım çözümüdür.">
-		        <meta name="Keywords" content="kimliklendirme, etiketleme, gs1, datamatrix, ean ">
-                <span class="sub-heading">Uluslararası Standartlarda Etiketleme</span>
+                 <meta name="Title" content="FSMobility GS1 | FSSoftware">
+	             <meta name="Description" content="Uluslararası kimliklendirme ve etiketleme gereksinimleri için hazır bir üründür.FSMobility ile GS1 DataMatrix Ean gibi Global standadizasyon esaslarını birebir karşılayabilirsiniz.Sektörel ihtiyaçlarınıza yönelik esneklik sunmak üzere tasarlanmış, bir çok kurumsal firmada başarılı biçimde kullanılan yazılım çözümüdür.">
+		         <meta name="Keywords" content="kimliklendirme, etiketleme, gs1, datamatrix, ean ">
+                 <span class="sub-heading">Uluslararası Standartlarda Etiketleme</span>
               </h2>
               <div class="lead">
                 <p>Uluslararası kimliklendirme ve etiketleme gereksinimleri için hazır bir üründür. FSMobility ile GS1 DataMatrix Ean gibi Global standardizasyon esaslarını birebir karşılayabilirsiniz.</p>
@@ -180,7 +180,7 @@
             </div>
             <div class="col-md-6 solution-card-img">
               <img src="img/index/ilaç-takip-sistemi.png" alt="img">
-            </div>
+           </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
@@ -213,24 +213,24 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="uts.aspx" alt="index">
-                  <span class="fss-title">FSMobility-Ürün Takip Sistemi</span></a>
-                <meta name="Title" content="Ürün Takip Sistemi - UTS | FSMobility">
-	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, sağlık ürünleri üreten şirketlerin etiketleme, kolileme,sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.Sağlık bakanlığı UTS sistemi ile entegre bir yazılım çözümü sunar.">
-		        <meta name="Keywords" content="ürün takip sistemi, üts, sağlık bakanlığı">
-                <span class="sub-heading">Yasal Takip Zincirinde Yerinizi Alın</span>
+                <a href="its.aspx" alt="index">
+                <span class="fss-title">FSMobility-İlaç Takip Sistemi</span></a>
+                <meta name="Title" content="İlaç Takip Sistemi - ITS | FSMobility">
+	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.">
+		        <meta name="Keywords" content="ilaç takip sistemi, its,">
+                <span class="sub-heading">Üretimden Tüketime İlaca Güvenli Erişim</span>
               </h2>
               <div class="lead">
-                <p>Sağlık Bakanlığı yönetmelikleri gereği, sağlık ürünleri üreten şirketlerin etiketleme, kolileme,sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.Sağlık bakanlığı UTS sistemi ile entegre bir yazılım çözümü sunar.</p>
-                <a href="uts.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <p>Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.</p>
+                <a href="its.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/uts/uts_slider_index.png" alt="img">
-            </div>
+              <img src="img/index/ilaç-takip-sistemi.png" alt="img">
+         </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
@@ -283,24 +283,25 @@
             </div>
           </div>
         </div>
+      </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-                <img src="img/index/demirbaş-takibi.png" alt="img">
+              <img src="img/bku/bkuts_slider.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="dbas.aspx" alt="index">
-                <span class="fss-title">FSMobility-Demirbaş Takip Sistemi</span></a>
-                <meta name="Title" content="Demirbaş Takibi | FSSoftware">
-	            <meta name="Description" content="FSMobility ile demirbaşlarınızı kimliklendirip takip edebilirsiniz.">
-		        <meta name="Keywords" content="demirbaş takibi">
-                <span class="sub-heading">Demirbaş Takibi ile Varlıklarınızı Koruyun</span>
+                <a href="bku.aspx" alt="index">
+                  <span class="fss-title">FSMobility-Bitki Koruma Sistemi</span></a>
+                <meta name="Title" content="Bitki Koruma Sistemi | FSMobility">
+	            <meta name="Description" content="SFSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.">
+		        <meta name="Keywords" content="bitki koruma sistemi, bitki koruma ürünleri, tarım bakanlığı, bitki koruma ürünleri takibi">
+                <span class="sub-heading">Güvenilir Ürün Tedariği</span>
               </h2>
               <div class="lead">
-                <p>FSMobility ile demirbaşlarınızı kimliklendirip takip edebilirsiniz.</p>
-                <a href="dbas.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <p>FSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.</p>
+                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
@@ -313,23 +314,23 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="hmadde.aspx" alt="index">
-                <span class="fss-title">FSMobility Hammadde Takibi</span></a>
-                <meta name="Title" content="Hammadde Takibi | FSMobility">
-	            <meta name="Description" content="Üretimi ve hammadde akışınızı gerçek stok verileri ile planlayın.">
-		        <meta name="Keywords" content="üretim takibi, hammadde takibi">
-                <span class="sub-heading">Üretimi ve Hammadde Akışınızı Gerçek Stok Verileri ile Planlayın.</span>
+                <a href="edonusum.aspx" alt="index">
+                  <span class="fss-title">E-Dönüşüm:</span></a>
+                <meta name="Title" content="E-Dönüşüm| FSSoftware">
+	            <meta name="Description" content="FSSoftware e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.">
+		        <meta name="Keywords" content="e-dönüşüm,e-Fatura,e-İrsaliye,e-Arşiv">
+                <span class="sub-heading">14 ülkede çözüm ortağınız</span>
               </h2>
               <div class="lead">
-                <p>FSMobility Hammadde alış üretime besleme , eksik hammmade takibi, son kullanma tarihi yönetimi gibi kritik görevleri yerine getirir.</p>
-                <a href="hmadde.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <p>e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.</p>
+                <a href="edonusum.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/index/hammadde-takibi.png" alt="img">
+              <img src="img/index/e-fatura.png" alt="img">
             </div>
           </div>
         </div>
