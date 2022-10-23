@@ -11,7 +11,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="carousel-img centered" img src="img/index/slider_wms.png" alt="carousel-image">
+            <img class="carousel-img centered" img src="img/index/slider_wms_02.png" alt="carousel-image">
             <div class="container">
               <div class="carousel-caption text-center">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
@@ -213,128 +213,130 @@
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="its.aspx" alt="index">
-                <span class="fss-title">FSMobility-İlaç Takip Sistemi</span></a>
-                <meta name="Title" content="İlaç Takip Sistemi - ITS | FSMobility">
+                <a href="uts.aspx" alt="index">
+                <span class="fss-title">FSMobility-Ürün Takip Sistemi</span></a>
+                <meta name="Title" content="Ürün Takip Sistemi - UTS | FSMobility">
 	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.">
 		        <meta name="Keywords" content="ilaç takip sistemi, its,">
-                <span class="sub-heading">Üretimden Tüketime İlaca Güvenli Erişim</span>
+                <span class="sub-heading">Güvenli Sağlık ve Kozmetik Ürün Takibi</span>
               </h2>
               <div class="lead">
-                <p>Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.</p>
-                <a href="its.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                <p>FSMobility UTS Çözümü ile doğru ürünün doğru teslimatta ya da müşteride olduğu barkod numaraları ile takip edilmektedir. Hangi ürün, nerede, ne zaman, ne için, kimde kullanıldı bilgisi elde edilmektedir.</p>
+                <a href="uts.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
                   <span class="btn-title">İnceleyin</span>
                 </a>
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img src="img/index/ilaç-takip-sistemi.png" alt="img">
+              <img src="img/uts/uts_slider_index.png" alt="img">
+          </div>
+        </div>
+      </div>
+        <div class="container scroll-triggered-anim fade-in-animation">
+          <div class="row solution-card decorative image-on-left">
+            <div class="col-md-6 solution-card-img">
+              <img src="img/dbas/demirbas-slider.png" alt="img">
+            </div>
+            <div class="col-md-6 solution-card-body">
+              <h2 class="featurette-heading">
+                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
+                <a href="dbas.aspx" alt="index">
+                <span class="fss-title">Demirbaş Takip Sistemi</span></a>
+                <meta name="Title" content="Demirbaş Takip Sistemi">
+	            <meta name="Description" content="FSMobility BKU Sistemi ile toplanan verilerden istatistik çıkartılıp tarım sektöründe yaşanabilecek krizlere erken müdahale fırsatı verir ve ilaçların sebep olduğu herhangi bir yan etki veya rahatsızlık tespit edilmesi durumunda T.C. Tarım Bakanlığı’nın, hiç vakit kaybetmeden ürünleri piyasadan geri çekerek duruma müdahale etmesine de olanak sağlar.">
+		        <meta name="Keywords" content="demirbaş takip sistemi">
+                <span class="sub-heading">Demirbaş Takibi ile Varlıklarınızı Koruyun</span>
+              </h2>
+              <div class="lead">
+                <p>FSMobility Demirbaş Çözümü ile demirbaşlar hızlı ve gerçek zamanlı olarak kontrol edilmesi sağlanır. Sabit kıymet yer, zimmet, özellik vb. değişikliklerinin ve kişilere ya da gruplara zimmetlenen demirbaşların takibininin yapılmasını amaçlar. Sisteminin ID teknolojisi kullanarak hızlı ve sorunsuz bir biçimde işlemesini sağlar.</p>
+                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                  <span class="btn-icon fa fa-info-circle"></span>
+                  <span class="btn-title">İnceleyin</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+       <div class="container scroll-triggered-anim fade-in-animation">
+          <div class="row solution-card decorative">
+            <div class="col-md-6 solution-card-body">
+              <h2 class="featurette-heading">
+                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
+                <a href="bku.aspx" alt="index">
+                <span class="fss-title">Bitki Koruma Ürünleri Takip Sistemi</span></a>
+                <meta name="Title" content="Ürün Takip Sistemi - UTS | FSMobility">
+	            <meta name="Description" content="Sağlık Bakanlığı yönetmelikleri gereği, ilaç üreticilerinin tabi olduğu ilaç takip sistemi alt yapısını sunar. Etiketleme, kolileme, sevkiyat ve iade süreçlerinin tümü FSMobility tarafından yönetilmektedir.">
+		        <meta name="Keywords" content="bkts,">
+                <span class="sub-heading">Üretimden Tüketime Güvenli Erişim</span>
+              </h2>
+              <div class="lead">
+                <p>FSMobility BKU Sistemi ile toplanan verilerden istatistik çıkartılıp tarım sektöründe yaşanabilecek krizlere erken müdahale fırsatı verir ve ilaçların sebep olduğu herhangi bir yan etki veya rahatsızlık tespit edilmesi durumunda T.C. Tarım Bakanlığı’nın, hiç vakit kaybetmeden ürünleri piyasadan geri çekerek duruma müdahale etmesine de olanak sağlar.</p>
+                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                  <span class="btn-icon fa fa-info-circle"></span>
+                  <span class="btn-title">İnceleyin</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 solution-card-img">
+             <img src="img/bku/bku_slider_02.png" alt="img">
+          </div>
+        </div>
+      </div>
+          <div class="container scroll-triggered-anim fade-in-animation">
+          <div class="row solution-card decorative image-on-left">
+            <div class="col-md-6 solution-card-img">
+             <img src="img/hmmadde/hammadde-slider.png" alt="img">
+            </div>
+            <div class="col-md-6 solution-card-body">
+              <h2 class="featurette-heading">
+                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
+                <a href="hmadde.aspx" alt="index">
+                <span class="fss-title">Hammadde Yönetimi</span></a>
+                <meta name="Title" content="Hammadde Yönetimi">
+	            <meta name="Description" content="Tedarik yönetimi, hammadde süreçlerinin akışları ve üretim adımları izlenebilirliği, sorumlu çalışanların yetki dağılımlarının da yapılabilmesine imkan sağlamaktadır.">
+		        <meta name="Keywords" content="demirbaş takip sistemi">
+                <span class="sub-heading">Üretimi ve Hammadde Akışınızı Gerçek Stok Verileri ile Planlayın</span>
+              </h2>
+              <div class="lead">
+                <p>Tedarik yönetimi, hammadde süreçlerinin akışları ve üretim adımları izlenebilirliği, sorumlu çalışanların yetki dağılımlarının da yapılabilmesine imkan sağlamaktadır.</p>
+                <a href="hmadde.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
+                  <span class="btn-icon fa fa-info-circle"></span>
+                  <span class="btn-title">İnceleyin</span>
+                </a>
+              </div>
+            </div>
+          </div>
          </div>
-          </div>
-        </div>
-        <div class="container scroll-triggered-anim fade-in-animation">
-          <div class="row solution-card decorative image-on-left">
-            <div class="col-md-6 solution-card-img">
-              <img src="img/bku/bkuts_slider.png" alt="img">
-            </div>
-            <div class="col-md-6 solution-card-body">
-              <h2 class="featurette-heading">
-                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="bku.aspx" alt="index">
-                  <span class="fss-title">FSMobility-Bitki Koruma Sistemi</span></a>
-                <meta name="Title" content="Bitki Koruma Sistemi | FSMobility">
-	            <meta name="Description" content="SFSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.">
-		        <meta name="Keywords" content="bitki koruma sistemi, bitki koruma ürünleri, tarım bakanlığı, bitki koruma ürünleri takibi">
-                <span class="sub-heading">Güvenilir Ürün Tedariği</span>
-              </h2>
-              <div class="lead">
-                <p>FSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.</p>
-                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
-                  <span class="btn-icon fa fa-info-circle"></span>
-                  <span class="btn-title">İnceleyin</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container scroll-triggered-anim fade-in-animation">
+          <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative">
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
-                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="edonusum.aspx" alt="index">
-                  <span class="fss-title">E-Dönüşüm:</span></a>
-                <meta name="Title" content="E-Dönüşüm| FSSoftware">
-	            <meta name="Description" content="FSSoftware e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.">
-		        <meta name="Keywords" content="e-dönüşüm,e-Fatura,e-İrsaliye,e-Arşiv">
-                <span class="sub-heading">14 ülkede çözüm ortağınız</span>
+              <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
+              <a href="edonusum.aspx" alt="index">
+              <span class="fss-title">E-Management Cockpit on SAP</span></a>
+              <meta name="Title" content="E-Management Cockpit as an SAP Add-On">
+	          <meta name="Description" content="FSSoftware, e-Belgeler (e-Fatura/e-İrsaliye/e-Sipariş/e-Arşiv/e-Teslimat/e-Bilet…) ve elektronik yasal raporlama (SAF-T/E-Defter/E-) için çeşitli çözüm yöntemleri sunmaktadır. Kitap).SAP Add-On as E-Management Cockpit bu yöntemlerden biridir ve 15 ülkede 250'den fazla SAP e-Projesi uygulanmıştır.">
+		      <meta name="Keywords" content="(e-Invoice/e-Waybill/e-Order/e-Archive/e-Delivery/e-Ticket">
               </h2>
               <div class="lead">
-                <p>e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.</p>
+              <p>FSSoftware, e-Belgeler (e-Fatura/e-İrsaliye/e-Sipariş/e-Arşiv/e-Teslimat/e-Bilet…) ve elektronik yasal raporlama (SAF-T/E-Defter/E-) için çeşitli çözüm yöntemleri sunmaktadır. Kitap).</p>
+              <p>SAP Add-On as E-Management Cockpit bu yöntemlerden biridir ve 15 ülkede 250'den fazla SAP e-Projesi uygulanmıştır.</p>
                 <a href="edonusum.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
                   <span class="btn-icon fa fa-info-circle"></span>
-                  <span class="btn-title">İnceleyin</span>
+                  <span class="btn-title">Review</span>
                 </a>
               </div>
             </div>
-            <div class="col-md-6 solution-card-img">
-              <img src="img/index/e-fatura.png" alt="img">
+           <div class="col-md-6 solution-card-img">
+            <img src="img/index/flags_einvoice.png" alt="img">
             </div>
           </div>
         </div>
+       </div>
       </div>
-        <div class="container scroll-triggered-anim fade-in-animation">
-          <div class="row solution-card decorative image-on-left">
-            <div class="col-md-6 solution-card-img">
-              <img src="img/bku/bkuts_slider.png" alt="img">
-            </div>
-            <div class="col-md-6 solution-card-body">
-              <h2 class="featurette-heading">
-                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="bku.aspx" alt="index">
-                  <span class="fss-title">FSMobility-Bitki Koruma Sistemi</span></a>
-                <meta name="Title" content="Bitki Koruma Sistemi | FSMobility">
-	            <meta name="Description" content="SFSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.">
-		        <meta name="Keywords" content="bitki koruma sistemi, bitki koruma ürünleri, tarım bakanlığı, bitki koruma ürünleri takibi">
-                <span class="sub-heading">Güvenilir Ürün Tedariği</span>
-              </h2>
-              <div class="lead">
-                <p>FSMobility Bitki Koruma ürünleri kapsamında faaliyet gösteren şirketler için izlenebilirlik çözümü sunar.Online veri entegrasyonu ve stok yönetimi hizmetlerini birlikte sunar.</p>
-                <a href="bku.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
-                  <span class="btn-icon fa fa-info-circle"></span>
-                  <span class="btn-title">İnceleyin</span>
-                </a>
-              </div>
-            </div>
+    </div>
           </div>
-        </div>
-        <div class="container scroll-triggered-anim fade-in-animation">
-          <div class="row solution-card decorative">
-            <div class="col-md-6 solution-card-body">
-              <h2 class="featurette-heading">
-                <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
-                <a href="edonusum.aspx" alt="index">
-                  <span class="fss-title">E-Dönüşüm:</span></a>
-                <meta name="Title" content="E-Dönüşüm| FSSoftware">
-	            <meta name="Description" content="FSSoftware e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.">
-		        <meta name="Keywords" content="e-dönüşüm,e-Fatura,e-İrsaliye,e-Arşiv">
-                <span class="sub-heading">14 ülkede çözüm ortağınız</span>
-              </h2>
-              <div class="lead">
-                <p>e-Fatura,e-İrsaliye,e-Arşiv alanlarında kurumsal çözümler sunar.</p>
-                <a href="edonusum.aspx" class="btn btn-sm btn-outline-fss rounded-pill">
-                  <span class="btn-icon fa fa-info-circle"></span>
-                  <span class="btn-title">İnceleyin</span>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6 solution-card-img">
-              <img src="img/index/e-fatura.png" alt="img">
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="container-fluid heading-section success-heading-section">
         <h2 class="heading"><span class="fa fa-check mr-1 my-auto small"></span>Başarı Öyküleri</h2>
       </div>
@@ -351,7 +353,7 @@
             </div>
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" <img src="img/sstories/ekur-basari-hikayesi.png" alt="index">
+                <img class="card-img-top" <img src="img/index/burger_king_logo.png" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">EKUR ET, Türkiye’deki hızlı servis restoran sektörünün pazar lideri TFI (TAB GIDA YATIRIMLARI) şirketi bünyesinde yer almaktadır.FSMObility ile canlı hayvan kabulünden, karkas ve çeyrek kabule, çeyreklemeye ve parçalamaya, et ve şarküteri ürünlerinin üretimden sevkiyata kadar olan süreçlerin barkodlu olarak online takip edilmesidir. Proje Logo Tiger Enterprise ile online entegre çalışmaktadır.</p>
                 </div>

@@ -7,7 +7,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/dbas/demirbas-slider.jpg" alt="dbas">
+          <img class="carousel-img righted" src="img/dbas/dbas_slider.png" alt="dbas">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">

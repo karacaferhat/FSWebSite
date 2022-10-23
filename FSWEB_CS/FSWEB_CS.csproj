@@ -168,6 +168,8 @@
     <Content Include="img\bkts\ekicioglu-logo.png" />
     <Content Include="img\bkts\orfeus-logo.png" />
     <Content Include="img\bku\bkuts_slider.png" />
+    <Content Include="img\bku\bku_slider02.png" />
+    <Content Include="img\bku\bku_slider_02.png" />
     <Content Include="img\bku\download.jpg" />
     <Content Include="img\bku\download1.jpg" />
     <Content Include="img\bku\egeon.jpg" />
@@ -182,6 +184,7 @@
     <Content Include="img\daikin.png" />
     <Content Include="img\dbas\anadolu-bank-logo.jpg" />
     <Content Include="img\dbas\bakım-islemleri.jpg" />
+    <Content Include="img\dbas\dbas_slider.png" />
     <Content Include="img\dbas\demirbas-giris.jpg" />
     <Content Include="img\dbas\demirbas-iliskilendirme.jpg" />
     <Content Include="img\dbas\demirbas-listesi.jpg" />
@@ -196,8 +199,20 @@
     <Content Include="img\e-donusum\3.png" />
     <Content Include="img\e-donusum\4.png" />
     <Content Include="img\e-donusum\5.png" />
+    <Content Include="img\e-donusum\amyway_logo.png" />
+    <Content Include="img\e-donusum\basf_logo2.png" />
+    <Content Include="img\e-donusum\digital_transformation_slider.png" />
+    <Content Include="img\e-donusum\E- Management Cockpit on SAP as an Add-On.png" />
     <Content Include="img\e-donusum\e-donusum-slider.png" />
     <Content Include="img\e-donusum\e-donusum.png" />
+    <Content Include="img\e-donusum\e-invoice_02.png" />
+    <Content Include="img\e-donusum\Electronic Legal Reporting.png" />
+    <Content Include="img\e-donusum\flags_einvoice_index.png" />
+    <Content Include="img\e-donusum\Hungary_flag.png" />
+    <Content Include="img\e-donusum\IBM_logo.png" />
+    <Content Include="img\e-donusum\Italy_Flag.png" />
+    <Content Include="img\e-donusum\nordic_flags.png" />
+    <Content Include="img\e-donusum\turkey_Flag.png" />
     <Content Include="img\fss-decor-black.svg" />
     <Content Include="img\fss-decor-dark.svg" />
     <Content Include="img\fss-decor-light.svg" />
@@ -211,6 +226,7 @@
     <Content Include="img\hmmadde\silgan-logo.jpg" />
     <Content Include="img\hmmadde\uretim-modulu.jpg" />
     <Content Include="img\hmmadde\uretim-yonetimi-slider.jpg" />
+    <Content Include="img\hmmadde\uretim_yonetimi_02.png" />
     <Content Include="img\ik\fssoftware_uygulama_danismani.jpg" />
     <Content Include="img\ik\uygulama-danismani-is-ilani.jpg" />
     <Content Include="img\index\4.png" />
@@ -221,6 +237,7 @@
     <Content Include="img\index\bilisimbesyuz.png" />
     <Content Include="img\index\bitki-koruma-ürünleri-takip-sistemi.png" />
     <Content Include="img\index\bku.jpg" />
+    <Content Include="img\index\burger_king_logo.png" />
     <Content Include="img\index\demirbaş-takibi.png" />
     <Content Include="img\index\deneyim-fs.png" />
     <Content Include="img\index\deneyim-fssoftware.png" />
@@ -266,6 +283,7 @@
     <Content Include="img\index\slider_inventory_02.png" />
     <Content Include="img\index\slider_smart_industry.png" />
     <Content Include="img\index\slider_wms.png" />
+    <Content Include="img\index\slider_wms_02.png" />
     <Content Include="img\index\surelilk02.png" />
     <Content Include="img\index\t0.jpg" />
     <Content Include="img\index\t1.jpg" />
@@ -286,7 +304,6 @@
     <Content Include="img\its\its-deativasyon.jpg" />
     <Content Include="img\its\its-dogrulama.jpg" />
     <Content Include="img\its\its-eczaneden-satis.jpg" />
-    <Content Include="img\its\its-slider.jpg" />
     <Content Include="img\its\its_bildirimler.jpg" />
     <Content Include="img\its\its_Slider.png" />
     <Content Include="img\its\ucb-pharma-logo.jpg" />
@@ -296,6 +313,7 @@
     <Content Include="img\ket\degerli-et-uretim.jpg" />
     <Content Include="img\ket\kasapetperformans.jpg" />
     <Content Include="img\ket\kesimhane-tartım.jpg" />
+    <Content Include="img\ket\ket-slider.png" />
     <Content Include="img\ket\kofteci-yusuf.jpg" />
     <Content Include="img\ket\kırmızı-et-slider.png" />
     <Content Include="img\ket\kırmızıet-slider.jpg" />
@@ -306,6 +324,7 @@
     <Content Include="img\labeling\anadolu-etap-logo.jpg" />
     <Content Include="img\labeling\etiketleme_02.png" />
     <Content Include="img\labeling\gs1-slider.jpg" />
+    <Content Include="img\labeling\gs1_slider_02.png" />
     <Content Include="img\labeling\karekod-etiketleme.jpg" />
     <Content Include="img\labeling\koli-etiketi.jpg" />
     <Content Include="img\labeling\lukoil-logo.jpg" />
@@ -1822,6 +1841,7 @@
     <Content Include="img\uts\transfer.png" />
     <Content Include="img\uts\uts-gericekme.jpg" />
     <Content Include="img\uts\uts-slider.png" />
+    <Content Include="img\uts\uts_slider_02.png" />
     <Content Include="img\uts\uts_slider_index.png" />
     <Content Include="img\uts\ürün-hareketleri-geri-cagirma.jpg" />
     <Content Include="img\wms\dominos.png" />

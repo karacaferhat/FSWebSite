@@ -7,7 +7,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" img src="img/uts/uts-slider.png" alt="wms">
+          <img class="carousel-img righted"<img src="img/uts/uts_slider_02.png" alt="uts">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">

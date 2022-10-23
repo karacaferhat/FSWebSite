@@ -7,7 +7,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/hmmadde/uretim-yonetimi-slider.jpg" alt="hmadde">
+          <img class="carousel-img righted" src="img/hmmadde/uretim_yonetimi_02.png" alt="hmadde">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">

@@ -6,7 +6,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-           <img src="img/index/bitki-koruma-ürünleri-takip-sistemi.png" alt="index">
+          <img src="img/bku/bku_slider02.png" alt="index">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">

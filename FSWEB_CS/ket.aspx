@@ -7,7 +7,7 @@
     <div class="carousel single bg-fss">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel-img righted" src="img/ket/kırmızıet-slider.jpg" alt="ket">
+          <img class="carousel-img righted" src="img/ket/ket-slider.png" alt="ket">
           <div class="container w-auto">
             <div class="carousel-caption">
               <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
