@@ -246,6 +246,7 @@
     <Content Include="img\index\depo-yonetim-sistemleri.png" />
     <Content Include="img\index\dijital-etkinlik-savunma-sanayi.png" />
     <Content Include="img\index\e-fatura.png" />
+    <Content Include="img\index\finance_rpa.png" />
     <Content Include="img\index\flags_einvoice.png" />
     <Content Include="img\index\fsmobility-wms-cozumumuz %282%29.png" />
     <Content Include="img\index\FSMobility_Depo_Otomasyon.jpg" />
@@ -271,6 +272,10 @@
     <Content Include="img\index\makfed-slider.png" />
     <Content Include="img\index\netsis_logo.png" />
     <Content Include="img\index\Peyman_01.jpeg" />
+    <Content Include="img\index\production_rpa.png" />
+    <Content Include="img\index\receive_rpa.png" />
+    <Content Include="img\index\rpa_human_resources.png" />
+    <Content Include="img\index\rpa_slider.png" />
     <Content Include="img\index\setsis_logo.png" />
     <Content Include="img\index\slider-01.png" />
     <Content Include="img\index\slider-02.png" />
@@ -1866,6 +1871,7 @@
     <Content Include="privacy.aspx" />
     <Content Include="profil.aspx" />
     <Content Include="references.aspx" />
+    <Content Include="rpa.aspx" />
     <Content Include="savunmasanayidijitaletkinlik.aspx" />
     <Content Include="sitemap\sitemap.xml" />
     <Content Include="tarimdadijitaldonusum.aspx" />
@@ -2138,6 +2144,13 @@
     </Compile>
     <Compile Include="references.aspx.designer.cs">
       <DependentUpon>references.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rpa.aspx.cs">
+      <DependentUpon>rpa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rpa.aspx.designer.cs">
+      <DependentUpon>rpa.aspx</DependentUpon>
     </Compile>
     <Compile Include="savunmasanayidijitaletkinlik.aspx.cs">
       <DependentUpon>savunmasanayidijitaletkinlik.aspx</DependentUpon>
