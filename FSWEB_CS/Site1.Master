@@ -2,9 +2,18 @@
 <!DOCTYPE html>
 <html>
   <head runat="server">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MP2L1XKT32"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-MP2L1XKT32');
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBX45P984H"></script>
 <meta name="google-site-verification" content="qse-dpIcax5D-_GjA8c9y488XKKT6mPJDU0O9OU2EKw" />
+<lang="tr">
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
