@@ -14,6 +14,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBX45P984H"></script>
 <meta name="google-site-verification" content="qse-dpIcax5D-_GjA8c9y488XKKT6mPJDU0O9OU2EKw" />
 <lang="tr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -67,7 +68,7 @@
       <header class="header">
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
           <div class="container">
-            <a class="navbar-brand" href="index.aspx"><img src="img/logo.svg"></a>
+           <a class="navbar-brand" href="index.aspx"><img src="img/logo.svg" alt="img"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -126,8 +127,8 @@
         <div class="container">
           <div class="row">
             <div class="brand-col col-md-3">
-              <a class="navbar-brand" href="index.aspx"><img src="img/logo-white.svg"></a>
-              <small>© 2017-2019</small>
+              <a class="navbar-brand" href="index.aspx"><img src="img/logo.svg"</a>
+              <small>2022</small>
             </div>
             <div class="col-md-3">
               <h5>Kurumsal</h5>

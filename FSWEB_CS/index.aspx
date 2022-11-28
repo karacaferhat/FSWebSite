@@ -11,7 +11,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="carousel-img centered" img src="img/index/slider_wms_02.png" alt="carousel-image">
+            <img class="carousel-img centered" img src="img/index/slider_wms_02.jpg" alt="carousel-image">
             <div class="container">
               <div class="carousel-caption text-center">
                 <img class="fss-decorative-squares" src="img/fss-decor-light.svg" alt="fss-decor">
@@ -86,17 +86,17 @@
           <div class="row scroll-triggered-anim fade-in-animation">
             <div class="col-md-4 text-center">
              <img class="mx-auto mb-4 rounded-circle" src="img/index/deneyim-fssoftware.png" alt="index">
-              <h3 class="font-weight-bold text-fss">Deneyim</h3>
+              <h2 class="font-weight-bold text-fss">Deneyim</h2>
               <p>20 yıllık sektör deneyimi ile FSSoftware ekibi müşteri ihtiyaçlarını yakından takip eden uzman danışmanlardan oluşmaktadır. İhtiyaçlarınızı analiz eder sizlere katma değer sunacak çözümler sunar. Pozitif yapıcı ve çözüm odaklı bakış açısı ile hareket etmeyi ilke edinir.</p>
             </div>
             <div class="col-md-4 text-center">
               <img class="mx-auto mb-4 rounded-circle" src="img/index/FSMobility_Depo_Otomasyon.jpg"  alt="index">
-              <h3 class="font-weight-bold text-success">Teknoloji</h3>
+              <h2 class="font-weight-bold text-success">Teknoloji</h2>
               <p>FSMobility CFR, Annex 11 ve GAMP5 regülasyonlarına uygun standarlarda yazılım paketleri sunar. Endüstri 4.0 ve IOT standardlarını destekler. Sağlık ve Tarım Bakanlığı sistemlerine entegre modüllerine sahiptir.</p>
             </div>
             <div class="col-md-4 text-center">
               <img class="mx-auto mb-4 rounded-circle" <img src="img/index/teknoloji-fssoftware.png" alt="index">
-              <h3 class="font-weight-bold text-orange">Süreklilik</h3>
+              <h2 class="font-weight-bold text-orange">Süreklilik</h2>
               <p>FSMobility yola çıktığı günden bugüne kadar kendisine güvenen müşterilerinin %98 ile çalışmaya devam etmektedir. Gıda, İlaç,Tarım, Kırmızı Et, Kimya Sanayi gibi ana sektörlerde 150 den fazla kurumsal işletmede kullanılmaktadır.</p>
             </div>
           </div>
@@ -236,7 +236,7 @@
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img src="img/dbas/demirbas-slider.png" alt="img">
+              <img src="img/index/demirbas-slider.jpg" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
@@ -279,14 +279,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-             <img src="img/bku/bku_slider_02.png" alt="img">
+             <img src="img/bku/bku_slider_02.jpg" alt="img">
           </div>
         </div>
       </div>
           <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-             <img src="img/hmmadde/hammadde-slider.png" alt="img">
+             <img src="img/hmmadde/hammadde-slider.jpg" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h2 class="featurette-heading">
@@ -329,7 +329,7 @@
               </div>
             </div>
            <div class="col-md-6 solution-card-img">
-            <img src="img/index/flags_einvoice.png" alt="img">
+             <img src="img/index/flags_einvoice_fsmobility.jpg" alt="img">
             </div>
           </div>
         </div>
@@ -437,7 +437,7 @@
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                 <a href="article3.aspx" alt="index">
-                <h5 class="card-title text-fss font-weight-bold">Tedarik Zincirinde Depo Yönetiminin Önemi ve İşlevi</h5></a>
+                <h4 class="card-title text-fss font-weight-bold">Tedarik Zincirinde Depo Yönetiminin Önemi ve İşlevi</h4></a>
                 <p class="card-text">Depolama yönetimi tedarik zincirini yönetiminin tedarik zincirinin hizmet düzeyi yönünden performanısını belirleyen en önemli fonksiyonlarından biridir. Depolar aynı zamanda ürünlerin hareketsiz ya da minimum harekete sahip olduğu süreçlerdir.</p>
               </div>
               <div class="card-footer bg-white">
@@ -452,7 +452,7 @@
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
               <a href="article1.aspx" alt="index">
-                <h5 class="card-title text-fss font-weight-bold">FSSoftware, TÜBİTAK Desteği ile Yeni Ürünü FSStokchain'i Çıkardı!</h5></a>
+                <h4 class="card-title text-fss font-weight-bold">FSSoftware, TÜBİTAK Desteği ile Yeni Ürünü FSStokchain'i Çıkardı!</h4></a>
                 <p class="card-text">FSSoftware, TÜBİTAK desteğini alarak yeni versiyonu FSStokchain ile kurumsal yazılım platform hedeflerini bireysel mobil ve sosyal medya alışkanlıklarının birleştiği güncel bir platform olmayı tercih ederek Android ve iOS üzerinde çalıştırılabilen ürün ailesi geliştirmiştir.</p>
               </div>
               <div class="card-footer bg-white">
@@ -485,7 +485,7 @@
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
              <a href="bilisim500.aspx" alt="index">
-              <h5 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h5></a>
+              <h4 class="card-title text-fss font-weight-bold">Türkiye'nin İlk 500 Bilişim Şirketi</h4></a>
               <p class="card-text">Türkiye’nin İlk 500 Bilişim Şirketi sonuçları açıklandı. Araştırma sonuçlarına göre ilk 500 Bilişim şirketi arasında yer aldık.</p>
             </div>
             <div class="card-footer bg-white">
@@ -500,7 +500,7 @@
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                <a href="makfeddijitaletkinlik.aspx" alt="index">
-                <h5 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h5></a>
+                <h4 class="card-title text-fss font-weight-bold">MAKFED & YASAD & TUBİTAK Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Günü</h4></a>
                 <p class="card-text">MAKFED Türkiye Makina Federasyonu üyesi makine sanayi firmaları ile YASAD Yazılım Sanayicileri Derneği üyesi teknoloji tedarikçisi firmaların, TÜBİTAK 1707 Siparişe Dayalı Ar-Ge Çağrısına yönelik eşleşmelerini sağlamak amacıyla 14 Ekim 2021, yarın “Dijital Dönüşüm ve 1707 Siparişe Dayalı Ar-Ge Bilgi ve İşbirliği Etkinliği” düzenlendiği etkinliğe FSSoftware olarak katılım sağladık.</p>
               </div>
               <div class="card-footer bg-white">
@@ -515,7 +515,7 @@
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
             <a href="makfeddijitaletkinlik.aspx" alt="index">
-              <h5 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h5></a>
+              <h4 class="card-title text-fss font-weight-bold">Savunma Sanayiide Dijitalleşme</h4></a>
               <p class="card-text">SASAD Savunma ve Havacılık Sanayii İmalatçılar Derneği ve YASAD İletişim İş Birliği Protokolü çerçevesinde Savunma ve Havacılık Sanayii firmalarının dijitalleşmesine katkıda bulunacak yazılımların sunulacağı dijital etkinlikte Akıllı Depo ve Üretim Yönetimi kapsamında FSMobility ürünümüzü tanıtmak üzere Satış ve Proje Müdürümüz Dursun Tosunoglu katkılarıyla etkinliğine katılım sağladık.</p>
             </div>
             <div class="card-footer bg-white">

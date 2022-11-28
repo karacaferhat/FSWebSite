@@ -169,7 +169,7 @@
     <Content Include="img\bkts\orfeus-logo.png" />
     <Content Include="img\bku\bkuts_slider.png" />
     <Content Include="img\bku\bku_slider02.png" />
-    <Content Include="img\bku\bku_slider_02.png" />
+    <Content Include="img\bku\bku_slider_02.jpg" />
     <Content Include="img\bku\download.jpg" />
     <Content Include="img\bku\download1.jpg" />
     <Content Include="img\bku\egeon.jpg" />
@@ -218,7 +218,7 @@
     <Content Include="img\fss-decor-light.svg" />
     <Content Include="img\fss-decor-white.svg" />
     <Content Include="img\hmmadde\hammadde-kalitekontrolstatu.jpg" />
-    <Content Include="img\hmmadde\hammadde-slider.png" />
+    <Content Include="img\hmmadde\hammadde-slider.jpg" />
     <Content Include="img\hmmadde\hammadde-yonetim-modulu.jpg" />
     <Content Include="img\hmmadde\kalitekontrolstatu.jpg" />
     <Content Include="img\hmmadde\kristal-logo.jpg" />
@@ -238,7 +238,7 @@
     <Content Include="img\index\bitki-koruma-ürünleri-takip-sistemi.png" />
     <Content Include="img\index\bku.jpg" />
     <Content Include="img\index\burger_king_logo.png" />
-    <Content Include="img\index\demirbaş-takibi.png" />
+    <Content Include="img\index\demirbas-slider.jpg" />
     <Content Include="img\index\deneyim-fs.png" />
     <Content Include="img\index\deneyim-fssoftware.png" />
     <Content Include="img\index\deneyim02.png" />
@@ -247,7 +247,7 @@
     <Content Include="img\index\dijital-etkinlik-savunma-sanayi.png" />
     <Content Include="img\index\e-fatura.png" />
     <Content Include="img\index\finance_rpa.png" />
-    <Content Include="img\index\flags_einvoice.png" />
+    <Content Include="img\index\flags_einvoice_fsmobility.jpg" />
     <Content Include="img\index\fsmobility-wms-cozumumuz %282%29.png" />
     <Content Include="img\index\FSMobility_Depo_Otomasyon.jpg" />
     <Content Include="img\index\fssoftware-slider02.png" />
@@ -288,7 +288,7 @@
     <Content Include="img\index\slider_inventory_02.png" />
     <Content Include="img\index\slider_smart_industry.png" />
     <Content Include="img\index\slider_wms.png" />
-    <Content Include="img\index\slider_wms_02.png" />
+    <Content Include="img\index\slider_wms_02.jpg" />
     <Content Include="img\index\surelilk02.png" />
     <Content Include="img\index\t0.jpg" />
     <Content Include="img\index\t1.jpg" />
