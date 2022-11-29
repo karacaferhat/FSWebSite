@@ -85,17 +85,17 @@
         <div class="container">
           <div class="row scroll-triggered-anim fade-in-animation">
             <div class="col-md-4 text-center">
-             <img class="mx-auto mb-4 rounded-circle" width="500" height="500" src="img/index/deneyim-fssoftware.jpg" alt="index"> 
+             <img class="mx-auto mb-4 rounded-circle" src="img/index/deneyim-fssoftware.jpg" alt="index"> 
               <h2 class="font-weight-bold text-fss">Deneyim</h2>
               <p>20 yıllık sektör deneyimi ile FSSoftware ekibi müşteri ihtiyaçlarını yakından takip eden uzman danışmanlardan oluşmaktadır. İhtiyaçlarınızı analiz eder sizlere katma değer sunacak çözümler sunar. Pozitif yapıcı ve çözüm odaklı bakış açısı ile hareket etmeyi ilke edinir.</p>
             </div>
             <div class="col-md-4 text-center">
-              <img class="mx-auto mb-4 rounded-circle" width="500" height="500" src="img/index/FSMobility_Depo_Otomasyon.jpg"  alt="index">
+              <img class="mx-auto mb-4 rounded-circle" src="img/index/FSMobility_Depo_Otomasyon.jpg"  alt="index">
               <h2 class="font-weight-bold text-success">Teknoloji</h2>
               <p>FSMobility CFR, Annex 11 ve GAMP5 regülasyonlarına uygun standarlarda yazılım paketleri sunar. Endüstri 4.0 ve IOT standardlarını destekler. Sağlık ve Tarım Bakanlığı sistemlerine entegre modüllerine sahiptir.</p>
             </div>
             <div class="col-md-4 text-center">
-              <img class="mx-auto mb-4 rounded-circle" width="500" height="500" <img src="img/index/teknoloji-fssoftware.jpg" alt="index"> 
+              <img class="mx-auto mb-4 rounded-circle" <img src="img/index/teknoloji-fssoftware.jpg" alt="index"> 
               <h2 class="font-weight-bold text-orange">Süreklilik</h2>
               <p>FSMobility yola çıktığı günden bugüne kadar kendisine güvenen müşterilerinin %98 ile çalışmaya devam etmektedir. Gıda, İlaç,Tarım, Kırmızı Et, Kimya Sanayi gibi ana sektörlerde 150 den fazla kurumsal işletmede kullanılmaktadır.</p>
             </div>
@@ -128,14 +128,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360" src="img/index/fsmobility-wms-cozumumuz.jpg" alt="img">
+              <img src="img/index/fsmobility-wms-cozumumuz.jpg" alt="img">
             </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360" <img src="img/index/gs1-etiketleme.png" alt="img">
+              <img src="img/index/gs1-etiketleme.png" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h4 class="featurette-heading">
@@ -178,14 +178,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360" src="img/index/ilaç-takip-sistemi.jpg" alt="img"> 
+              <img src="img/index/ilaç-takip-sistemi.jpg" alt="img"> 
            </div>
           </div>
         </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360"src="img/index/kırmızı-et-izlenebilirliği.jpg" alt="img">
+              <img src="img/index/kırmızı-et-izlenebilirliği.jpg" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h3 class="featurette-heading">
@@ -228,14 +228,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360" src="img/index/uts_slider_index.jpg" alt="img">
+              <img src="img/index/uts_slider_index.jpg" alt="img">
           </div>
         </div>
       </div>
         <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-              <img width="640" height="360" src="img/index/demirbas-slider.jpg" alt="img">
+              <img src="img/index/demirbas-slider.jpg" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h3 class="featurette-heading">
@@ -278,14 +278,14 @@
               </div>
             </div>
             <div class="col-md-6 solution-card-img">
-             <img width="640" height="360" src="img/bku/bku_slider_02.jpg" alt="img">
+             <img src="img/bku/bku_slider_02.jpg" alt="img">
           </div>
         </div>
       </div>
           <div class="container scroll-triggered-anim fade-in-animation">
           <div class="row solution-card decorative image-on-left">
             <div class="col-md-6 solution-card-img">
-             <img width="640" height="360" src="img/hmmadde/hammadde-slider.jpg" alt="img">
+             <img src="img/hmmadde/hammadde-slider.jpg" alt="img">
             </div>
             <div class="col-md-6 solution-card-body">
               <h3 class="featurette-heading">
@@ -328,7 +328,7 @@
               </div>
             </div>
            <div class="col-md-6 solution-card-img">
-             <img width="640" height="360" src="img/index/flags_einvoice_fsmobility.jpg" alt="img">
+             <img src="img/index/flags_einvoice_fsmobility.jpg" alt="img">
             </div>
           </div>
         </div>
@@ -344,7 +344,7 @@
           <div class="row three-col-card">
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" width="640" height="360" <img src="img/index/dominos-basarı-oykusu.jpg" alt="index">
+                <img class="card-img-top" <img src="img/index/dominos-basarı-oykusu.jpg" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">Domino's Pizza dünyada olduğu gibi Türkiye'de de en yaygın evlere servis pizza zinciri konumundadır. Gebze, İzmir, Ankara ve G.Antep ana dağıtım depolarında Hammadde Kabul, Hammadde Kalite Kontrol, Depoya Yerleştirme, Üretime Çıkış, Üretimden YarıMamul/Mamul Giriş, Özel Mamul Sevk senaryoları, Tedarik Zincir Süreç Otomasyonu kurulmuştur.</p>
                 </div>
@@ -352,7 +352,7 @@
             </div>
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" width="640" height="360" <img src="img/index/burger_king_logo.jpg" alt="index">
+                <img class="card-img-top" <img src="img/index/burger_king_logo.jpg" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">EKUR ET, Türkiye’deki hızlı servis restoran sektörünün pazar lideri TFI (TAB GIDA YATIRIMLARI) şirketi bünyesinde yer almaktadır.FSMObility ile canlı hayvan kabulünden, karkas ve çeyrek kabule, çeyreklemeye ve parçalamaya, et ve şarküteri ürünlerinin üretimden sevkiyata kadar olan süreçlerin barkodlu olarak online takip edilmesidir. Proje Logo Tiger Enterprise ile online entegre çalışmaktadır.</p>
                 </div>
@@ -360,7 +360,7 @@
             </div>
             <div class="col-md-4 d-flex">
               <div class="card">
-                <img class="card-img-top" width="640" height="360" <img src="img/index/volt-basarı-hikayesi-wms.jpg" alt="index">
+                <img class="card-img-top" <img src="img/index/volt-basarı-hikayesi-wms.jpg" alt="index">
                 <div class="card-body px-0">
                   <p class="card-text">1966 yılında, bobinaj üretimi yapmak üzere kurulan Volt Motor, Türkiye’nin Lider Elektrikli Motor Üreticisi firmalarından biridir. Yarı Mamul Üretim Hatlarından çıkan malzemelerin etiketlemesi ve Operasyon Akışı içerisinde diğer hatlara tüketilmesi takipler, SAP Entegrasyonu ile birlikte FSMobility ile takip edilmektedir.</p>
                 </div>
