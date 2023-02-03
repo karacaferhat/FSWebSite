@@ -452,13 +452,20 @@
           <!-- CARDLAR EKRAN KAÇA BÖLÜNECEKSE O SAYIDA OLMALI!!! CARD İÇİ BOŞ OLSA DA EKLENMELİ!!! -->
           <div class="card"></div>
           <div class="card"></div>
-           </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+               </div>
+            </div>
          </div>
-       </div>
      </div>
    </div>
+  </div>
  </div>
-
+  </div>
+  </div>
   <script>
     $(".nav-item").removeClass("active");
     $('.dropdown-toggle:contains("Kurumsal")').parent().addClass("active");

@@ -47,7 +47,7 @@
 	            <meta name="robots" content="index.aspx.cs, follow">
 	            <meta name="country" content="Turkey">
 	            <meta name="Language" content="tr">
-                <h2<p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Çözümler</p></h2>
+                <h2><p>İhtiyaçlarınıza ve Hızınıza Ayak Uydurabilen Çözümler</p></h2>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
                   İnceleyin
@@ -69,7 +69,7 @@
 	            <meta name="robots" content="index.aspx.cs, follow">
 	            <meta name="country" content="Turkey">
 	            <meta name="Language" content="tr">
-                <h2<p>Industry 4.0 Operations, IOT & Big Data Provider, Cloud Solutions</p></h2>
+                <h2><p>Industry 4.0 Operations, IOT & Big Data Provider, Cloud Solutions</p></h2>
                 <a href="#" class="btn btn-sm btn-fss rounded-pill">
                   <span class="fa fa-info-circle"></span>
                   İnceleyin

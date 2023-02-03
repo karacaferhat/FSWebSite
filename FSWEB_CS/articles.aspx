@@ -169,8 +169,8 @@
         <div class="container-fluid blog scroll-triggered-anim">
       <div class="container">
                   <div class="card-deck">
-          < <div class="card">
-           <img src="img/index/bilisimbesyuz.png" class="card-img-top alt="...">
+           <div class="card">
+           <img src="img/index/bilisimbesyuz.jpg" class="card-img-top alt="index">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <a href="bilisim500.aspx" alt="articles">
@@ -185,7 +185,7 @@
             </div>
           </div>
           <div class="card">
-              <img src="img/index/makfed-dijital-etkinlik%20(2).png" class="card-img-top" alt="img">
+              <img src="img/index/makfed-dijital-etkinlik.jpg" alt="index"
               <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
               <div class="card-body">
                 <a href="makfeddijitaletkinlik.aspx" alt="articles">
@@ -201,7 +201,7 @@
               </div>
             </div>      
           <div class="card">
-            <img src="img/index/dijital-etkinlik-savunma-sanayi.png" class="card-img-top" alt="img">
+            <img src="img/dijital-etkinlik-savunma-sanayi.png" class="card-img-top" alt="img">
             <!-- Resimler Ölçekli Olmalı Örnek: 16x9, 4x3 vs -->
             <div class="card-body">
               <a href="savunmasanayidijitaletkinlik.aspx" alt="articles">
