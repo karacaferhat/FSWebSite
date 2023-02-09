@@ -46,14 +46,12 @@
               </div>
               <div class="address-card">
                 <div class="address-title"><strong>İSTANBUL</strong> Ofis</div>
-                <div class="address-detail">Skyport Residance Yakuplu Merkez Mah. Hürriyet Bul. No:1 K:12 D:127 Beylikdüzü / İstanbul</div>
+                <div class="address-detail">Beylikdüzü Ofis</div> 
+                <div class="address-detail">Skyport Residance Yakuplu Merkez Mah. Hürriyet Bul. No:1 K:3 D:64 Beylikdüzü / İstanbul</div> 
+                <div class="address-detail">Ataşehir Ofis -Atatürk Mah. Ertuğrul Gazi Sok. Metropol İstanbul Sitesi Ataşehir /İstanbul</div>
                 <div class="phone-number">
                   <span class="fss-icon fa fa-phone-alt"></span>
                   <span class="phone-digits">+90 (212) 426 66 88</span>
-                </div>
-                <div class="e-mail">
-                  <span class="fss-icon fa fa-envelope"></span>
-                  <a href="mailto:info@fsmobility.com.tr">info@fsmobility.com.tr</a>
                 </div>
                 <div class="e-mail">
                   <span class="fss-icon fa fa-envelope"></span>
